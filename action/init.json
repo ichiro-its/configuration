@@ -1,5 +1,5 @@
 {
-  "name"      : "Walkready",
+  "name"      : "init",
   "step_0"    : { 
     "step_pause" : 0,
     "step_speed"  : 1,

@@ -152,7 +152,7 @@
 
   "step_6"    : { 
     "step_pause" : 0,
-    "step_speed"  : 0.01,
+    "step_speed"  : 0.008,
     "neck_yaw": 0,
     "neck_pitch": -5,
     "left_shoulder_pitch": 5,
