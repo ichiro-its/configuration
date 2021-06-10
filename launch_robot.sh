@@ -25,4 +25,4 @@ source /opt/ros/foxy/setup.sh
 source /home/ichiro/ros2-ws/install/local_setup.sh
 
 echo "Launching robot $1 in host $host and port $port, please wait!"
-ros2 run aruku walking_main $host $port /home/ichiro/ros2-ws/configuration/action/
+ros2 run aruku walking_main $host $port /home/ichiro/ros2-ws/configuration/walking/
