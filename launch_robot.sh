@@ -5,6 +5,8 @@ echo "Robot: $1"
 port=10001
 host=$2
 
+ifconfig
+
 if [ $1 == 1 ] 
 then
     port=10001
