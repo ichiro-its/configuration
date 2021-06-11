@@ -1,30 +1,28 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-echo "Robot: $1"
+cd /home/ichiro/ros2s-ws
 
-port=10001
-host=$2
+ROBOT_ID=${ROBOCUP_ROBOT_ID:=1}
 
-ifconfig
+TEAM_COLOR=${ROBOCUP_TEAM_COLOR:="blue"}
 
-if [ $1 == 1 ] 
-then
-    port=10001
-elif [ $1 == 2 ]
-then
-    port=10002
-elif [ $1 == 3 ]
-then 
-    port=10003
-elif [ $1 == 4 ]
-then
-    port=10004
-else
-   echo "None of the condition met"
-fi
+ADDR=${ROBOCUP_SIMULATOR_ADDR:=127.0.0.1:10001}
+IP=$(cut -d: -f1 <(echo $ADDR))
+PORT=$(cut -d: -f2 <(echo $ADDR))
+
+PATH=${ICONFIG_PATH:="/home/ichiro/ros2-ws/configuration/walking/"}
+PKG=${IPKG:="aruku"}
+EXC=${IEXC:="walking_main"}
+echo "Robot: $ROBOT_ID"
 
 source /opt/ros/foxy/setup.sh
 source /home/ichiro/ros2-ws/install/local_setup.sh
 
-echo "Launching robot $1 in host $host and port $port, please wait!"
-ros2 run aruku walking_main $host $port /home/ichiro/ros2-ws/configuration/walking/
+echo "Launching robot $ROBOT_ID in IP $IP and port $PORT, please wait!"
+
+while true; do
+    ros2 run $PKG $EXC $IP $PORT $PATH 
+    sleep 1
+done
+
+
