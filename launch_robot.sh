@@ -1,7 +1,5 @@
 #!/bin/bash
 
-apt update && apt upgrade
-
 ROBOT_ID=${ROBOCUP_ROBOT_ID:=1}
 
 TEAM_COLOR=${ROBOCUP_TEAM_COLOR:="blue"}
