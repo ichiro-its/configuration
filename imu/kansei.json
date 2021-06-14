@@ -1,0 +1,14 @@
+{
+  "Complementary": {
+    "kGravity": 9.81,
+    "gamma_": 0.01,
+    "kAngularVelocityThreshold": 0.2,
+    "kAccelerationThreshold": 0.1,
+    "kDeltaAngularVelocityThreshold": 0.01,
+    "gain_acc_": 0.00001,
+    "gain_mag_": 0.00001,
+    "bias_alpha_": 0.3,
+    "do_bias_estimation_": true,
+    "do_adaptive_gain_": false
+  }
+}
