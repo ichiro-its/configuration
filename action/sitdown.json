@@ -27,7 +27,7 @@
 
     "step_1"    : { 
       "step_pause" : 0.5,
-      "step_speed"  : 0.001,
+      "step_speed"  : 0.005,
       "neck_yaw": 0,
       "neck_pitch": -5,
       "left_shoulder_pitch": 14,

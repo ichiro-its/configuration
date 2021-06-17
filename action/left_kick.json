@@ -1,7 +1,7 @@
 {
     "name"      : "left_kick",
     "step_0"    : { 
-      "step_pause" : 1,
+      "step_pause" : 0.1,
       "step_speed"  : 1,
       "neck_yaw": 0,
       "neck_pitch": -5,
@@ -27,7 +27,7 @@
   
     "step_1"    : { 
       "step_pause" : 0,
-      "step_speed"  : 0.01,
+      "step_speed"  : 0.015,
       "neck_yaw": 0,
       "neck_pitch": -5,
       "left_shoulder_pitch": 5,
@@ -75,8 +75,8 @@
       },
   
     "step_3"    : { 
-      "step_pause" : 0.3,
-      "step_speed"  : 0.008,
+      "step_pause" : 0.2,
+      "step_speed"  : 0.01,
       "neck_yaw": 0,
       "neck_pitch": -5,
       "left_shoulder_pitch": 5,
@@ -85,10 +85,10 @@
       "right_shoulder_pitch": 5,
       "right_shoulder_roll": -20,
       "right_elbow": 45,
-      "left_hip_yaw": 0,
-      "left_hip_roll": -15,
+      "left_hip_yaw": -5,
+      "left_hip_roll": -20,
       "left_hip_pitch": -30,
-      "left_knee": -85,
+      "left_knee": -55,
       "left_ankle_roll": -10,
       "left_ankle_pitch": 80,
       "right_hip_yaw": 0,
@@ -100,8 +100,8 @@
     },
 
     "step_4"    : { 
-      "step_pause" : 1,
-      "step_speed"  : 0.08,
+      "step_pause" : 0.8,
+      "step_speed"  : 0.2,
       "neck_yaw": 0,
       "neck_pitch": -5,
       "left_shoulder_pitch": 5,
@@ -112,16 +112,16 @@
       "right_elbow": 45,
       "left_hip_yaw": 0,
       "left_hip_roll": -10,
-      "left_hip_pitch": 60,
+      "left_hip_pitch": 80,
       "left_knee": -35,
-      "left_ankle_roll": -10,
-      "left_ankle_pitch": -5,
+      "left_ankle_roll": 0,
+      "left_ankle_pitch": 0,
       "right_hip_yaw": 0,
       "right_hip_roll": -10,
       "right_hip_pitch": 20,
       "right_knee": -10,
-      "right_ankle_roll": -10,
-      "right_ankle_pitch": -10
+      "right_ankle_roll": -15,
+      "right_ankle_pitch": 0
     },
 
     "step_5"    : { 
