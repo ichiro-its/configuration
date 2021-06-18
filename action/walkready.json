@@ -1,6 +1,5 @@
 {
   "name"      : "Walkready",
-  
   "step_0"    : { 
     "step_pause" : 0,
     "step_speed"  : 0.0018,
