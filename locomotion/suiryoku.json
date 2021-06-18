@@ -8,7 +8,7 @@
   "Follow": {
     "max_a": 10,
     "max_x": 30,
-    "min_tilt_": -30
+    "min_tilt_": -60
   },
   "Dribble": {
     "max_ly": 20,
@@ -30,18 +30,18 @@
   "Position": {
     "max_a": 15,
     "min_x": -20,
-    "max_ry": -20,
-    "min_ly": 10,
-    "min_ry": -10,
+    "max_ry": -40,
+    "min_ly": 25,
+    "min_ry": -25,
     "max_x": 15,
-    "max_ly": 15
+    "max_ly": 40
   },
   "LeftKick": {
-    "target_tilt": -5,
-    "target_pan": 11
+    "target_tilt": -69,
+    "target_pan": 16
   },
   "RightKick": {
-    "target_pan": -20,
-    "target_tilt": -5
+    "target_pan": -15,
+    "target_tilt": -64.5
   }
 }
