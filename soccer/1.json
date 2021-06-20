@@ -1,0 +1,16 @@
+{
+    "Player": {
+        "role": "striker",
+        "shortkick": false,
+        "dribble_chance": 0.5,
+        "strategy": "offensive",
+        "goalkeeper_sit": false,
+        "sidekick": false,
+        "diagonal_chance": 0.0,
+        "goalkeeper": false,
+        "starting_pos_x": 100.0,
+        "starting_pos_y": -20.0,
+        "starting_direction": 90.0
+    }
+}
+

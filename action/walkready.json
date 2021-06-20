@@ -2,7 +2,7 @@
   "name"      : "Walkready",
   "step_0"    : { 
     "step_pause" : 0,
-    "step_speed"  : 0.0018,
+    "step_speed"  : 0.003,
     "neck_yaw": 0,
     "neck_pitch": -5,
     "left_shoulder_pitch": 5,

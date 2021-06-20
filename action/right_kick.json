@@ -102,7 +102,7 @@
 
   "step_4"    : { 
     "step_pause" : 1,
-    "step_speed"  : 0.1,
+    "step_speed"  : 0.8,
     "neck_yaw": 0,
     "neck_pitch": -5,
     "left_shoulder_pitch": 5,
@@ -122,7 +122,7 @@
     "right_hip_pitch": 50,
     "right_knee": -25,
     "right_ankle_roll": 10,
-    "right_ankle_pitch": 0
+    "right_ankle_pitch": -4
   },
   
   "step_5"    : { 
