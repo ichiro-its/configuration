@@ -1,5 +1,5 @@
 {
-    "name"      : "sitdown",
+    "name"      : "keeper",
     "step_0"    : { 
       "step_pause" : 0,
       "step_speed"  : 1,
@@ -24,30 +24,29 @@
       "right_ankle_roll": 0,
       "right_ankle_pitch": 25
     },
-
+  
     "step_1"    : { 
-      "step_pause" : 0.5,
-      "step_speed"  : 0.005,
+      "step_pause" : 0,
+      "step_speed"  : 0.009,
       "neck_yaw": 0,
       "neck_pitch": -5,
-      "left_shoulder_pitch": 14,
-      "left_shoulder_roll": -20,
-      "left_elbow": 45,
-      "right_shoulder_pitch": 14,
+      "left_shoulder_pitch": 75,
+      "left_shoulder_roll": -5,
+      "left_elbow": 30,
+      "right_shoulder_pitch": -50,
       "right_shoulder_roll": -20,
-      "right_elbow": 45,
+      "right_elbow": -5,
       "left_hip_yaw": 0,
-      "left_hip_roll": -2,
-      "left_hip_pitch": 80,
-      "left_knee": -150,
-      "left_ankle_roll": 0,
-      "left_ankle_pitch": 80,
+      "left_hip_roll": -80,
+      "left_hip_pitch": 0,
+      "left_knee": -10,
+      "left_ankle_roll": -90,
+      "left_ankle_pitch": -10,
       "right_hip_yaw": 0,
-      "right_hip_roll": 2,
-      "right_hip_pitch": 80,
-      "right_knee": -150,
-      "right_ankle_roll": 0,
-      "right_ankle_pitch": 80
+      "right_hip_roll": 80,
+      "right_hip_pitch": 0,
+      "right_knee": -10,
+      "right_ankle_roll": 90,
+      "right_ankle_pitch": -10
     }
-}
-  
+  }

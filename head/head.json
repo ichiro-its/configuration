@@ -34,16 +34,16 @@
     "tilt_offset": 0
   },
   "Limit": {
-    "right_limit": -100,
-    "left_limit": 100,
+    "right_limit": -90,
+    "left_limit": 90,
     "bottom_limit": -75,
     "top_limit": 30
   },
   "Gain": {
-    "pan_d_gain": 0,
-    "tilt_d_gain": 0,
-    "pan_p_gain": 0.05,
-    "tilt_p_gain": 0.05
+    "pan_d_gain": 0.0,
+    "tilt_d_gain": 0.0,
+    "pan_p_gain": 0.03,
+    "tilt_p_gain": 0.03
   },
   "Center": {
   "pan_center": 0,

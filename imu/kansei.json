@@ -1,0 +1,14 @@
+{
+  "Complementary": {
+    "gain_acc": 0.00001,
+    "gain_mag": 0.00001,
+    "bias_alpha": 0.3,
+    "do_bias_estimation": true,
+    "do_adaptive_gain": false
+  },
+  "Madgwick": {
+    "gyro_mux_x": 3.22,
+    "gyro_mux_y": 3.22,
+    "gyro_mux_z": 3.22
+  }
+}
