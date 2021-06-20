@@ -8,18 +8,16 @@ ADDR=${ROBOCUP_SIMULATOR_ADDR:=127.0.0.1:10001}
 IP=$(cut -d: -f1 <(echo $ADDR))
 PORT=$(cut -d: -f2 <(echo $ADDR))
 
-# PATH=${ICONFIG_PATH:="/home/ichiro/ros2-ws/configuration/walking/"}
-# PKG=${IPKG:="aruku"}
-# EXC=${IEXC:="walking_main"}
-echo "Robot: $ROBOT_ID"
+PATH=${ICONFIG_PATH:="/home/ichiro/configuration/"}
+echo "Playing Robot $ROBOT_ID"
 
 source /opt/ros/foxy/setup.sh
-source /home/ichiro/ros2-ws/install/local_setup.sh
+source /home/ichiro/soccer/install/local_setup.sh
 
 echo "Launching robot $ROBOT_ID in IP $IP and port $PORT, please wait!"
 
 while true; do
-    ros2 run aruku walking_main $IP $PORT /home/ichiro/ros2-ws/configuration/walking/ 
+    ros2 run soccer robocup_soccer_run $IP $PORT $PATH $ROBOT_ID 
     sleep 1
 done
 
