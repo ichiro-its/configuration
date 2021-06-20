@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ROBOT_ID=${ROBOCUP_ROBOT_ID:=1}
 
