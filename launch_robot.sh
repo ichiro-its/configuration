@@ -17,7 +17,7 @@ source /home/ichiro/soccer/install/local_setup.sh
 echo "Launching robot $ROBOT_ID in IP $IP and port $PORT, please wait!"
 
 while true; do
-    ros2 run soccer robocup_soccer_run $IP $PORT $PATH $ROBOT_ID 
+    ros2 run soccer robocup_soccer_run $IP $PORT "/home/ichiro/configuration/" $ROBOT_ID 
     sleep 1
 done
 
