@@ -12,7 +12,7 @@ PATH=${ICONFIG_PATH:="/home/ichiro/configuration/"}
 echo "Playing Robot $ROBOT_ID"
 
 source /opt/ros/foxy/setup.sh
-source /home/ichiro/soccer/install/local_setup.sh
+source /home/ichiro/ros2-ws/install/local_setup.sh
 
 echo "Launching robot $ROBOT_ID in IP $IP and port $PORT, please wait!"
 
