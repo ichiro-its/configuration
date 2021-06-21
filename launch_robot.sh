@@ -8,11 +8,11 @@ ADDR=${ROBOCUP_SIMULATOR_ADDR:=127.0.0.1:10001}
 IP=$(cut -d: -f1 <(echo $ADDR))
 PORT=$(cut -d: -f2 <(echo $ADDR))
 
-PATH=${ICONFIG_PATH:="/home/ichiro/configuration/"}
+export USER=ichiro
 echo "Playing Robot $ROBOT_ID"
 
 source /opt/ros/foxy/setup.sh
-source /home/ichiro/ros2-ws/install/local_setup.sh
+source /home/ichiro/soccer/install/setup.sh
 
 echo "Launching robot $ROBOT_ID in IP $IP and port $PORT, please wait!"
 
