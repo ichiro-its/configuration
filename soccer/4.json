@@ -1,6 +1,6 @@
 {
     "Player": {
-        "role": "right wing",
+        "role": "left wing",
         "shortkick": false,
         "dribble_chance": 0.5,
         "strategy": "offensive",
@@ -13,4 +13,3 @@
         "starting_direction": 90.0
     }
 }
-

@@ -36,7 +36,7 @@
   },
   "Odometry": {
     "ry_coefficient": 5.0,
-    "fx_coefficient": 5.85,
+    "fx_coefficient": 3.7,
     "ly_coefficient": 5.0
   },
   "Kinematic": {

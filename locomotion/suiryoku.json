@@ -1,14 +1,14 @@
 {
   "Move": {
-    "max_x": 30,
-    "max_a": 8,
-    "min_x": 20,
+    "max_x": 80,
+    "max_a": 15,
+    "min_x": 30,
     "max_y": 0
   },
   "Follow": {
-    "max_a": 10,
-    "max_x": 30,
-    "min_tilt_": -60
+    "max_a": 15,
+    "max_x": 70,
+    "min_tilt_": -50
   },
   "Dribble": {
     "max_ly": 20,
@@ -20,11 +20,11 @@
     "min_x": -10
   },
   "Pivot": {
-    "target_tilt": -60,
-    "max_ry": -20,
+    "target_tilt": -50,
+    "max_ry": -26,
     "min_x": -15,
-    "max_ly": 20,
-    "max_x": 20,
+    "max_ly": 26,
+    "max_x": 10,
     "max_a": 6
   },
   "Position": {
@@ -33,15 +33,15 @@
     "max_ry": -40,
     "min_ly": 25,
     "min_ry": -25,
-    "max_x": 15,
+    "max_x": 10,
     "max_ly": 40
   },
   "LeftKick": {
-    "target_tilt": -69,
-    "target_pan": 16
+    "target_tilt": -68.3,
+    "target_pan": 16.8
   },
   "RightKick": {
-    "target_pan": -6.3,
-    "target_tilt": -67.2
+    "target_pan": -15.8,
+    "target_tilt": -68
   }
 }
