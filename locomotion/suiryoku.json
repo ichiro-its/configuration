@@ -1,13 +1,13 @@
 {
   "Move": {
     "max_x": 80,
-    "max_a": 15,
-    "min_x": 30,
+    "max_a": 22,
+    "min_x": -30,
     "max_y": 0
   },
   "Follow": {
-    "max_a": 15,
-    "max_x": 70,
+    "max_a": 17,
+    "max_x": 80,
     "min_tilt_": -50
   },
   "Dribble": {
@@ -21,10 +21,10 @@
   },
   "Pivot": {
     "target_tilt": -50,
-    "max_ry": -26,
-    "min_x": -15,
-    "max_ly": 26,
-    "max_x": 10,
+    "max_ry": -55,
+    "min_x": -20,
+    "max_ly": 55,
+    "max_x": 15,
     "max_a": 6
   },
   "Position": {
