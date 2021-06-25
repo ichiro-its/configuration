@@ -5,7 +5,7 @@
         "dribble_chance": 0.5,
         "strategy": "offensive",
         "goalkeeper_sit": false,
-        "sidekick": false,
+        "sidekick": true,
         "diagonal_chance": 0.0,
         "goalkeeper": false,
         "starting_pos_x": 100.0,
