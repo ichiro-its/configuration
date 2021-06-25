@@ -77,7 +77,7 @@
 
   "step_3"    : { 
     "step_pause" : 1.8,
-    "step_speed"  : 0.018,
+    "step_speed"  : 0.0148,
     "neck_yaw": 0,
     "neck_pitch": -5,
     "left_shoulder_pitch": -30,

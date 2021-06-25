@@ -102,7 +102,7 @@
     
       "step_4"    : { 
         "step_pause" : 0,
-        "step_speed"  : 0.8,
+        "step_speed"  : 0.79,
         "neck_yaw": 0,
         "neck_pitch": -5,
         "left_shoulder_pitch": 85,
