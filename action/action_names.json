@@ -1,0 +1,17 @@
+{
+	"actions": [
+		"init",
+		"walkready",
+		"left_kick",
+		"right_kick",
+		"back_standup",
+		"front_standup",
+		"left_standup",
+		"right_standup",
+		"keeper",
+		"right_keeper",
+		"left_keeper",
+		"right_sidekick",
+		"left_sidekick"
+	]
+}
