@@ -18,7 +18,7 @@
     "using_skew": false
   },
   "game": {
-    "check_enemy_tilt": -7.0,
+    "check_enemy_tilt": -20.0,
     "check_enemy_using_color": false,
     "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
@@ -30,23 +30,24 @@
     "is_map_kick": false,
     "kick_direction": 0.0,
     "max_accuracy_distance": 160.0,
-    "pivoting_max_sec": 60.0,
+    "pivoting_max_sec": 45.0,
     "positioning_bottom_goalpost_threshold": 60.0,
-    "positioning_camera_X1": 85.0,
-    "positioning_camera_X2": 130.0,
+    "positioning_camera_X1": 75.0,
+    "positioning_camera_X2": 140.0,
     "positioning_camera_X3": 175.0,
-    "positioning_camera_X4": 220.0,
+    "positioning_camera_X4": 230.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -60.0,
     "positioning_check_enemy_using_upside_tilt": true,
-    "positioning_delay_time": 2.5,
+    "positioning_delay_time": 2.0,
     "positioning_field_threshold": 20000.0,
     "positioning_max_sec": 20.0,
     "positioning_robot_area_threshold": 10000.0,
     "positioning_robot_color_threshold": 0.0,
     "prefer_left_kick": false,
     "refresh_position_with_goalpost": false,
-    "short_kick_position_x": 5.0
+    "short_kick_position_x": 500.0,
+    "using_half_pivot": true
   },
   "keeper": {
     "enable_keeper_sidekick": true,
@@ -66,11 +67,14 @@
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "a_speed": 0.0,
+    "a_speed": 3.5,
     "target_x": 0.0,
-    "target_y": 75.0,
+    "target_y": -75.0,
     "x_speed": 0.0,
     "y_speed": 20.0
+  },
+  "mode_penalty_kick": {
+    "target_direction": 0.0
   },
   "pivot": {
     "using_new_pivot": true
@@ -88,7 +92,7 @@
     "strategy": "offensive"
   },
   "release": {
-    "method": "dnn_front",
+    "method": "dnn",
     "release_pan_max": 70.0,
     "release_pan_min": -70.0,
     "tilt": -35.0,
