@@ -1,0 +1,67 @@
+{
+  "soccer": {
+    "type": "kri",
+    "ball_classifier_type": "dnn",
+    "test": true,
+    "drop_in": false,
+    "dnn_with_color": false
+  },
+  "team": {
+    "id": 1,
+    "color": "blue"
+  },
+  "player": {
+    "id": 1,
+    "name": "umaru",
+    "strategy": "offensive",
+    "role": "striker",
+    "sidekick": false,
+    "shortkick": false,
+    "goalkeeper": false,
+    "goalkeeper_sit": false,
+    "dribble_chance": 0.5,
+    "diagonal_chance": 0.5
+  },
+  "game": {
+    "positioning_check_ball_pan": 0,
+    "positioning_camera_X1": 80,
+    "positioning_camera_X2": 160,
+    "positioning_camera_X3": 240,
+    "positioning_max_sec": 9600,
+    "hold_follow_tilt": 1.5,
+    "hold_backward_tilt": -5,
+    "prefer_left_kick": false,
+    "refresh_position_with_goal": false,
+    "positioning_check_ball_tilt": -66
+  },
+  "follow": {
+    "using_skew": false,
+    "forward_threshold": 120,
+    "end_with_pivot": true
+  },
+  "dribble": {
+    "dribble_to_goal": false,
+    "tilt_check_goalpost": -70
+  },
+  "kickoff": {
+    "using_dribble": false,
+    "using_slow_kick": true,
+    "is_consider_enemy": false,
+    "kick_dribble_direction": 20,
+    "tilt_enemy_kickoff": -29
+  },
+  "keeper": {
+    "keeper_sit_strategy": false,
+    "sit_sit_tilt": 3,
+    "sit_up_tilt": 10,
+    "kick_sit_tilt": -30,
+    "kick_up_tilt": -10,
+    "keeper_follow_tilt": 0
+  },
+  "release": {
+    "method": "dnn",
+    "release_pan_min": -70,
+    "release_pan_max": 70,
+    "tilt": -10
+  }
+}
