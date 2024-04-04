@@ -1,14 +1,14 @@
 {
   "move": {
-    "max_x": 10,
-    "max_a": 8,
-    "min_x": 0,
-    "max_y": 6
+    "max_x": 18,
+    "max_a": 3,
+    "min_x": 9,
+    "max_y": 12
   },
   "follow": {
-    "max_a": 6,
-    "max_x": 10,
-    "min_tilt_": 4
+    "max_a": 3,
+    "max_x": 18,
+    "min_tilt_": 10
   },
   "skew": {
     "max_x": 10,
@@ -36,14 +36,14 @@
   },
   "position": {
     "max_a": 4,
-    "min_x": -8,
+    "min_x": 0,
     "max_ry": -18,
     "min_ly": 12,
     "min_ry": -12,
     "max_x": 10,
     "max_ly": 18,
-    "min_delta_tilt": 2,
-    "min_delta_pan": 3,
+    "min_delta_tilt": 5,
+    "min_delta_pan": 5,
     "min_delta_pan_tilt": 3,
     "min_delta_direction": 10
   },

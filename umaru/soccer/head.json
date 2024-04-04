@@ -40,9 +40,9 @@
     "top_limit": 45
   },
   "Scan": {
-    "scan_speed": 0.59999999999999998,
-    "left_limit": 40,
-    "right_limit": -40,
+    "scan_speed": 0.4,
+    "left_limit": 90,
+    "right_limit": -90,
     "top_limit": 45,
     "bottom_limit": -35
   },

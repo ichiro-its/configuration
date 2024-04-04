@@ -7,7 +7,7 @@
     "dsp_ratio": -0.010000000894069669,
     "period_comp_ratio": 0.0,
     "swing_up_down": 0.0,
-    "arm_swing_gain": 0.1000000163912774,
+    "arm_swing_gain": 0.0,
     "backward_hip_comp_ratio": 0.099999994039535522,
     "foot_comp_ratio": 0.5,
     "foot_height": 25.0,
