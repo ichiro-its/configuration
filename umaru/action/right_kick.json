@@ -27,7 +27,7 @@
       },
       "name": "step_0",
       "pause": 0.01,
-      "speed": 0.96
+      "speed": 0.02
     },
     {
       "joints": {
@@ -54,7 +54,7 @@
       },
       "name": "step_1",
       "pause": 0.01,
-      "speed": 0.48
+      "speed": 0.02
     },
     {
       "joints": {
@@ -81,7 +81,7 @@
       },
       "name": "step_2",
       "pause": 0.005,
-      "speed": 0.2
+      "speed": 0.02
     },
     {
       "joints": {
@@ -94,8 +94,7 @@
         "left_knee": -45.703125,
         "left_shoulder_pitch": -1.845703125,
         "left_shoulder_roll": -0.439453125,
-        "neck_pitch": 0,
-        "neck_yaw": -0.087890625,
+
         "right_ankle_pitch": 17.9296875,
         "right_ankle_roll": 16.875,
         "right_elbow": 60.20507813,
@@ -108,9 +107,9 @@
       },
       "name": "step_3",
       "pause": 0.01,
-      "speed": 0.72
+      "speed": 0.02
     }
   ],
-  "start_delay": 0,
+  "start_delay": 1.5,
   "stop_delay": 0
 }

@@ -4,7 +4,16 @@
     "ball_classifier_type": "dnn",
     "test": true,
     "drop_in": false,
-    "dnn_with_color": false
+    "dnn_with_color": true
+  },
+  "draw_dnn": {
+    "dnn_label": false,
+    "draw_ball": true,
+    "draw_goalpost": false,
+    "draw_robot": false,
+    "draw_l_intersect": false,
+    "draw_t_intersect": false,
+    "draw_x_intersect": false
   },
   "team": {
     "id": 1,
@@ -32,7 +41,16 @@
     "hold_backward_tilt": -5,
     "prefer_left_kick": false,
     "refresh_position_with_goal": false,
-    "positioning_check_ball_tilt": -66
+    "positioning_check_ball_tilt": -66,
+    "check_enemy_using_dnn": false,
+    "check_enemy_using_field": false,
+    "direction_based_on_goalpost": false,
+    "positioning_field_threshold": 20000,
+    "positioning_robot_area_threshold": 15000,
+    "positioning_bottom_goalpost_threshold": 68,
+    "positioning_delay_time": 2.75,
+    "check_enemy_tilt": -10,
+    "positioning_check_enemy_using_upside_tilt": false
   },
   "follow": {
     "using_skew": false,
@@ -51,6 +69,7 @@
     "tilt_enemy_kickoff": -29
   },
   "keeper": {
+    "enable_keeper_sidekick": true,
     "keeper_sit_strategy": false,
     "sit_sit_tilt": 3,
     "sit_up_tilt": 10,
@@ -62,6 +81,7 @@
     "method": "dnn",
     "release_pan_min": -70,
     "release_pan_max": 70,
-    "tilt": -10
+    "tilt": -10,
+    "using_button": false
   }
 }

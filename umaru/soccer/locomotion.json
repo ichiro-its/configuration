@@ -45,14 +45,19 @@
     "min_delta_tilt": 5,
     "min_delta_pan": 5,
     "min_delta_pan_tilt": 3,
-    "min_delta_direction": 10
+    "min_delta_direction": 10,
+    "min_range_pan": -23,
+    "center_range_pan": 10,
+    "max_range_pan": 23,
+    "min_range_tilt": -26,
+    "max_range_tilt": -23
   },
   "left_kick": {
-    "target_tilt": -23,
+    "target_tilt": -25,
     "target_pan": 17
   },
   "right_kick": {
-    "target_pan": -17,
-    "target_tilt": -23
+    "target_pan": -25,
+    "target_tilt": -72
   }
 }
