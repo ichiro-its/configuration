@@ -1,5 +1,5 @@
 {
-  "name": "Left Kick",
+  "name": "Left Kick Short",
   "next": "walk_ready",
   "poses": [
     {
