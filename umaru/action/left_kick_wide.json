@@ -1,5 +1,5 @@
 {
-  "name": "Left Kick Wide",
+  "name": "left_kick_wide",
   "next": "walk_ready",
   "poses": [
     {
