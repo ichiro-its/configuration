@@ -1,0 +1,58 @@
+{
+  "move": {
+    "max_x": 30,
+    "max_a": 5,
+    "min_x": 20,
+    "max_y": 0
+  },
+  "follow": {
+    "max_a": 10,
+    "max_x": 30,
+    "min_tilt_": -35
+  },
+  "skew": {
+    "max_x": 30,
+    "max_a": 11,
+    "tilt": 25,
+    "pan_comp": 40,
+    "delta_direction_comp": 20
+  },
+  "dribble": {
+    "max_ly": 20,
+    "min_ry": -10,
+    "min_ly": 10,
+    "max_x": 30,
+    "max_a": 10,
+    "max_ry": -20,
+    "min_x": -10
+  },
+  "pivot": {
+    "target_tilt": -66,
+    "max_ry": -18,
+    "min_x": -10,
+    "max_ly": 18,
+    "max_x": 7,
+    "max_a": 7
+  },
+  "position": {
+    "max_a": 7,
+    "min_x": -20,
+    "max_ry": -18,
+    "min_ly": 13,
+    "min_ry": -13,
+    "max_x": 14,
+    "max_ly": 18,
+    "min_delta_tilt": 5,
+    "min_delta_pan": 6,
+    "min_delta_pan_tilt": 4,
+    "min_delta_direction": 18
+  },
+  "left_kick": {
+    "target_tilt": -70,
+    "target_pan": 27
+  },
+  "right_kick": {
+    "target_pan": -27,
+    "target_tilt": -70
+  }
+}
