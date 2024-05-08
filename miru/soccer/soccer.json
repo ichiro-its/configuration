@@ -1,12 +1,12 @@
 {
   "draw_dnn": {
-    "dnn_label": false,
+    "dnn_label": true,
     "draw_ball": true,
-    "draw_goalpost": false,
-    "draw_l_intersect": false,
-    "draw_robot": false,
-    "draw_t_intersect": false,
-    "draw_x_intersect": false
+    "draw_goalpost": true,
+    "draw_l_intersect": true,
+    "draw_robot": true,
+    "draw_t_intersect": true,
+    "draw_x_intersect": true
   },
   "dribble": {
     "dribble_to_goal": false,
@@ -14,27 +14,27 @@
   },
   "follow": {
     "end_with_pivot": true,
-    "forward_threshold": 120.0,
+    "forward_threshold": 30.0,
     "using_skew": false
   },
   "game": {
-    "check_enemy_tilt": -10.0,
-    "check_enemy_using_dnn": false,
+    "check_enemy_tilt": -7.0,
+    "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
-    "direction_based_on_goalpost": false,
+    "direction_based_on_goalpost": true,
     "hold_backward_tilt": -5.0,
     "hold_follow_tilt": 1.5,
-    "positioning_bottom_goalpost_threshold": 68.0,
+    "positioning_bottom_goalpost_threshold": 60.0,
     "positioning_camera_X1": 80.0,
-    "positioning_camera_X2": 160.0,
-    "positioning_camera_X3": 240.0,
+    "positioning_camera_X2": 140.0,
+    "positioning_camera_X3": 210.0,
     "positioning_check_ball_pan": 0.0,
-    "positioning_check_ball_tilt": -66.0,
+    "positioning_check_ball_tilt": -60.0,
     "positioning_check_enemy_using_upside_tilt": false,
     "positioning_delay_time": 2.75,
     "positioning_field_threshold": 20000.0,
-    "positioning_max_sec": 9600.0,
-    "positioning_robot_area_threshold": 15000.0,
+    "positioning_max_sec": 10.0,
+    "positioning_robot_area_threshold": 10000.0,
     "prefer_left_kick": false,
     "refresh_position_with_goalpost": false
   },
@@ -55,13 +55,13 @@
     "using_slow_kick": true
   },
   "player": {
-    "diagonal_chance": 0.5,
-    "dribble_chance": 0.5,
+    "diagonal_chance": 0,
+    "dribble_chance": 0,
     "goalkeeper": false,
     "goalkeeper_sit": false,
-    "id": 1,
-    "name": "umaru",
-    "role": "striker",
+    "id": 3,
+    "name": "miru",
+    "role": "right wing",
     "shortkick": false,
     "sidekick": false,
     "strategy": "offensive"
@@ -70,8 +70,8 @@
     "method": "dnn",
     "release_pan_max": 70.0,
     "release_pan_min": -70.0,
-    "tilt": -1.0,
-    "using_button": false
+    "tilt": -35.0,
+    "using_button": true
   },
   "soccer": {
     "ball_classifier_type": "dnn",
@@ -81,7 +81,7 @@
     "type": "kri"
   },
   "team": {
-    "color": "red",
+    "color": "blue",
     "id": 1
   }
 }
