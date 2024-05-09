@@ -1,5 +1,5 @@
 {
-  "name": "Left Kick Short",
+  "name": "left_kick_short",
   "next": "walk_ready",
   "poses": [
     {
@@ -26,8 +26,8 @@
         "right_shoulder_roll": -19.24804688
       },
       "name": "step_0",
-      "pause": 0.03,
-      "speed": 0.01
+      "pause": 0,
+      "speed": 0
     },
     {
       "joints": {
@@ -53,8 +53,8 @@
         "right_shoulder_roll": -19.24804688
       },
       "name": "step_1",
-      "pause": 0.01,
-      "speed": 0.01
+      "pause": 0,
+      "speed": 0
     },
     {
       "joints": {
@@ -81,7 +81,7 @@
       },
       "name": "step_2",
       "pause": 0,
-      "speed": 0.01
+      "speed": 0
     },
     {
       "joints": {
@@ -108,7 +108,34 @@
       },
       "name": "step_3",
       "pause": 0,
-      "speed": 0.01
+      "speed": 0
+    },
+    {
+      "joints": {
+        "left_ankle_pitch": -18.45703125,
+        "left_ankle_roll": -14.23828125,
+        "left_elbow": -79.45312500,
+        "left_hip_pitch": 21.26953125,
+        "left_hip_roll": -8.87695312,
+        "left_hip_yaw": 0.00000000,
+        "left_knee": -34.01367188,
+        "left_shoulder_pitch": 34.71679688,
+        "left_shoulder_roll": 19.77539062,
+        "neck_pitch": 0.00000000,
+        "neck_yaw": 0.00000000,
+        "right_ankle_pitch": 23.20312500,
+        "right_ankle_roll": -13.71093750,
+        "right_elbow": 79.89257812,
+        "right_hip_pitch": -23.37890625,
+        "right_hip_roll": -0.87890625,
+        "right_hip_yaw": 0.00000000,
+        "right_knee": 46.05468750,
+        "right_shoulder_pitch": -33.92578125,
+        "right_shoulder_roll": -19.24804688
+      },
+      "name": "step_4",
+      "pause": 0,
+      "speed": 0
     }
   ],
   "start_delay": 1.5,

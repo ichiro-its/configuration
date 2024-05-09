@@ -1,5 +1,5 @@
 {
-  "name": "Walk Ready",
+  "name": "walk_ready",
   "next": "",
   "poses": [
     {
@@ -26,8 +26,8 @@
         "right_shoulder_roll": -37.96875
       },
       "name": "step_0",
-      "pause": 0.02,
-      "speed": 0.005
+      "pause": 0,
+      "speed": 0
     }
   ],
   "start_delay": 0,
