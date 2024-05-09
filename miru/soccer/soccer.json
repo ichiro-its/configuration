@@ -24,6 +24,7 @@
     "direction_based_on_goalpost": true,
     "hold_backward_tilt": -5.0,
     "hold_follow_tilt": 1.5,
+    "is_map_kick": false,
     "positioning_bottom_goalpost_threshold": 60.0,
     "positioning_camera_X1": 80.0,
     "positioning_camera_X2": 140.0,
@@ -55,8 +56,8 @@
     "using_slow_kick": true
   },
   "player": {
-    "diagonal_chance": 0,
-    "dribble_chance": 0,
+    "diagonal_chance": 0.0,
+    "dribble_chance": 0.0,
     "goalkeeper": false,
     "goalkeeper_sit": false,
     "id": 3,
