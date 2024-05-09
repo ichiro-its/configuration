@@ -1,79 +1,117 @@
 {
-  "move": {
-    "min_x": 10,
-    "max_x": 20,
-    "max_a": 5,
-    "max_y": 0
+  "PanTiltToDistance": {
+    "pan_4_tilt_2": 5.210259442e-9,
+    "pan_3_tilt_3": 3.003947968e-9,
+    "pan_3_tilt_1": 1.460699928e-5,
+    "pan_1_tilt_5": 6.816034402e-9,
+    "pan_0_tilt_4": 0.001038157898,
+    "pan_1_tilt_2": -0.001106552733,
+    "pan_5_tilt_1": -6.565426025e-10,
+    "pan_4_tilt_0": 6.89264079e-6,
+    "pan_5_tilt_0": 1.00182753e-8,
+    "pan_0_tilt_6": 1.232264115e-7,
+    "pan_4_tilt_1": -2.066300351e-7,
+    "pan_6_tilt_0": -4.410747914e-10,
+    "pan_2_tilt_4": 5.03513342e-8,
+    "pan_0_tilt_0": 23.29877379,
+    "pan_2_tilt_3": -4.135434807e-6,
+    "pan_3_tilt_2": -2.843364424e-7,
+    "pan_1_tilt_3": 6.136680159000001e-5,
+    "pan_1_tilt_4": -1.101682294e-6,
+    "pan_0_tilt_5": -1.885309407e-5,
+    "pan_2_tilt_2": 8.846286174e-5,
+    "pan_0_tilt_3": -0.02358820314,
+    "pan_3_tilt_0": -0.0001651130201,
+    "pan_1_tilt_1": -0.0146124816,
+    "pan_2_tilt_1": 1.332082477e-5,
+    "pan_2_tilt_0": -0.01831426377,
+    "pan_0_tilt_2": 0.18267461,
+    "pan_0_tilt_1": 1.127008823,
+    "pan_1_tilt_0": 0.3093351489
   },
-  "rotate": {
-    "max_a": 8,
-    "max_delta_direction": 14
+  "Offset": {
+    "pan_offset": 0,
+    "tilt_offset": 0
   },
-  "follow": {
-    "min_x": 7,
-    "max_x": 30,
-    "min_ly": 6,
-    "max_ly": 10,
-    "min_ry": -6,
-    "max_ry": -10,
-    "max_a": 7,
-    "l_a_offset": 0,
-    "r_a_offset": 0,
-    "min_tilt_": -40,
-    "pan_ratio": 0,
-    "y_move": false
+  "Limit": {
+    "left_limit": 90,
+    "right_limit": -90,
+    "top_limit": 37.5,
+    "bottom_limit": -100
   },
-  "skew": {
-    "max_x": 12,
-    "max_a": 14,
-    "tilt": -30,
-    "pan_comp": 27,
-    "delta_direction_comp": 45
+  "Scan": {
+    "scan_speed": 0.4,
+    "left_limit": 90,
+    "right_limit": -90,
+    "top_limit": 20,
+    "bottom_limit": -55
   },
-  "dribble": {
-    "min_x": -20,
-    "max_x": 20,
-    "min_ly": 15,
-    "max_ly": 20,
-    "min_ry": -15,
-    "max_ry": -20,
-    "max_a": 7,
-    "pan_comp": 8
+  "Gain": {
+    "pan_p_gain": 0.05,
+    "pan_d_gain": 0.03,
+    "tilt_p_gain": 0.08,
+    "tilt_d_gain": 0.05
   },
-  "pivot": {
-    "min_x": -10,
-    "max_x": 6,
-    "max_ly": 14,
-    "max_ry": -14,
-    "max_a": 6,
-    "target_tilt": -68,
-    "pan_range_ratio": 0.5,
-    "max_delta_direction": 10
+  "Center": {
+    "pan_center": 0,
+    "tilt_center": 75
   },
-  "position": {
-    "min_x": -12,
-    "max_x": 8,
-    "min_ly": 9,
-    "max_ly": 16,
-    "min_ry": -9,
-    "max_ry": -16,
-    "max_a": 6,
-    "min_delta_tilt": 3,
-    "min_delta_pan": 3,
-    "min_delta_pan_tilt": 3,
-    "min_delta_direction": 10,
-    "min_range_pan": -27,
-    "center_range_pan": 12,
-    "max_range_pan": 27,
-    "min_range_tilt": -78,
-    "max_range_tilt": -73
+  "FOVCamera": {
+    "horizontal_fov": 79.5,
+    "vertical_fov": 58
   },
-  "left_kick": {
-    "target_pan": 24,
-    "target_tilt": -80
+  "PanTiltToDistanceRegression": {
+    "distance_polynomial_coefficients": [
+      323.2415,
+      0.1813854,
+      11.52514,
+      0.02121645,
+      0.005998746,
+      0.1501563,
+      1.606266e-05,
+      0.00025222,
+      4.772816e-05,
+      0.0006692674
+    ],
+    "distance_polynomial_degrees": [
+      [0,0],
+      [1,0],
+      [0,1],
+      [2,0],
+      [1,1],
+      [0,2],
+      [3,0],
+      [2,1],
+      [1,2],
+      [0,3],
+      [4,0],
+      [3,1],
+      [2,2],
+      [1,3],
+      [0,4],
+      [5,0],
+      [4,1],
+      [3,2],
+      [2,3],
+      [1,4],
+      [0,5]
+    ]
   },
-  "right_kick": {
-    "target_pan": -27,
-    "target_tilt": -80
+  "PanDistanceToTilt": {
+    "pan_4_distance_0": -7.1677827440000001e-07,
+    "pan_3_distance_1": -2.28056223e-07,
+    "pan_2_distance_2": 5.3029819349999999e-07,
+    "pan_1_distance_3": -4.228681525e-07,
+    "pan_0_distance_4": -3.4216540450000001e-07,
+    "pan_3_distance_0": -5.7005411370000003e-06,
+    "pan_2_distance_1": -7.0118077159999996e-05,
+    "pan_1_distance_2": 5.4498174570000002e-05,
+    "pan_0_distance_3": 0.0001136175956,
+    "pan_2_distance_0": 0.0020377153349999998,
+    "pan_1_distance_1": -0.0030218882730000001,
+    "pan_0_distance_2": -0.020924782369999999,
+    "pan_1_distance_0": 0.08740940421,
+    "pan_0_distance_1": 2.1304960730000002,
+    "pan_0_distance_0": -40.32690856
   }
 }
