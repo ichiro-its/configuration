@@ -35,7 +35,7 @@
   },
   "Limit": {
     "left_limit": 90,
-    "right_limit": -80,
+    "right_limit": -90,
     "top_limit": 10,
     "bottom_limit": -80
   },
