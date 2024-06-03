@@ -56,5 +56,8 @@
     "fx_coefficient": 6,
     "ly_coefficient": 4.2,
     "ry_coefficient": 4.2
+  },
+  "antibacklash": {
+    "using_antibacklash": true
   }
 }

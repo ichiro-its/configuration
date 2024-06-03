@@ -24,7 +24,6 @@
     "direction_based_on_goalpost": true,
     "hold_backward_tilt": -5.0,
     "hold_follow_tilt": 1.5,
-    "is_map_kick": false,
     "positioning_bottom_goalpost_threshold": 60.0,
     "positioning_camera_X1": 80.0,
     "positioning_camera_X2": 140.0,
@@ -54,6 +53,9 @@
     "tilt_enemy_kickoff": -29.0,
     "using_dribble": false,
     "using_slow_kick": true
+  },
+  "pivot": {
+    "inverse_a_move": false
   },
   "player": {
     "diagonal_chance": 0.0,
