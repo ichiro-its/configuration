@@ -27,9 +27,11 @@
       },
       "name": "step_0",
       "pause": 0,
-      "speed": 0
+      "speed": 0,
+      "time": 1.0
     }
   ],
   "start_delay": 0,
-  "stop_delay": 0
+  "stop_delay": 0,
+  "time_based": true
 }

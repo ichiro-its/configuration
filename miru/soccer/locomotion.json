@@ -66,7 +66,9 @@
     "center_range_pan": 12,
     "max_range_pan": 27,
     "min_range_tilt": -78,
-    "max_range_tilt": -73
+    "max_range_tilt": -73,
+    "min_dynamic_range_pan": -40,
+    "max_dynamic_range_pan": 40
   },
   "left_kick": {
     "target_pan": 24,
