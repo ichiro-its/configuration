@@ -54,6 +54,9 @@
     "using_dribble": false,
     "using_slow_kick": true
   },
+  "pivot": {
+    "inverse_a_move": false
+  },
   "player": {
     "diagonal_chance": 0.5,
     "dribble_chance": 0.5,
@@ -61,10 +64,10 @@
     "goalkeeper_sit": false,
     "id": 1,
     "name": "umaru",
-    "role": "striker",
+    "role": "left wing",
     "shortkick": false,
     "sidekick": false,
-    "strategy": "offensive"
+    "strategy": "defensive"
   },
   "release": {
     "method": "dnn",
@@ -78,10 +81,10 @@
     "dnn_with_color": true,
     "drop_in": false,
     "test": true,
-    "type": "kri"
+    "type": "robocup"
   },
   "team": {
     "color": "red",
-    "id": 1
+    "id": 3
   }
 }
