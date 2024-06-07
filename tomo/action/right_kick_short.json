@@ -1,5 +1,5 @@
 {
-  "name": "Right Kick Short",
+  "name": "right_kick_short",
   "next": "walk_ready",
   "poses": [
     {

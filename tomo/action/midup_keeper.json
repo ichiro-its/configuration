@@ -1,5 +1,5 @@
 {
-  "name": "Midup Keeper",
+  "name": "midup_keeper",
   "next": "walk_ready",
   "poses": [
     {

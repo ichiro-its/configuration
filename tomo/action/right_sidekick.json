@@ -1,5 +1,5 @@
 {
-  "name": "Right Sidekick",
+  "name": "right_sidekick",
   "next": "walk_ready",
   "poses": [
     {

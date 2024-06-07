@@ -1,5 +1,5 @@
 {
-  "name": "Forward Up",
+  "name": "forward_up",
   "next": "walk_ready",
   "poses": [
     {
