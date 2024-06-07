@@ -36,6 +36,7 @@
     "positioning_field_threshold": 20000.0,
     "positioning_max_sec": 9600.0,
     "positioning_robot_area_threshold": 15000.0,
+    "positioning_robot_color_threshold": 0.800000011920929,
     "prefer_left_kick": false,
     "refresh_position_with_goalpost": false
   },

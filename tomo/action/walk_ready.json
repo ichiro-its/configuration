@@ -28,10 +28,10 @@
       "name": "step_0",
       "pause": 0.02,
       "speed": 0.04,
-      "time": 1.0
+      "time": 1
     }
   ],
-  "time_based": false,
   "start_delay": 0,
-  "stop_delay": 0
+  "stop_delay": 0,
+  "time_based": true
 }
