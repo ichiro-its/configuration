@@ -1,0 +1,37 @@
+{
+  "name": "Init",
+  "next": "",
+  "poses": [
+    {
+      "joints": {
+        "left_ankle_pitch": 0,
+        "left_ankle_roll": 0,
+        "left_elbow": 0,
+        "left_hip_pitch": 0,
+        "left_hip_roll": 0,
+        "left_hip_yaw": 0,
+        "left_knee": 0,
+        "left_shoulder_pitch": 0,
+        "left_shoulder_roll": 0,
+        "neck_pitch": 0,
+        "neck_yaw": 0,
+        "right_ankle_pitch": 0,
+        "right_ankle_roll": 0,
+        "right_elbow": 0,
+        "right_hip_pitch": 0,
+        "right_hip_roll": 0,
+        "right_hip_yaw": 0,
+        "right_knee": 0,
+        "right_shoulder_pitch": 0,
+        "right_shoulder_roll": 0
+      },
+      "name": "step_0",
+      "pause": 0.02,
+      "speed": 0.0044,
+      "time":  10.0
+    }
+  ],
+  "start_delay": 0,
+  "stop_delay": 0,
+  "time_based": true
+}
