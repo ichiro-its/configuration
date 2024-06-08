@@ -1,6 +1,6 @@
 {
   "draw_dnn": {
-    "dnn_label": true,
+    "dnn_label": false,
     "draw_ball": true,
     "draw_goalpost": true,
     "draw_l_intersect": true,
@@ -19,11 +19,13 @@
   },
   "game": {
     "check_enemy_tilt": -7.0,
+    "check_enemy_using_color": false,
     "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
     "direction_based_on_goalpost": true,
     "hold_backward_tilt": -5.0,
     "hold_follow_tilt": 1.5,
+    "is_map_kick": false,
     "positioning_bottom_goalpost_threshold": 60.0,
     "positioning_camera_X1": 80.0,
     "positioning_camera_X2": 140.0,
@@ -35,8 +37,9 @@
     "positioning_field_threshold": 20000.0,
     "positioning_max_sec": 10.0,
     "positioning_robot_area_threshold": 10000.0,
+    "positioning_robot_color_threshold": 0.0,
     "prefer_left_kick": false,
-    "refresh_position_with_goalpost": false
+    "refresh_position_with_goalpost": true
   },
   "keeper": {
     "enable_keeper_sidekick": true,

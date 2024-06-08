@@ -1,0 +1,10 @@
+{
+  "dynamic_kick": {
+    "right_map_x_min": 200,
+    "right_map_x_max": 270,
+    "left_map_x_min": 100,
+    "left_map_x_max": 40,
+    "using_dynamic_kick": true
+  }
+}
+  
