@@ -48,7 +48,7 @@
     "keeper_follow_tilt": 0.0,
     "keeper_sit_strategy": true,
     "kick_sit_tilt": -30.0,
-    "kick_up_tilt": 0.0,
+    "kick_up_tilt": -30.0,
     "sit_sit_tilt": 3.0,
     "sit_up_tilt": 10.0
   },

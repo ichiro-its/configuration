@@ -15,9 +15,9 @@
     "max_a": 17
   },
   "right": {
-    "min_ry": 26,
-    "max_ry": 30,
-    "max_a": 17
+    "min_ry": -26,
+    "max_ry": -30,
+    "max_a": -17
   },
   "follow": {
     "min_tilt_": 10,
