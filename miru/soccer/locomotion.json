@@ -63,19 +63,21 @@
     "min_delta_pan_tilt": 3,
     "min_delta_direction": 10,
     "min_range_pan": -27,
-    "center_range_pan": 12,
+    "center_range_pan": 3,
     "max_range_pan": 27,
-    "min_range_tilt": -78,
-    "max_range_tilt": -73,
+    "min_range_tilt": -85,
+    "max_range_tilt": -75,
     "min_dynamic_range_pan": -40,
-    "max_dynamic_range_pan": 40
+    "max_dynamic_range_pan": 40,
+    "min_dynamic_range_tilt": -40,
+    "max_dynamic_range_tilt": 40
   },
   "left_kick": {
-    "target_pan": 24,
+    "target_pan": 20,
     "target_tilt": -80
   },
   "right_kick": {
-    "target_pan": -27,
+    "target_pan": -20,
     "target_tilt": -80
   }
 }
