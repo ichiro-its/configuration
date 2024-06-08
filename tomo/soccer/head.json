@@ -34,27 +34,27 @@
     "tilt_offset": 0
   },
   "Limit": {
-    "left_limit": 90,
-    "right_limit": -90,
-    "top_limit": 37.5,
-    "bottom_limit": -100
+    "right_limit": -75,
+    "left_limit": 75,
+    "bottom_limit": -30,
+    "top_limit": 45
   },
   "Scan": {
     "scan_speed": 0.4,
-    "left_limit": 90,
-    "right_limit": -90,
-    "top_limit": 20,
-    "bottom_limit": -55
+    "left_limit": 75,
+    "right_limit": -75,
+    "top_limit": 45,
+    "bottom_limit": -30
   },
   "Gain": {
-    "pan_p_gain": 0.05,
-    "pan_d_gain": 0.03,
-    "tilt_p_gain": 0.08,
-    "tilt_d_gain": 0.05
+    "pan_p_gain": 0.03000000000000002,
+    "pan_d_gain": 0.008000000000000001,
+    "tilt_p_gain": 0.030000000000000007,
+    "tilt_d_gain": 0.050000000000000003
   },
   "Center": {
     "pan_center": 0,
-    "tilt_center": 75
+    "tilt_center": 0
   },
   "FOVCamera": {
     "horizontal_fov": 79.5,
@@ -62,16 +62,27 @@
   },
   "PanTiltToDistanceRegression": {
     "distance_polynomial_coefficients": [
-      323.2415,
-      0.1813854,
-      11.52514,
-      0.02121645,
-      0.005998746,
-      0.1501563,
-      1.606266e-05,
-      0.00025222,
-      4.772816e-05,
-      0.0006692674
+      35.7961693,
+      0.0357424393,
+      0.2127413,
+      0.00487344805,
+      -0.00158022996,
+      0.117938802,
+      -6.14626624e-05,
+      -0.000386167201,
+      5.93139412e-05,
+      0.004271104,
+      -9.53703307e-07,
+      2.65874206e-07,
+      5.39565281e-06,
+      1.63291895e-06,
+      -0.000426357787,
+      1.30857796e-08,
+      8.94906833e-08,
+      -2.30559394e-08,
+      2.67718807e-08,
+      1.21122099e-08,
+      8.1890712e-06
     ],
     "distance_polynomial_degrees": [
       [0,0],
@@ -98,20 +109,20 @@
     ]
   },
   "PanDistanceToTilt": {
-    "pan_4_distance_0": -7.1677827440000001e-07,
-    "pan_3_distance_1": -2.28056223e-07,
-    "pan_2_distance_2": 5.3029819349999999e-07,
-    "pan_1_distance_3": -4.228681525e-07,
-    "pan_0_distance_4": -3.4216540450000001e-07,
-    "pan_3_distance_0": -5.7005411370000003e-06,
-    "pan_2_distance_1": -7.0118077159999996e-05,
-    "pan_1_distance_2": 5.4498174570000002e-05,
-    "pan_0_distance_3": 0.0001136175956,
-    "pan_2_distance_0": 0.0020377153349999998,
-    "pan_1_distance_1": -0.0030218882730000001,
-    "pan_0_distance_2": -0.020924782369999999,
+    "pan_1_distance_1": -0.003021888273,
+    "pan_0_distance_2": -0.02092478237,
     "pan_1_distance_0": 0.08740940421,
-    "pan_0_distance_1": 2.1304960730000002,
-    "pan_0_distance_0": -40.32690856
+    "pan_0_distance_1": 2.130496073,
+    "pan_0_distance_0": -40.32690856,
+    "pan_1_distance_3": -4.228681525e-7,
+    "pan_2_distance_2": 5.302981935e-7,
+    "pan_0_distance_3": 0.0001136175956,
+    "pan_3_distance_1": -2.28056223e-7,
+    "pan_3_distance_0": -5.700541137e-6,
+    "pan_4_distance_0": -7.167782744e-7,
+    "pan_2_distance_1": -7.011807716e-5,
+    "pan_1_distance_2": 5.449817457e-5,
+    "pan_2_distance_0": 0.002037715335,
+    "pan_0_distance_4": -3.421654045e-7
   }
 }
