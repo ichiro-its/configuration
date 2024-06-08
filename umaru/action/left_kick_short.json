@@ -28,7 +28,7 @@
       "name": "step_0",
       "pause": 0.03,
       "speed": 0.01,
-      "time": 0.08
+      "time": 0.3
     },
     {
       "joints": {
@@ -56,7 +56,7 @@
       "name": "step_1",
       "pause": 0.01,
       "speed": 0.01,
-      "time": 0.08
+      "time": 0.5
     },
     {
       "joints": {
@@ -84,7 +84,7 @@
       "name": "step_2",
       "pause": 0,
       "speed": 0.01,
-      "time": 0.08
+      "time": 0.5
     },
     {
       "joints": {
@@ -110,9 +110,9 @@
         "right_shoulder_roll": -36.9140625
       },
       "name": "step_3",
-      "pause": 0,
+      "pause": 0.3,
       "speed": 0.01,
-      "time": 0.08
+      "time": 0.7
     }
   ],
   "start_delay": 1.5,

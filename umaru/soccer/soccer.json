@@ -19,6 +19,7 @@
   },
   "game": {
     "check_enemy_tilt": -10.0,
+    "check_enemy_using_color": false,
     "check_enemy_using_dnn": false,
     "check_enemy_using_field": false,
     "direction_based_on_goalpost": false,
@@ -35,6 +36,7 @@
     "positioning_field_threshold": 20000.0,
     "positioning_max_sec": 9600.0,
     "positioning_robot_area_threshold": 15000.0,
+    "positioning_robot_color_threshold": 10000.0,
     "prefer_left_kick": false,
     "refresh_position_with_goalpost": false
   },
@@ -49,25 +51,32 @@
   },
   "kickoff": {
     "is_consider_enemy": false,
-    "kick_dribble_direction": 20.0,
+    "kick_dribble_direction": 10.0,
     "tilt_enemy_kickoff": -29.0,
     "using_dribble": false,
     "using_slow_kick": true
   },
+  "mode_odometry": {
+    "a_speed": 3.0,
+    "target_x": 0.0,
+    "target_y": 30.0,
+    "x_speed": 0.0,
+    "y_speed": 15.0
+  },
   "pivot": {
-    "inverse_a_move": false
+    "inverse_a_move": true
   },
   "player": {
-    "diagonal_chance": 0.5,
-    "dribble_chance": 0.5,
+    "diagonal_chance": -1.0,
+    "dribble_chance": -1.0,
     "goalkeeper": false,
     "goalkeeper_sit": false,
     "id": 1,
     "name": "umaru",
-    "role": "left wing",
+    "role": "striker",
     "shortkick": false,
     "sidekick": false,
-    "strategy": "defensive"
+    "strategy": "offensive"
   },
   "release": {
     "method": "dnn",
@@ -81,10 +90,10 @@
     "dnn_with_color": true,
     "drop_in": false,
     "test": true,
-    "type": "robocup"
+    "type": "kri"
   },
   "team": {
     "color": "red",
-    "id": 3
+    "id": 1
   }
 }
