@@ -1,5 +1,5 @@
 {
-  "name": "Left Kick Longbrut",
+  "name": "left_kick_longbrut",
   "next": "walk_ready",
   "poses": [
     {
@@ -28,7 +28,7 @@
       "name": "step_0",
       "pause": 0.03,
       "speed": 0.01,
-      "time": 1.0
+      "time": 1
     },
     {
       "joints": {
@@ -56,8 +56,8 @@
       "name": "step_1",
       "pause": 0.01,
       "speed": 0.01,
-      "time": 1.0
-    },    
+      "time": 1
+    },
     {
       "joints": {
         "left_ankle_pitch": -80.77148438,
@@ -84,7 +84,7 @@
       "name": "step_2",
       "pause": 0.01,
       "speed": 0.01,
-      "time": 1.0
+      "time": 1
     },
     {
       "joints": {
@@ -112,7 +112,7 @@
       "name": "step_3",
       "pause": 0,
       "speed": 0.01,
-      "time": 1.0
+      "time": 1
     },
     {
       "joints": {
@@ -140,7 +140,7 @@
       "name": "step_4",
       "pause": 0,
       "speed": 0.01,
-      "time": 1.0
+      "time": 1
     }
   ],
   "start_delay": 1.5,

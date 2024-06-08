@@ -1,5 +1,5 @@
 {
-  "name": "Sit Down",
+  "name": "sit_down",
   "next": "right_kick",
   "poses": [
     {
@@ -28,7 +28,7 @@
       "name": "down",
       "pause": 0,
       "speed": 1,
-      "time": 1.0
+      "time": 1
     },
     {
       "joints": {
@@ -56,7 +56,7 @@
       "name": "sit_feet",
       "pause": 1,
       "speed": 0.01,
-      "time": 1.0
+      "time": 1
     },
     {
       "joints": {
@@ -84,7 +84,7 @@
       "name": "sit_up",
       "pause": 0,
       "speed": 0.3,
-      "time": 1.0
+      "time": 1
     }
   ],
   "start_delay": 0,

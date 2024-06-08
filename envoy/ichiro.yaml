@@ -101,7 +101,7 @@ static_resources:
                 routes:
                   - match: { prefix: "/" }
                     route:
-                      cluster: aruku_server
+                      cluster: ninshiki_server
                       timeout: 0s
                       max_stream_duration:
                         grpc_timeout_header_max: 0s
