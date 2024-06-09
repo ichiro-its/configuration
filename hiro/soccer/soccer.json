@@ -1,0 +1,99 @@
+{
+  "draw_dnn": {
+    "dnn_label": false,
+    "draw_ball": true,
+    "draw_goalpost": false,
+    "draw_l_intersect": false,
+    "draw_robot": false,
+    "draw_t_intersect": false,
+    "draw_x_intersect": false
+  },
+  "dribble": {
+    "dribble_to_goal": false,
+    "tilt_check_goalpost": -70.0
+  },
+  "follow": {
+    "end_with_pivot": true,
+    "forward_threshold": 120.0,
+    "using_skew": false
+  },
+  "game": {
+    "check_enemy_tilt": -10.0,
+    "check_enemy_using_color": true,
+    "check_enemy_using_dnn": false,
+    "check_enemy_using_field": false,
+    "direction_based_on_goalpost": false,
+    "hold_backward_tilt": -5.0,
+    "hold_follow_tilt": 1.5,
+    "positioning_bottom_goalpost_threshold": 68.0,
+    "positioning_camera_X1": 80.0,
+    "positioning_camera_X2": 160.0,
+    "positioning_camera_X3": 240.0,
+    "positioning_check_ball_pan": 0.0,
+    "positioning_check_ball_tilt": -66.0,
+    "positioning_check_enemy_using_upside_tilt": false,
+    "positioning_delay_time": 2.75,
+    "positioning_field_threshold": 20000.0,
+    "positioning_max_sec": 9600.0,
+    "positioning_robot_area_threshold": 15000.0,
+    "positioning_robot_color_threshold": 0.800000011920929,
+    "prefer_left_kick": false,
+    "refresh_position_with_goalpost": false
+  },
+  "keeper": {
+    "enable_keeper_sidekick": true,
+    "keeper_follow_tilt": 0.0,
+    "keeper_sit_strategy": true,
+    "kick_sit_tilt": -30.0,
+    "kick_up_tilt": -30.0,
+    "sit_sit_tilt": 3.0,
+    "sit_up_tilt": 10.0
+  },
+  "kickoff": {
+    "is_consider_enemy": false,
+    "kick_dribble_direction": 20.0,
+    "tilt_enemy_kickoff": -29.0,
+    "using_dribble": false,
+    "using_slow_kick": true
+  },
+  "mode_odometry": {
+    "a_speed": 0.0,
+    "target_x": 3.473959022907654e-41,
+    "target_y": 3.6433760072445244e-44,
+    "x_speed": 0.0,
+    "y_speed": 3.6433760072445244e-44
+  },
+  "pivot": {
+    "inverse_a_move": false
+  },
+  "player": {
+    "diagonal_chance": 0.5,
+    "dribble_chance": 0.5,
+    "goalkeeper": true,
+    "goalkeeper_sit": true,
+    "id": 2,
+    "name": "hiro",
+    "role": "defender",
+    "shortkick": false,
+    "sidekick": false,
+    "strategy": "defensive"
+  },
+  "release": {
+    "method": "dnn",
+    "release_pan_max": 70.0,
+    "release_pan_min": -70.0,
+    "tilt": -10.0,
+    "using_button": false
+  },
+  "soccer": {
+    "ball_classifier_type": "dnn",
+    "dnn_with_color": true,
+    "drop_in": false,
+    "test": true,
+    "type": "kri"
+  },
+  "team": {
+    "color": "red",
+    "id": 1
+  }
+}

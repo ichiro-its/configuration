@@ -1,0 +1,91 @@
+{
+  "move": {
+    "max_x": 18,
+    "max_a": 3,
+    "min_x": 9,
+    "max_y": 12
+  },
+  "rotate": {
+    "max_a": 15,
+    "max_delta_direction": 14
+  },
+  "left": {
+    "min_ly": 26,
+    "max_ly": 30,
+    "max_a": 17
+  },
+  "right": {
+    "min_ry": -26,
+    "max_ry": -30,
+    "max_a": -17
+  },
+  "follow": {
+    "min_tilt_": 10,
+    "min_x": 15,
+    "max_x": 20,
+    "min_ly": 13,
+    "max_ly": 15,
+    "min_ry": -13,
+    "max_ry": -15,
+    "max_a": 10,
+    "r_a_offset": -0.521128118,
+    "l_a_offset": 0.247227177,
+    "min_tilt": -25,
+    "pan_ratio": 0,
+    "time": 3,
+    "y_move": true
+  },
+  "skew": {
+    "max_x": 10,
+    "max_a": 15,
+    "tilt": 7,
+    "pan_comp": -44,
+    "delta_direction_comp": 14
+  },
+  "dribble": {
+    "max_ly": 20,
+    "min_ry": -10,
+    "min_ly": 10,
+    "max_x": 10,
+    "max_a": 10,
+    "max_ry": -20,
+    "min_x": -10,
+    "pan_comp": 5
+  },
+  "pivot": {
+    "target_tilt": -16,
+    "max_ry": -17,
+    "min_x": -10,
+    "max_ly": 17,
+    "max_x": 6,
+    "max_a": 4,
+    "max_delta_direction": 14,
+    "pan_range_ratio": 1
+  },
+  "position": {
+    "max_a": 4,
+    "min_x": 0,
+    "max_ry": -18,
+    "min_ly": 12,
+    "min_ry": -12,
+    "max_x": 10,
+    "max_ly": 18,
+    "min_delta_tilt": 5,
+    "min_delta_pan": 5,
+    "min_delta_pan_tilt": 3,
+    "min_delta_direction": 10,
+    "min_range_pan": -23,
+    "center_range_pan": 10,
+    "max_range_pan": 23,
+    "min_range_tilt": -26,
+    "max_range_tilt": -23
+  },
+  "left_kick": {
+    "target_tilt": -25,
+    "target_pan": 17
+  },
+  "right_kick": {
+    "target_pan": -25,
+    "target_tilt": -72
+  }
+}
