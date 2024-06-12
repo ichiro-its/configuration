@@ -1,25 +1,24 @@
 {
-    "image_size": {
-      "width": 320,
-      "height": 240
+  "image_size": {
+    "width": 320,
+    "height": 240
+  },
+  "distortion_model": "plumb_bob",
+  "intrinsic_parameters": {
+    "focal_length": {
+      "x": 775.8070010132403,
+      "y": 775.8950272011443
     },
-    "distortion_model": "plumb_bob",
-    "intrinsic_parameters": {
-      "focal_length": {
-        "x": 257.376401,
-        "y": 257.733418
-      },
-      "principal_point": {
-        "x": 160.385504,
-        "y": 121.587673
-      },
-      "distortion_coefficients": {
-        "k1": 0.172170,
-        "k2": -0.326515,
-        "t1": -0.002538,
-        "t2": 0.009660,
-        "k3": 0.000000
-      }
+    "principal_point": {
+      "x": 617.3707323800472,
+      "y": 365.1605010811465
+    },
+    "distortion_coefficients": { 
+      "k1": 0.1276593393295713,
+      "k2": -0.2893171969308347,
+      "t1": -0.000945062610796322,
+      "t2": -0.006285025774237976,
+      "k3": 0.2025942732896414
     }
   }
-  
+}
