@@ -81,11 +81,11 @@
     "max_range_tilt": -23
   },
   "left_kick": {
-    "target_tilt": -25,
-    "target_pan": 17
+    "target_tilt": 21,
+    "target_pan": -75
   },
   "right_kick": {
-    "target_pan": -25,
-    "target_tilt": -72
+    "target_pan": -26.4,
+    "target_tilt": -74.8
   }
 }
