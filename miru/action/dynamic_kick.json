@@ -4,7 +4,7 @@
     "right_map_x_max": 270,
     "left_map_x_min": 100,
     "left_map_x_max": 40,
-    "using_dynamic_kick": true
+    "using_dynamic_kick": false
   }
 }
   

@@ -28,12 +28,12 @@
     "is_map_kick": false,
     "positioning_bottom_goalpost_threshold": 60.0,
     "positioning_camera_X1": 80.0,
-    "positioning_camera_X2": 140.0,
-    "positioning_camera_X3": 210.0,
+    "positioning_camera_X2": 156.0,
+    "positioning_camera_X3": 230.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -60.0,
     "positioning_check_enemy_using_upside_tilt": false,
-    "positioning_delay_time": 2.75,
+    "positioning_delay_time": 1.5,
     "positioning_field_threshold": 20000.0,
     "positioning_max_sec": 10.0,
     "positioning_robot_area_threshold": 10000.0,
@@ -52,10 +52,17 @@
   },
   "kickoff": {
     "is_consider_enemy": false,
-    "kick_dribble_direction": 20.0,
+    "kick_dribble_direction": 0.0,
     "tilt_enemy_kickoff": -29.0,
     "using_dribble": false,
     "using_slow_kick": true
+  },
+  "mode_odometry": {
+    "a_speed": 9.477806452196091e-05,
+    "target_x": 3.6433760072445244e-44,
+    "target_y": 0.0,
+    "x_speed": 3.6433760072445244e-44,
+    "y_speed": 0.0
   },
   "pivot": {
     "inverse_a_move": false
@@ -67,7 +74,7 @@
     "goalkeeper_sit": false,
     "id": 3,
     "name": "miru",
-    "role": "right wing",
+    "role": "striker",
     "shortkick": false,
     "sidekick": false,
     "strategy": "offensive"
