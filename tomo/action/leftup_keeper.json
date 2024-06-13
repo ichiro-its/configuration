@@ -1,6 +1,6 @@
 {
   "name": "leftup_keeper",
-  "next": "backward_up",
+  "next": "backward_up_new",
   "poses": [
     {
       "joints": {

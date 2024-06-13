@@ -1,8 +1,8 @@
 {
   "move": {
-    "max_x": 18,
+    "max_x": 24,
     "max_a": 3,
-    "min_x": 9,
+    "min_x": 18,
     "max_y": 12
   },
   "rotate": {
@@ -10,12 +10,17 @@
     "max_delta_direction": 14
   },
   "left": {
-    "min_ly": 28,
+    "min_ly": 25,
     "max_ly": 30,
     "max_a": 15
   },
+  "backward": {
+    "min_x": -18,
+    "max_x": -20,
+    "max_a": 10
+  },
   "right": {
-    "min_ry": -28,
+    "min_ry": -25,
     "max_ry": -30,
     "max_a": 15
   },

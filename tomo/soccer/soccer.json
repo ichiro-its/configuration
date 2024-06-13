@@ -22,11 +22,13 @@
     "check_enemy_using_color": true,
     "check_enemy_using_dnn": false,
     "check_enemy_using_field": false,
+    "consider_backward_move": false,
     "custom_kick_direction": false,
     "direction_based_on_goalpost": false,
     "hold_backward_tilt": -5.0,
     "hold_follow_tilt": 1.5,
     "kick_direction": 0.0,
+    "max_accuracy_distance": 100.0,
     "positioning_bottom_goalpost_threshold": 68.0,
     "positioning_camera_X1": 80.0,
     "positioning_camera_X2": 160.0,
@@ -44,15 +46,14 @@
   },
   "keeper": {
     "enable_keeper_sidekick": true,
-    "keeper_center_position": 300.0,
+    "keeper_draw_area": true,
     "keeper_fall_center_min_thresold": 1000.0,
     "keeper_fall_left_min_thresold": 1000.0,
     "keeper_fall_right_min_thresold": 1000.0,
     "keeper_follow_tilt": 0.0,
     "keeper_force_sit": false,
-    "keeper_left_position": 230.0,
-    "keeper_right_position": 370.0,
     "keeper_sit_strategy": true,
+    "keeper_tunning_mode": false,
     "kick_sit_tilt": -30.0,
     "kick_up_tilt": -20.0,
     "sit_sit_tilt": 3.0,
@@ -61,15 +62,16 @@
   "kickoff": {
     "is_consider_enemy": false,
     "kick_dribble_direction": 20.0,
+    "look_to_goalpost_tilt": 10.0,
     "tilt_enemy_kickoff": -29.0,
-    "using_dribble": false,
+    "using_dribble": true,
     "using_slow_kick": true
   },
   "mode_odometry": {
     "a_speed": 0.0,
-    "target_x": 0.0,
+    "target_x": 100.0,
     "target_y": 0.0,
-    "x_speed": 0.0,
+    "x_speed": 20.0,
     "y_speed": 0.0
   },
   "pivot": {
@@ -98,7 +100,7 @@
     "ball_classifier_type": "dnn",
     "dnn_with_color": true,
     "drop_in": false,
-    "test": false,
+    "test": true,
     "type": "kri"
   },
   "team": {
