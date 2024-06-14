@@ -70,7 +70,7 @@
     "min_range_pan": -21,
     "center_range_pan": 13,
     "max_range_pan": 25,
-    "min_range_tilt": -80,
+    "min_range_tilt": -90,
     "max_range_tilt": -72,
     "min_dynamic_range_pan": -40,
     "max_dynamic_range_pan": 50,
