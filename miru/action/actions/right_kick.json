@@ -33,7 +33,7 @@
     {
       "joints": {
         "left_ankle_pitch": -17.929688,
-        "left_ankle_roll": 7.294922,
+        "left_ankle_roll": 9.228516,
         "left_elbow": -35.683594,
         "left_hip_pitch": 32.958984,
         "left_hip_roll": -7.382812,
@@ -61,7 +61,7 @@
     {
       "joints": {
         "left_ankle_pitch": -17.929688,
-        "left_ankle_roll": 9.316406,
+        "left_ankle_roll": 10.283203,
         "left_elbow": -35.683594,
         "left_hip_pitch": 17.666016,
         "left_hip_roll": -7.382812,
