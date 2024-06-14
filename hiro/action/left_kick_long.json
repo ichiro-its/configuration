@@ -1,5 +1,5 @@
 {
-  "name": "left_sidekick",
+  "name": "left_kick_long",
   "next": "walk_ready",
   "poses": [
     {
