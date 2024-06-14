@@ -1,6 +1,6 @@
 {
   "name": "rightup_keeper",
-  "next": "backward_up",
+  "next": "backward_up_new",
   "poses": [
     {
       "joints": {
@@ -28,7 +28,7 @@
       "name": "step_0",
       "pause": 0.02,
       "speed": 0.005,
-      "time": 10
+      "time": 0.6
     },
     {
       "joints": {
@@ -56,7 +56,7 @@
       "name": "step_1",
       "pause": 0.02,
       "speed": 0.005,
-      "time": 10
+      "time": 1
     },
     {
       "joints": {
@@ -84,7 +84,7 @@
       "name": "step_2",
       "pause": 0.02,
       "speed": 0.005,
-      "time": 10
+      "time": 0.6
     }
   ],
   "start_delay": 0,
