@@ -1,6 +1,6 @@
 {
   "name": "backward_up",
-  "next": "",
+  "next": "walk_ready",
   "poses": [
     {
       "joints": {
