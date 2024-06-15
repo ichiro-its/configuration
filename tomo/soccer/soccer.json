@@ -1,12 +1,12 @@
 {
   "draw_dnn": {
-    "dnn_label": false,
+    "dnn_label": true,
     "draw_ball": true,
-    "draw_goalpost": false,
-    "draw_l_intersect": false,
-    "draw_robot": false,
-    "draw_t_intersect": false,
-    "draw_x_intersect": false
+    "draw_goalpost": true,
+    "draw_l_intersect": true,
+    "draw_robot": true,
+    "draw_t_intersect": true,
+    "draw_x_intersect": true
   },
   "dribble": {
     "dribble_to_goal": false,
@@ -46,12 +46,17 @@
   },
   "keeper": {
     "enable_keeper_sidekick": true,
+    "keeper_center_position": 300.0,
     "keeper_draw_area": true,
-    "keeper_fall_center_min_thresold": 1000.0,
+    "keeper_fall_center_min_thresold": 900.0,
     "keeper_fall_left_min_thresold": 1000.0,
-    "keeper_fall_right_min_thresold": 1000.0,
+    "keeper_fall_right_min_thresold": 900.0,
     "keeper_follow_tilt": 0.0,
     "keeper_force_sit": false,
+    "keeper_left_position": 250.0,
+    "keeper_move_left_min_delta_ball": -60.0,
+    "keeper_move_right_min_delta_ball": 60.0,
+    "keeper_right_position": 350.0,
     "keeper_sit_strategy": true,
     "keeper_tunning_mode": false,
     "kick_sit_tilt": -30.0,
@@ -69,13 +74,16 @@
   },
   "mode_odometry": {
     "a_speed": 0.0,
-    "target_x": 100.0,
+    "target_x": -100.0,
     "target_y": 0.0,
-    "x_speed": 20.0,
+    "x_speed": -15.0,
     "y_speed": 0.0
   },
+  "mode_penalty_keeper": {
+    "keeper_head_tilt": -30.0
+  },
   "pivot": {
-    "inverse_a_move": false
+    "inverse_a_move": true
   },
   "player": {
     "diagonal_chance": 0.5,
@@ -90,7 +98,7 @@
     "strategy": "defensive"
   },
   "release": {
-    "method": "dnn",
+    "method": "dnn_front",
     "release_pan_max": 70.0,
     "release_pan_min": -70.0,
     "tilt": -10.0,
@@ -98,7 +106,7 @@
   },
   "soccer": {
     "ball_classifier_type": "dnn",
-    "dnn_with_color": true,
+    "dnn_with_color": false,
     "drop_in": false,
     "test": true,
     "type": "kri"

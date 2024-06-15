@@ -1,6 +1,6 @@
 {
   "move": {
-    "min_x": 14,
+    "min_x": 17,
     "max_x": 20,
     "max_a": 10,
     "max_y": 10
