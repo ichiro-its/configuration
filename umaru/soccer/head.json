@@ -36,15 +36,15 @@
   "Limit": {
     "right_limit": -75,
     "left_limit": 75,
-    "bottom_limit": -30,
-    "top_limit": 45
+    "bottom_limit": -85,
+    "top_limit": 0
   },
   "Scan": {
     "scan_speed": 0.4,
     "left_limit": 75,
     "right_limit": -75,
-    "top_limit": 45,
-    "bottom_limit": -30
+    "top_limit": 0,
+    "bottom_limit": -75
   },
   "Gain": {
     "pan_p_gain": 0.03000000000000002,

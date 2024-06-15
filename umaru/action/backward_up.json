@@ -23,7 +23,7 @@
         "right_hip_yaw": 0,
         "right_knee": 0,
         "right_shoulder_pitch": -74.61914063,
-        "right_shoulder_roll": -46.49414063
+        "right_shoulder_roll": -28.49414063
       },
       "name": "step_0",
       "pause": 0.02,
@@ -51,7 +51,7 @@
         "right_hip_yaw": 0,
         "right_knee": 100.8105469,
         "right_shoulder_pitch": -118.4765625,
-        "right_shoulder_roll": -46.49414063
+        "right_shoulder_roll": -28.49414063
       },
       "name": "step_1",
       "pause": 0.02,
@@ -79,7 +79,7 @@
         "right_hip_yaw": 0,
         "right_knee": 73.4765625,
         "right_shoulder_pitch": -139.8339844,
-        "right_shoulder_roll": -46.49414063
+        "right_shoulder_roll": -28.49414063
       },
       "name": "step_2",
       "pause": 0.02,
@@ -107,7 +107,7 @@
         "right_hip_yaw": 0,
         "right_knee": 102.9199219,
         "right_shoulder_pitch": -66.70898438,
-        "right_shoulder_roll": -46.49414063
+        "right_shoulder_roll": -28.49414063
       },
       "name": "step_3",
       "pause": 0.02,
@@ -135,7 +135,7 @@
         "right_hip_yaw": 0,
         "right_knee": 98.17382813,
         "right_shoulder_pitch": -66.70898438,
-        "right_shoulder_roll": -46.49414063
+        "right_shoulder_roll": -28.49414063
       },
       "name": "step_4",
       "pause": 0.02,
@@ -163,7 +163,7 @@
         "right_hip_yaw": 0,
         "right_knee": 115.8398438,
         "right_shoulder_pitch": 3.1640625,
-        "right_shoulder_roll": -37.88085938
+        "right_shoulder_roll": -28.88085938
       },
       "name": "step_5",
       "pause": 0.02,
