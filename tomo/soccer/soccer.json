@@ -1,12 +1,12 @@
 {
   "draw_dnn": {
-    "dnn_label": true,
+    "dnn_label": false,
     "draw_ball": true,
     "draw_goalpost": true,
-    "draw_l_intersect": true,
+    "draw_l_intersect": false,
     "draw_robot": true,
-    "draw_t_intersect": true,
-    "draw_x_intersect": true
+    "draw_t_intersect": false,
+    "draw_x_intersect": false
   },
   "dribble": {
     "dribble_to_goal": false,
@@ -20,7 +20,7 @@
   "game": {
     "check_enemy_tilt": -10.0,
     "check_enemy_using_color": true,
-    "check_enemy_using_dnn": false,
+    "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
     "consider_backward_move": false,
     "custom_kick_direction": false,
@@ -83,7 +83,7 @@
     "keeper_head_tilt": -30.0
   },
   "pivot": {
-    "inverse_a_move": true
+    "using_new_pivot": true
   },
   "player": {
     "diagonal_chance": 0.5,
