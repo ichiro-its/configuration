@@ -22,7 +22,7 @@
     "check_enemy_using_color": false,
     "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
-    "consider_backward_move": false,
+    "consider_backward_move": true,
     "custom_kick_direction": false,
     "direction_based_on_goalpost": true,
     "hold_backward_tilt": -5.0,
@@ -43,7 +43,7 @@
     "positioning_robot_area_threshold": 10000.0,
     "positioning_robot_color_threshold": 0.0,
     "prefer_left_kick": false,
-    "refresh_position_with_goalpost": true
+    "refresh_position_with_goalpost": false
   },
   "keeper": {
     "enable_keeper_sidekick": true,
@@ -70,7 +70,7 @@
     "y_speed": 18.0
   },
   "pivot": {
-    "inverse_a_move": true
+    "using_new_pivot": false
   },
   "player": {
     "diagonal_chance": 0.0,
@@ -79,7 +79,7 @@
     "goalkeeper_sit": false,
     "id": 3,
     "name": "miru",
-    "role": "left wing",
+    "role": "striker",
     "shortkick": false,
     "sidekick": false,
     "strategy": "offensive"
