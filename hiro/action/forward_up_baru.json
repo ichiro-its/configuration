@@ -1,5 +1,5 @@
 {
-  "name": "forward_up",
+  "name": "forward_up_baru",
   "next": "walk_ready",
   "poses": [
     {
@@ -28,7 +28,7 @@
       "name": "step_0",
       "pause": 0,
       "speed": 0,
-      "time": 0.6
+      "time": 0.5
     },
     {
       "joints": {
@@ -56,7 +56,7 @@
       "name": "step_1",
       "pause": 0,
       "speed": 0,
-      "time": 0.6
+      "time": 0.5
     },
     {
       "joints": {
@@ -84,7 +84,7 @@
       "name": "step_2",
       "pause": 0,
       "speed": 0,
-      "time": 0.4
+      "time": 0.2
     },
     {
       "joints": {

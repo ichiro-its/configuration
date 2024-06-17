@@ -22,11 +22,11 @@
     "check_enemy_using_color": false,
     "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
-    "consider_backward_move": false,
+    "consider_backward_move": true,
     "custom_kick_direction": false,
     "direction_based_on_goalpost": true,
     "hold_backward_tilt": -5.0,
-    "hold_follow_tilt": 1.5,
+    "hold_follow_tilt": 0.0,
     "kick_direction": 0.0,
     "max_accuracy_distance": 150.0,
     "positioning_bottom_goalpost_threshold": 60.0,
@@ -42,7 +42,7 @@
     "positioning_robot_area_threshold": 10000.0,
     "positioning_robot_color_threshold": 0.0,
     "prefer_left_kick": false,
-    "refresh_position_with_goalpost": true
+    "refresh_position_with_goalpost": false
   },
   "keeper": {
     "enable_keeper_sidekick": true,
@@ -63,8 +63,8 @@
   },
   "mode_odometry": {
     "a_speed": 0.0,
-    "target_x": -100.0,
-    "target_y": 50.0,
+    "target_x": 100.0,
+    "target_y": 0.0,
     "x_speed": 0.0,
     "y_speed": 0.0
   },
