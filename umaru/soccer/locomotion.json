@@ -5,6 +5,11 @@
     "min_x": 9,
     "max_y": 12
   },
+  "backward":{
+    "max_a": 5,
+    "max_x": -6,
+    "min_x": -12
+  },
   "rotate": {
     "max_a": 7,
     "max_delta_direction": 14
