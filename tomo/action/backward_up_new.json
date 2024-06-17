@@ -84,7 +84,7 @@
       "name": "step_2",
       "pause": 0.02,
       "speed": 0.64,
-      "time": 1
+      "time": 0.5
     },
     {
       "joints": {

@@ -47,7 +47,7 @@
         "right_ankle_roll": 2.636719,
         "right_elbow": 36.650391,
         "right_hip_pitch": -6.767578,
-        "right_hip_roll": 17.138672,
+        "right_hip_roll": 24.609375,
         "right_hip_yaw": 2.021484,
         "right_knee": 109.6875,
         "right_shoulder_pitch": -1.669922,
@@ -75,7 +75,7 @@
         "right_ankle_roll": 11.953125,
         "right_elbow": 36.650391,
         "right_hip_pitch": -40.253906,
-        "right_hip_roll": 17.138672,
+        "right_hip_roll": 24.609375,
         "right_hip_yaw": 2.021484,
         "right_knee": 4.833984,
         "right_shoulder_pitch": -1.669922,
@@ -110,7 +110,7 @@
         "right_shoulder_roll": -35.595703
       },
       "name": "step_4",
-      "pause": 0.3,
+      "pause": 0,
       "speed": 0,
       "time": 0.2
     }

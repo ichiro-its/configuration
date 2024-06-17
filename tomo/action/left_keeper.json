@@ -28,7 +28,7 @@
       "name": "step_0",
       "pause": 0.02,
       "speed": 0.005,
-      "time": 0.6
+      "time": 0.1
     }
   ],
   "start_delay": 0,

@@ -44,12 +44,12 @@
     "left_limit": 75,
     "right_limit": -75,
     "top_limit": 45,
-    "bottom_limit": -30
+    "bottom_limit": -25
   },
   "Gain": {
-    "pan_p_gain": 0.03000000000000002,
+    "pan_p_gain": 0.033000000000000002,
     "pan_d_gain": 0.008000000000000001,
-    "tilt_p_gain": 0.030000000000000007,
+    "tilt_p_gain": 0.0330000000000000007,
     "tilt_d_gain": 0.050000000000000003
   },
   "Center": {
