@@ -57,28 +57,28 @@
   },
   "position": {
     "max_a": 5,
-    "min_x": -6,
+    "min_x": -10,
     "max_ry": -18,
     "min_ly": 12,
     "min_ry": -12,
-    "max_x": 14,
+    "max_x": 12,
     "max_ly": 18,
     "min_delta_tilt": 5,
     "min_delta_pan": 5,
     "min_delta_pan_tilt": 3,
     "min_delta_direction": 10,
     "max_range_tilt": -73,
-    "min_range_tilt": -85,
+    "min_range_tilt": -80,
     "min_range_pan": -27,
-    "center_range_pan": 10,
+    "center_range_pan": 9.5,
     "max_range_pan": 27
   },
   "left_kick": {
-    "target_tilt": -74,
-    "target_pan": 16
+    "target_tilt": -76.5,
+    "target_pan": 18.5
   },
   "right_kick": {
-    "target_pan": -16,
-    "target_tilt": -74
+    "target_pan": -18.5,
+    "target_tilt": -76.5
   }
 }
