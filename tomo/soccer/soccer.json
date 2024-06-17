@@ -20,7 +20,7 @@
   "game": {
     "check_enemy_tilt": -10.0,
     "check_enemy_using_color": true,
-    "check_enemy_using_dnn": true,
+    "check_enemy_using_dnn": false,
     "check_enemy_using_field": false,
     "consider_backward_move": false,
     "custom_kick_direction": false,
@@ -45,22 +45,28 @@
     "refresh_position_with_goalpost": false
   },
   "keeper": {
+    "cancel_move_on_lost_ball": false,
     "enable_keeper_sidekick": true,
-    "keeper_center_position": 300.0,
     "keeper_draw_area": true,
     "keeper_fall_center_min_thresold": 900.0,
     "keeper_fall_left_min_thresold": 1000.0,
     "keeper_fall_right_min_thresold": 900.0,
+    "keeper_fall_tilt": -15.0,
     "keeper_follow_tilt": 0.0,
     "keeper_force_sit": false,
-    "keeper_left_position": 250.0,
-    "keeper_move_left_min_delta_ball": -60.0,
-    "keeper_move_right_min_delta_ball": 60.0,
-    "keeper_right_position": 350.0,
+    "keeper_move_left_min_delta_ball": -40.0,
+    "keeper_move_right_min_delta_ball": 40.0,
+    "keeper_move_left_max_delta_ball": -150.0,
+    "keeper_move_right_max_delta_ball": 150.0,
+    "move_by_another_robot_min_delta_ball": 30.0,
+    "move_by_another_robot_max_delta_position": 400,
+    "keeper_left_position": 230.0,
+    "keeper_center_position": 300.0,
+    "keeper_right_position": 370.0,
     "keeper_sit_strategy": true,
     "keeper_tunning_mode": false,
     "kick_sit_tilt": -30.0,
-    "kick_up_tilt": -20.0,
+    "kick_up_tilt": 10.0,
     "sit_sit_tilt": 3.0,
     "sit_up_tilt": 10.0
   },
@@ -73,11 +79,11 @@
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "a_speed": 0.0,
-    "target_x": -100.0,
-    "target_y": 0.0,
-    "x_speed": -15.0,
-    "y_speed": 0.0
+    "a_speed": 4.0,
+    "target_x": 0.0,
+    "target_y": -50.0,
+    "x_speed": 0.0,
+    "y_speed": 20.0
   },
   "mode_penalty_keeper": {
     "keeper_head_tilt": -30.0
@@ -106,13 +112,13 @@
   },
   "soccer": {
     "ball_classifier_type": "dnn",
-    "dnn_with_color": false,
+    "dnn_with_color": true,
     "drop_in": false,
     "test": true,
     "type": "kri"
   },
   "team": {
-    "color": "red",
+    "color": "blue",
     "id": 1
   }
 }

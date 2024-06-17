@@ -6,7 +6,7 @@
     "max_y": 12
   },
   "rotate": {
-    "max_a": 15,
+    "max_a": 30,
     "max_delta_direction": 14
   },
   "left": {
