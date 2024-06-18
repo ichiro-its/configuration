@@ -14,8 +14,8 @@
   },
   "follow": {
     "end_with_pivot": true,
-    "forward_threshold": 120.0,
-    "using_skew": false
+    "forward_threshold": 90.0,
+    "using_skew": true
   },
   "game": {
     "check_enemy_tilt": -10.0,
@@ -57,19 +57,19 @@
     "is_consider_enemy": false,
     "kick_dribble_direction": 10.0,
     "look_to_goalpost_tilt": -10.0,
-    "tilt_enemy_kickoff": -29.0,
+    "tilt_enemy_kickoff": -55.0,
     "using_dribble": false,
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "a_speed": 0.0,
+    "a_speed": -1.87,
     "target_x": 0.0,
     "target_y": -25.0,
     "x_speed": 0.0,
-    "y_speed": 18.0
+    "y_speed": 20.0
   },
   "pivot": {
-    "using_new_pivot": true
+    "using_new_pivot": false
   },
   "player": {
     "diagonal_chance": -1.0,
@@ -94,7 +94,7 @@
     "ball_classifier_type": "dnn",
     "dnn_with_color": true,
     "drop_in": false,
-    "test": true,
+    "test": false,
     "type": "kri"
   },
   "team": {
