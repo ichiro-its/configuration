@@ -62,14 +62,14 @@
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "a_speed": 0.0,
-    "target_x": 100.0,
-    "target_y": 0.0,
+    "a_speed": 3.0,
+    "target_x": 0.0,
+    "target_y": -50.0,
     "x_speed": 0.0,
-    "y_speed": 0.0
+    "y_speed": 20.0
   },
   "pivot": {
-    "inverse_a_move": false
+    "using_new_pivot": false
   },
   "player": {
     "diagonal_chance": 0.0,
@@ -81,7 +81,7 @@
     "role": "right wing",
     "shortkick": false,
     "sidekick": false,
-    "strategy": "offensive"
+    "strategy": "defensive"
   },
   "release": {
     "method": "dnn_front",

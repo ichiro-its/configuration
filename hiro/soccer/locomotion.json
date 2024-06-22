@@ -8,7 +8,7 @@
   "backward": {
     "min_x": -10,
     "max_x": -20,
-    "max_a": -10
+    "max_a": 6
   },
   "rotate": {
     "max_a": 8,

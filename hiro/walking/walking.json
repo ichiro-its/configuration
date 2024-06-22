@@ -49,10 +49,10 @@
     "right_gripper": -65
   },
   "odometry": {
-    "fx_coefficient": 6.2,
-    "bx_coefficient": 6,
-    "ry_coefficient": 4,
-    "ly_coefficient": 4.9
+    "fx_coefficient": 6.0,
+    "bx_coefficient": 5,
+    "ry_coefficient": 2.5,
+    "ly_coefficient": 3.2
   },
   "pid": {
     "p_gain": 28,

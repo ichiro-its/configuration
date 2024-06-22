@@ -60,7 +60,7 @@
     "horizontal_fov": 79.5,
     "vertical_fov": 58
   },
-  "PanTiltToDistanceRegression": {
+  "DistanceRegression": {
     "distance_polynomial_coefficients": [
       35.7961693,
       0.0357424393,
@@ -106,7 +106,8 @@
       [2,3],
       [1,4],
       [0,5]
-    ]
+    ],
+    "tilt_polynomial_coefficients": []
   },
   "PanDistanceToTilt": {
     "pan_1_distance_1": -0.003021888273,
