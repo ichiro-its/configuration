@@ -34,17 +34,17 @@
     "tilt_offset": 0
   },
   "Limit": {
-    "right_limit": -75,
-    "left_limit": 75,
-    "bottom_limit": -75,
+    "right_limit": -60,
+    "left_limit": 60,
+    "bottom_limit": -80,
     "top_limit": 20
   },
   "Scan": {
     "scan_speed": 0.4,
     "left_limit": 75,
     "right_limit": -75,
-    "top_limit": 45,
-    "bottom_limit": -75
+    "top_limit": 0,
+    "bottom_limit": -60
   },
   "Gain": {
     "pan_p_gain": 0.032,

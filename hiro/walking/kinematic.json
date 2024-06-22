@@ -7,12 +7,12 @@
   },
   "offset": {
     "x_offset": 10,
-    "y_offset": 5,
-    "z_offset": 25,
+    "y_offset": 20,
+    "z_offset": 18,
     "roll_offset": 1.5000000000000004,
     "pitch_offset": 1,
     "yaw_offset": -1.0000000149011612,
-    "hip_pitch_offset": 12.000000000000004
+    "hip_pitch_offset": 10.000000000000004
   },
   "ratio": {
     "dsp_ratio": -0.01,
@@ -20,13 +20,13 @@
     "swing_right_left": 0,
     "swing_up_down": 0,
     "arm_swing_gain": -1.490116113833651e-08,
-    "backward_hip_comp_ratio": 0.10990015996396578,
-    "forward_hip_comp_ratio": -0.2600000017136338,
+    "backward_hip_comp_ratio": -0.19009984003603425,
+    "forward_hip_comp_ratio": -0.050000001713633765,
     "foot_comp_ratio": 0.6,
     "dsp_comp_ratio": 0.05,
-    "move_accel_ratio": 0.3500000055879355,
+    "move_accel_ratio": 0.2500000055879354,
     "foot_accel_ratio": 0.08000000014901171,
-    "period_time": 590,
+    "period_time": 560,
     "period_comp_ratio": 0
   }
 }
