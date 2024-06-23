@@ -64,11 +64,11 @@
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "a_speed": 1.8700000047683716,
+    "a_speed": 1.000004768371582,
     "target_x": 0.0,
-    "target_y": 25.0,
+    "target_y": -30.0,
     "x_speed": 0.0,
-    "y_speed": -25.0
+    "y_speed": 20.0
   },
   "pivot": {
     "using_new_pivot": true
