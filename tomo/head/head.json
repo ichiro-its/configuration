@@ -37,13 +37,13 @@
     "right_limit": -75,
     "left_limit": 75,
     "bottom_limit": -25,
-    "top_limit": 45
+    "top_limit": 40
   },
   "Scan": {
-    "scan_speed": 0.4,
+    "scan_speed": 0.6,
     "left_limit": 75,
     "right_limit": -75,
-    "top_limit": 45,
+    "top_limit": 30,
     "bottom_limit": -25
   },
   "Gain": {
