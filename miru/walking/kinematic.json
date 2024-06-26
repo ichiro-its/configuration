@@ -16,7 +16,7 @@
   },
   "ratio": {
     "arm_swing_gain": 0,
-    "backward_hip_comp_ratio": 0.09999999672174444,
+    "backward_hip_comp_ratio": -0.10000000327825558,
     "dsp_comp_ratio": 0.10999999999999999,
     "dsp_ratio": -0.009999999999999997,
     "foot_accel_ratio": 0.15000000000000002,
