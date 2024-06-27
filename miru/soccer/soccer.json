@@ -62,7 +62,7 @@
     "is_consider_enemy": false,
     "kick_dribble_direction": 0.0,
     "look_to_goalpost_tilt": -10.0,
-    "tilt_enemy_kickoff": -50.0,
+    "tilt_enemy_kickoff": -60.0,
     "using_dribble": false,
     "using_slow_kick": true
   },
@@ -102,7 +102,7 @@
     "ball_classifier_type": "dnn",
     "dnn_with_color": true,
     "drop_in": false,
-    "test": false,
+    "test": true,
     "type": "kri"
   },
   "team": {
