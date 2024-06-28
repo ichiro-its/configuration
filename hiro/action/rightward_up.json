@@ -1,6 +1,6 @@
 {
   "name": "rightward_up",
-  "next": "backward_up",
+  "next": "",
   "poses": [
     {
       "joints": {

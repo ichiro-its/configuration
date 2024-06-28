@@ -214,7 +214,7 @@ static_resources:
                 address:
                   socket_address:
                     address: 0.0.0.0
-                    port_value: 3030
+                    port_value: 5060
   - name: aruku_server
     connect_timeout: 0.25s
     type: logical_dns

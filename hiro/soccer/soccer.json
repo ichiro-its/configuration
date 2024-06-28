@@ -1,12 +1,12 @@
 {
   "draw_dnn": {
     "dnn_label": false,
-    "draw_ball": true,
+    "draw_ball": false,
     "draw_goalpost": true,
-    "draw_l_intersect": true,
-    "draw_robot": true,
-    "draw_t_intersect": true,
-    "draw_x_intersect": true
+    "draw_l_intersect": false,
+    "draw_robot": false,
+    "draw_t_intersect": false,
+    "draw_x_intersect": false
   },
   "dribble": {
     "dribble_to_goal": false,
@@ -26,9 +26,10 @@
     "custom_kick_direction": false,
     "direction_based_on_goalpost": true,
     "hold_backward_tilt": -5.0,
-    "hold_follow_tilt": 0.0,
+    "hold_follow_tilt": -5.0,
     "kick_direction": 0.0,
     "max_accuracy_distance": 150.0,
+    "pivoting_max_sec": 60.0,
     "positioning_bottom_goalpost_threshold": 60.0,
     "positioning_camera_X1": 80.0,
     "positioning_camera_X2": 140.0,
@@ -36,13 +37,14 @@
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -60.0,
     "positioning_check_enemy_using_upside_tilt": false,
-    "positioning_delay_time": 2.75,
+    "positioning_delay_time": 2.0,
     "positioning_field_threshold": 20000.0,
-    "positioning_max_sec": 10.0,
+    "positioning_max_sec": 30.0,
     "positioning_robot_area_threshold": 10000.0,
     "positioning_robot_color_threshold": 0.0,
     "prefer_left_kick": false,
-    "refresh_position_with_goalpost": false
+    "refresh_position_with_goalpost": false,
+    "short_kick_position_x": 0.0
   },
   "keeper": {
     "enable_keeper_sidekick": true,
@@ -62,14 +64,17 @@
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "a_speed": 3.0,
+    "a_speed": 1.0,
     "target_x": 0.0,
     "target_y": -50.0,
     "x_speed": 0.0,
     "y_speed": 20.0
   },
+  "mode_penalty_kick": {
+    "target_direction": 45.0
+  },
   "pivot": {
-    "using_new_pivot": false
+    "using_new_pivot": true
   },
   "player": {
     "diagonal_chance": 0.0,
@@ -81,7 +86,7 @@
     "role": "right wing",
     "shortkick": false,
     "sidekick": false,
-    "strategy": "defensive"
+    "strategy": "offensive"
   },
   "release": {
     "method": "dnn_front",
@@ -94,7 +99,7 @@
     "ball_classifier_type": "dnn",
     "dnn_with_color": true,
     "drop_in": false,
-    "test": false,
+    "test": true,
     "type": "kri"
   },
   "team": {

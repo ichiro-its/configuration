@@ -28,7 +28,7 @@
   },
   "init_angles": {
     "left_ankle_pitch": -1,
-    "left_ankle_roll": -1,
+    "left_ankle_roll": 2,
     "left_elbow": -57,
     "left_gripper": 65,
     "left_hip_pitch": 1,
@@ -38,7 +38,7 @@
     "left_shoulder_pitch": 10,
     "left_shoulder_roll": 40,
     "right_ankle_pitch": 5,
-    "right_ankle_roll": 4,
+    "right_ankle_roll": 2,
     "right_elbow": 57,
     "right_gripper": -65,
     "right_hip_pitch": -2,
@@ -50,9 +50,9 @@
   },
   "odometry": {
     "bx_coefficient": 5.7,
-    "fx_coefficient": 6.5,
-    "ly_coefficient": 4.2000000000001,
-    "ry_coefficient": 3.56
+    "fx_coefficient": 6.4,
+    "ly_coefficient": 4.6000000000001,
+    "ry_coefficient": 4.6
   },
   "pid": {
     "d_gain": 3,

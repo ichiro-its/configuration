@@ -1,13 +1,13 @@
 {
   "accel_limit": {
-    "accel_back_limit": 620.0,
-    "accel_front_limit": 445.0,
+    "accel_back_limit": 380.0,
+    "accel_front_limit": 520.0,
     "accel_right_limit": 570.0,
     "accel_left_limit": 400.0
   },
   "orientation_limit": {
-    "pitch_back_limit": 30,
-    "pitch_front_limit": -80,
+    "pitch_back_limit": 45,
+    "pitch_front_limit": -47,
     "roll_right_limit": 50,
     "roll_left_limit": -50
   }
