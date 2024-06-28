@@ -63,7 +63,7 @@
     "is_consider_enemy": false,
     "kick_dribble_direction": 0.0,
     "look_to_goalpost_tilt": -10.0,
-    "pass_to_friend_strategy": false,
+    "pass_to_friend_strategy": true,
     "tilt_enemy_kickoff": -40.0,
     "using_dribble": false,
     "using_slow_kick": true
@@ -88,13 +88,13 @@
     "goalkeeper_sit": false,
     "id": 3,
     "name": "miru",
-    "role": "striker",
+    "role": "left wing",
     "shortkick": false,
     "sidekick": false,
     "strategy": "offensive"
   },
   "release": {
-    "method": "dnn_front",
+    "method": "dnn",
     "release_pan_max": 70.0,
     "release_pan_min": -70.0,
     "tilt": -35.0,
@@ -104,7 +104,7 @@
     "ball_classifier_type": "dnn",
     "dnn_with_color": true,
     "drop_in": false,
-    "test": false,
+    "test": true,
     "test_release_x": 300.0,
     "test_release_y": 300.0,
     "type": "kri"
