@@ -27,30 +27,30 @@
     "enable": false
   },
   "init_angles": {
-    "left_ankle_pitch": 1,
+    "left_ankle_pitch": 0,
     "left_ankle_roll": -2,
     "left_elbow": -40,
     "left_hip_pitch": -2,
     "left_hip_roll": -5,
     "left_hip_yaw": 1,
-    "left_knee": 4,
+    "left_knee": 3,
     "left_shoulder_pitch": 3,
     "left_shoulder_roll": 34,
     "right_ankle_pitch": -2,
     "right_ankle_roll": 1,
     "right_elbow": 40,
-    "right_hip_pitch": 1,
+    "right_hip_pitch": 2,
     "right_hip_roll": 6,
     "right_hip_yaw": 0,
-    "right_knee": -4,
+    "right_knee": -5,
     "right_shoulder_pitch": -3,
     "right_shoulder_roll": -24
   },
   "odometry": {
-    "bx_coefficient": 6.7,
-    "fx_coefficient": 6.1,
-    "ly_coefficient": 3.5,
-    "ry_coefficient": 3.4
+    "bx_coefficient": 5.6,
+    "fx_coefficient": 6.0,
+    "ly_coefficient": 3.7,
+    "ry_coefficient": 2.6
   },
   "pid": {
     "d_gain": 3,
