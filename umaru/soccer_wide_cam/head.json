@@ -36,14 +36,14 @@
   "Limit": {
     "right_limit": -75,
     "left_limit": 75,
-    "bottom_limit": -85,
+    "bottom_limit": -75,
     "top_limit": 0
   },
   "Scan": {
-    "scan_speed": 0.5,
+    "scan_speed": 0.3,
     "left_limit": 75,
     "right_limit": -75,
-    "top_limit": 0,
+    "top_limit": 10,
     "bottom_limit": -75
   },
   "Gain": {
@@ -54,7 +54,7 @@
   },
   "Center": {
     "pan_center": 0,
-    "tilt_center": 0
+    "tilt_center": 45
   },
   "FOVCamera": {
     "horizontal_fov": 79.5,

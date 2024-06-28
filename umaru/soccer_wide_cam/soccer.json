@@ -9,7 +9,7 @@
     "draw_x_intersect": true
   },
   "dribble": {
-    "dribble_to_goal": true,
+    "dribble_to_goal": false,
     "tilt_check_goalpost": -70.0
   },
   "follow": {
@@ -31,22 +31,21 @@
     "max_accuracy_distance": 200.0,
     "pivoting_max_sec": 60.0,
     "positioning_bottom_goalpost_threshold": 68.0,
-    "positioning_camera_X1": 85.0,
-    "positioning_camera_X2": 130.0,
-    "positioning_camera_X3": 175.0,
-    "positioning_camera_X4": 220.0,
+    "positioning_camera_X1": 245.0,
+    "positioning_camera_X2": 290.0,
+    "positioning_camera_X3": 370.0,
+    "positioning_camera_X4": 420.0,
     "positioning_check_ball_pan": 0.0,
-    "positioning_check_ball_tilt": -63.0,
-    "positioning_check_enemy_using_upside_tilt": true,
-    "positioning_delay_time": 2.0,
+    "positioning_check_ball_tilt": -40.0,
+    "positioning_check_enemy_using_upside_tilt": false,
+    "positioning_delay_time": 1.75,
     "positioning_field_threshold": 20000.0,
     "positioning_max_sec": 15.0,
     "positioning_robot_area_threshold": 12000.0,
     "positioning_robot_color_threshold": 10000.0,
     "prefer_left_kick": false,
     "refresh_position_with_goalpost": false,
-    "short_kick_position_x": 400.0,
-    "using_half_pivot": true
+    "short_kick_position_x": 0.0
   },
   "keeper": {
     "enable_keeper_sidekick": true,
@@ -58,19 +57,17 @@
     "sit_up_tilt": 10.0
   },
   "kickoff": {
-    "hold_enemy_kickoff_time": 3.0,
     "is_consider_enemy": false,
     "kick_dribble_direction": 10.0,
     "look_to_goalpost_tilt": -10.0,
-    "pass_to_friend_strategy": true,
     "tilt_enemy_kickoff": -55.0,
     "using_dribble": false,
     "using_slow_kick": true
   },
   "mode_odometry": {
     "a_speed": 1.000004768371582,
-    "target_x": -100.0,
-    "target_y": 0.0,
+    "target_x": 0.0,
+    "target_y": 50.0,
     "x_speed": 0.0,
     "y_speed": -20.0
   },
@@ -104,8 +101,6 @@
     "dnn_with_color": true,
     "drop_in": false,
     "test": false,
-    "test_release_x": 400.0,
-    "test_release_y": 300.0,
     "type": "kri"
   },
   "team": {
