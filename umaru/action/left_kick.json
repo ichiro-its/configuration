@@ -88,13 +88,13 @@
     },
     {
       "joints": {
-        "left_ankle_pitch": -10.634766,
+        "left_ankle_pitch": -15.644531,
         "left_ankle_roll": -16.347656,
         "left_elbow": -27.949219,
-        "left_hip_pitch": 33.837891,
+        "left_hip_pitch": 45,
         "left_hip_roll": -10.195312,
         "left_hip_yaw": -0.439453,
-        "left_knee": -26.630859,
+        "left_knee": -36.298828,
         "left_shoulder_pitch": -8.613281,
         "left_shoulder_roll": 37.96875,
         "neck_pitch": 0,
