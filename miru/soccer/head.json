@@ -47,10 +47,10 @@
     "bottom_limit": -65
   },
   "Gain": {
-    "pan_p_gain": 0.03000000000000002,
-    "pan_d_gain": 0.008000000000000001,
+    "pan_p_gain": 0.03,
+    "pan_d_gain": 0.02000000000000001,
     "tilt_p_gain": 0.030000000000000007,
-    "tilt_d_gain": 0.050000000000000003
+    "tilt_d_gain": 0.02
   },
   "Center": {
     "pan_center": 0,
