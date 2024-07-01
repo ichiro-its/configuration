@@ -9,7 +9,7 @@
     "draw_x_intersect": true
   },
   "dribble": {
-    "dribble_to_goal": false,
+    "dribble_to_goal": true,
     "tilt_check_goalpost": -70.0
   },
   "follow": {
