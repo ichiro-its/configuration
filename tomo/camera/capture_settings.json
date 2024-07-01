@@ -1,8 +1,8 @@
 {
-  "brightness": 0,
-  "contrast": 10,
-  "exposure": 830,
-  "gain": 1,
-  "saturation": 16,
-  "temperature": 4500
+  "brightness": 115,
+  "contrast": 100,
+  "exposure": 230,
+  "gain": 139,
+  "saturation": 185,
+  "temperature": 5280
 }
