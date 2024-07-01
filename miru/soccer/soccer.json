@@ -32,10 +32,10 @@
     "max_accuracy_distance": 160.0,
     "pivoting_max_sec": 60.0,
     "positioning_bottom_goalpost_threshold": 60.0,
-    "positioning_camera_X1": 65.0,
-    "positioning_camera_X2": 116.0,
-    "positioning_camera_X3": 165.0,
-    "positioning_camera_X4": 220.0,
+    "positioning_camera_X1": 60.0,
+    "positioning_camera_X2": 136.0,
+    "positioning_camera_X3": 170.0,
+    "positioning_camera_X4": 230.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -60.0,
     "positioning_check_enemy_using_upside_tilt": true,
@@ -47,7 +47,7 @@
     "prefer_left_kick": false,
     "refresh_position_with_goalpost": false,
     "short_kick_position_x": 300.0,
-    "using_half_pivot": true
+    "using_half_pivot": false
   },
   "keeper": {
     "cancel_move_on_lost_ball": false,
@@ -87,6 +87,7 @@
     "is_consider_enemy": false,
     "kick_dribble_direction": 0.0,
     "look_to_goalpost_tilt": -10.0,
+    "pass_to_friend_strategy": true,
     "tilt_enemy_kickoff": -40.0,
     "using_dribble": false,
     "using_slow_kick": true
@@ -98,9 +99,6 @@
     "x_speed": 0.0,
     "y_speed": 13.0
   },
-  "mode_penalty_keeper": {
-    "keeper_head_tilt": -15.0
-  },
   "mode_penalty_kick": {
     "target_direction": 0.0
   },
@@ -110,11 +108,11 @@
   "player": {
     "diagonal_chance": 0.0,
     "dribble_chance": 0.0,
-    "goalkeeper": true,
-    "goalkeeper_sit": true,
+    "goalkeeper": false,
+    "goalkeeper_sit": false,
     "id": 3,
     "name": "miru",
-    "role": "defender",
+    "role": "left wing",
     "shortkick": false,
     "sidekick": false,
     "strategy": "offensive"

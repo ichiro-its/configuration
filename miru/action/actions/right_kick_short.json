@@ -84,7 +84,7 @@
       "name": "step_3",
       "pause": 0.05,
       "speed": 0,
-      "time": 0.25
+      "time": 0.1
     },
     {
       "joints": {
