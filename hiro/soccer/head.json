@@ -34,8 +34,8 @@
     "tilt_offset": 0
   },
   "Limit": {
-    "right_limit": -60,
-    "left_limit": 60,
+    "right_limit": -75,
+    "left_limit": 75,
     "bottom_limit": -80,
     "top_limit": 10
   },
@@ -47,7 +47,7 @@
     "bottom_limit": -60
   },
   "Gain": {
-    "pan_p_gain": 0.032,
+    "pan_p_gain": 0.035,
     "pan_d_gain": 0.04,
     "tilt_p_gain": 0.032,
     "tilt_d_gain": 0.02

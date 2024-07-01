@@ -69,9 +69,9 @@
         "left_knee": -20.917969,
         "left_shoulder_pitch": 9.931641,
         "left_shoulder_roll": 39.990234,
-        "neck_pitch": -18.369141,
-        "neck_yaw": 0.087891,
-        "right_ankle_pitch": 30.849609,
+        "neck_pitch": 0,
+        "neck_yaw": 0,
+        "right_ankle_pitch": 27.333984,
         "right_ankle_roll": -13.007812,
         "right_elbow": 56.953125,
         "right_hip_pitch": -27.773438,
@@ -88,13 +88,13 @@
     },
     {
       "joints": {
-        "left_ankle_pitch": -23.818359,
+        "left_ankle_pitch": -30.9375,
         "left_ankle_roll": -12.744141,
         "left_elbow": -56.953125,
-        "left_hip_pitch": 34.541016,
+        "left_hip_pitch": 45.878906,
         "left_hip_roll": -6.503906,
         "left_hip_yaw": -2.900391,
-        "left_knee": -43.330078,
+        "left_knee": -62.841797,
         "left_shoulder_pitch": 9.931641,
         "left_shoulder_roll": 39.990234,
         "neck_pitch": 0,
@@ -107,7 +107,7 @@
         "right_hip_yaw": -0.439453,
         "right_knee": 55.986328,
         "right_shoulder_pitch": -9.931641,
-        "right_shoulder_roll": -39.990234
+        "right_shoulder_roll": 2.373047
       },
       "name": "step_3",
       "pause": 0.2,
