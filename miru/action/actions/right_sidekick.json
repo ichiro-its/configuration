@@ -5,7 +5,7 @@
     {
       "joints": {
         "left_ankle_pitch": -18.193359,
-        "left_ankle_roll": 10.019531,
+        "left_ankle_roll": 8.261719,
         "left_elbow": -35.947266,
         "left_hip_pitch": 30.146484,
         "left_hip_roll": -6.328125,
@@ -15,20 +15,20 @@
         "left_shoulder_roll": 43.945312,
         "neck_pitch": 0,
         "neck_yaw": 0,
-        "right_ankle_pitch": 4.658203,
-        "right_ankle_roll": 36.738281,
-        "right_elbow": 36.914062,
-        "right_hip_pitch": -13.798828,
-        "right_hip_roll": 6.328125,
+        "right_ankle_pitch": 0.351562,
+        "right_ankle_roll": 29.794922,
+        "right_elbow": 69.521484,
+        "right_hip_pitch": -13.535156,
+        "right_hip_roll": -1.933594,
         "right_hip_yaw": 0.439453,
-        "right_knee": 10.810547,
-        "right_shoulder_pitch": 0,
-        "right_shoulder_roll": -34.980469
+        "right_knee": 6.064453,
+        "right_shoulder_pitch": -19.072266,
+        "right_shoulder_roll": -13.886719
       },
       "name": "step_1",
       "pause": 0,
       "speed": 0,
-      "time": 0.7
+      "time": 0.6
     },
     {
       "joints": {
@@ -54,7 +54,7 @@
         "right_shoulder_roll": -34.013672
       },
       "name": "step_2",
-      "pause": 0.1,
+      "pause": 0.15,
       "speed": 0,
       "time": 0.5
     },
@@ -69,22 +69,22 @@
         "left_knee": -36.298828,
         "left_shoulder_pitch": -2.988281,
         "left_shoulder_roll": 43.945312,
-        "neck_pitch": 1.582031,
-        "neck_yaw": 0.087891,
-        "right_ankle_pitch": -10.458984,
-        "right_ankle_roll": 24.345703,
+        "neck_pitch": 0,
+        "neck_yaw": 0,
+        "right_ankle_pitch": -15.820312,
+        "right_ankle_roll": 24.433594,
         "right_elbow": 36.474609,
-        "right_hip_pitch": -45.087891,
-        "right_hip_roll": 29.882812,
-        "right_hip_yaw": -44.824219,
-        "right_knee": 16.875,
+        "right_hip_pitch": -28.740234,
+        "right_hip_roll": 12.744141,
+        "right_hip_yaw": -52.646484,
+        "right_knee": 4.394531,
         "right_shoulder_pitch": 4.746094,
         "right_shoulder_roll": -32.431641
       },
       "name": "step_3",
       "pause": 0.1,
       "speed": 0,
-      "time": 0.4
+      "time": 0.3
     },
     {
       "joints": {
@@ -112,7 +112,7 @@
       "name": "step_4",
       "pause": 0.1,
       "speed": 0,
-      "time": 0.4
+      "time": 0.3
     }
   ],
   "start_delay": 1.5,

@@ -21,7 +21,7 @@
     "swing_up_down": 0,
     "arm_swing_gain": 0.009999985098838865,
     "backward_hip_comp_ratio": 0.039900159963965766,
-    "forward_hip_comp_ratio": -0.02000000171363376,
+    "forward_hip_comp_ratio": -0.050000001713633765,
     "foot_comp_ratio": 0.6,
     "dsp_comp_ratio": 0.05,
     "move_accel_ratio": 0.1500000055879354,

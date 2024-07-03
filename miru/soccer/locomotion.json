@@ -1,8 +1,8 @@
 {
   "move": {
-    "min_x": 14,
-    "max_x": 22,
-    "max_a": 5,
+    "min_x": 12,
+    "max_x": 20,
+    "max_a": 6,
     "max_y": 10
   },
   "rotate": {
@@ -10,13 +10,13 @@
     "max_delta_direction": 14
   },
   "follow": {
-    "min_x": 14,
-    "max_x": 23,
-    "min_ly": 6,
+    "min_x": 12,
+    "max_x": 20,
+    "min_ly": 8,
     "max_ly": 7,
     "min_ry": -6,
     "max_ry": -7,
-    "max_a": 6,
+    "max_a": 7,
     "l_a_offset": 0,
     "r_a_offset": 0,
     "min_tilt_": -50,
@@ -43,48 +43,49 @@
   "pivot": {
     "min_x": -10,
     "max_x": 6,
-    "max_ly": 27,
-    "max_ry": -27,
-    "max_a": 8,
-    "target_tilt": -59,
+    "max_ly": 20,
+    "max_ry": -20,
+    "max_a": 6,
+    "target_tilt": -63,
     "pan_range_ratio": 0.5,
     "max_delta_direction": 4,
     "pan_range_a_speed": 18,
     "pivot_stop_limit": 110
   },
   "backward": {
-    "min_x": -10,
-    "max_x": -20,
+    "min_x": -15,
+    "max_x": -23,
     "max_a": 8
   },
   "position": {
-    "min_x": -12,
+    "min_x": -10,
     "max_x": 8,
-    "min_ly": 14,
-    "max_ly": 15,
-    "min_ry": -14,
-    "max_ry": -15,
+    "min_ly": 11,
+    "max_ly": 13,
+    "min_ry": -12,
+    "max_ry": -14,
     "max_a": 8,
     "min_delta_tilt": 3,
     "min_delta_pan": 3,
     "min_delta_pan_tilt": 3,
     "min_delta_direction": 8,
     "min_range_pan": -22,
-    "center_range_pan": 10,
-    "max_range_pan": 26,
+    "center_right_range_pan": 10,
+    "center_left_range_pan": 13,
+    "max_range_pan": 27,
     "min_range_tilt": -80,
-    "max_range_tilt": -64,
+    "max_range_tilt": -67,
     "min_dynamic_range_pan": -62,
     "max_dynamic_range_pan": 44,
     "min_dynamic_range_tilt": -72,
     "max_dynamic_range_tilt": -63
   },
   "left_kick": {
-    "target_pan": 20,
-    "target_tilt": -66
+    "target_pan": 22,
+    "target_tilt": -69
   },
   "right_kick": {
-    "target_pan": -18,
-    "target_tilt": -66
+    "target_pan": -16,
+    "target_tilt": -69
   }
 }
