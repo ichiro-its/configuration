@@ -1,8 +1,8 @@
 {
   "move": {
     "min_x": 12,
-    "max_x": 25,
-    "max_a": 8,
+    "max_x": 20,
+    "max_a": 6,
     "max_y": 10
   },
   "rotate": {
@@ -11,12 +11,12 @@
   },
   "follow": {
     "min_x": 12,
-    "max_x": 25,
+    "max_x": 20,
     "min_ly": 8,
     "max_ly": 7,
     "min_ry": -6,
     "max_ry": -7,
-    "max_a": 8,
+    "max_a": 7,
     "l_a_offset": 0,
     "r_a_offset": 0,
     "min_tilt_": -50,
@@ -58,7 +58,7 @@
     "max_a": 8
   },
   "position": {
-    "min_x": -12,
+    "min_x": -10,
     "max_x": 8,
     "min_ly": 11,
     "max_ly": 13,

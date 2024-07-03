@@ -32,7 +32,7 @@
     "max_accuracy_distance": 160.0,
     "pivoting_max_sec": 60.0,
     "positioning_bottom_goalpost_threshold": 60.0,
-    "positioning_camera_X1": 65.0,
+    "positioning_camera_X1": 70.0,
     "positioning_camera_X2": 136.0,
     "positioning_camera_X3": 170.0,
     "positioning_camera_X4": 230.0,
@@ -47,7 +47,7 @@
     "prefer_left_kick": false,
     "refresh_position_with_goalpost": false,
     "short_kick_position_x": 300.0,
-    "using_half_pivot": true
+    "using_half_pivot": false
   },
   "keeper": {
     "cancel_move_on_lost_ball": false,
@@ -87,7 +87,7 @@
     "is_consider_enemy": false,
     "kick_dribble_direction": 0.0,
     "look_to_goalpost_tilt": -10.0,
-    "pass_to_friend_strategy": false,
+    "pass_to_friend_strategy": true,
     "tilt_enemy_kickoff": -40.0,
     "using_dribble": false,
     "using_slow_kick": true
@@ -97,7 +97,7 @@
     "target_x": 0.0,
     "target_y": -50.0,
     "x_speed": 0.0,
-    "y_speed": 18.0
+    "y_speed": 20.0
   },
   "mode_penalty_kick": {
     "target_direction": 0.0
@@ -135,6 +135,6 @@
   },
   "team": {
     "color": "blue",
-    "id": 1
+    "id": 4
   }
 }
