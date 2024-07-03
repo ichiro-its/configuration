@@ -46,41 +46,41 @@
     "pan_comp": 5
   },
   "pivot": {
-    "target_tilt": -68,
-    "max_ry": -22,
-    "min_x": -17,
-    "max_ly": 22,
-    "max_x": 17,
-    "max_a": 6,
+    "target_tilt": -59,
+    "max_ry": -18,
+    "min_x": -18,
+    "max_ly": 18,
+    "max_x": 11,
+    "max_a": 5,
     "max_delta_direction": 4,
-    "pan_range_a_speed": 20,
+    "pan_range_a_speed": 15,
     "pivot_stop_limit": 110
   },
   "position": {
-    "max_a": 6.5,
-    "min_x": -5,
-    "max_ry": -13,
-    "min_ly": 13,
+    "max_a": 7,
+    "min_x": -10,
+    "max_ry": -12,
+    "min_ly": 14,
     "min_ry": -12,
     "max_x": 8,
     "max_ly": 14,
     "min_delta_tilt": 5,
     "min_delta_pan": 5,
     "min_delta_pan_tilt": 3,
-    "min_delta_direction": 10,
-    "max_range_tilt": -69,
-    "min_range_tilt": -71,
-    "min_range_pan": -27,
-    "center_right_range_pan": 20,
-    "center_left_range_pan": 20,
-    "max_range_pan": 27
+    "min_delta_direction": 7,
+    "max_range_tilt": -66,
+    "min_range_tilt": -72,
+    "min_range_pan": -17,
+    "center_right_range_pan": -13,
+    "center_left_range_pan": 13,
+    "max_range_pan": 17
   },
   "left_kick": {
-    "target_tilt": -72.0,
-    "target_pan": 22
+    "target_tilt": -66.5,
+    "target_pan": 14
   },
   "right_kick": {
-    "target_pan": -22,
-    "target_tilt": -72.0
+    "target_pan": -14,
+    "target_tilt": -66.5
   }
 }

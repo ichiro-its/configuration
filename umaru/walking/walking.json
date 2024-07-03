@@ -36,21 +36,21 @@
     "left_knee": 4,
     "left_shoulder_pitch": 3,
     "left_shoulder_roll": 34,
-    "right_ankle_pitch": -5,
-    "right_ankle_roll": 1,
+    "right_ankle_pitch": -3,
+    "right_ankle_roll": 2,
     "right_elbow": 40,
     "right_hip_pitch": 7,
     "right_hip_roll": 6,
     "right_hip_yaw": 1,
-    "right_knee": -5,
+    "right_knee": -3,
     "right_shoulder_pitch": -3,
     "right_shoulder_roll": -24
   },
   "odometry": {
-    "bx_coefficient": 6.0,
-    "fx_coefficient": 6.8,
-    "ly_coefficient": 2.5,
-    "ry_coefficient": 4.2
+    "bx_coefficient": 6.5,
+    "fx_coefficient": 6.7,
+    "ly_coefficient": 3.6,
+    "ry_coefficient": 4.8
   },
   "pid": {
     "d_gain": 3,
