@@ -39,7 +39,7 @@
     "right_ankle_pitch": -1,
     "right_ankle_roll": 4,
     "right_elbow": 40,
-    "right_hip_pitch": 3.999999999999999,
+    "right_hip_pitch": 1.9999999999999991,
     "right_hip_roll": 6,
     "right_hip_yaw": 0,
     "right_knee": -3,
@@ -48,9 +48,9 @@
   },
   "odometry": {
     "bx_coefficient": 6.7,
-    "fx_coefficient": 7.2,
-    "ly_coefficient": 4.8,
-    "ry_coefficient": 5.7
+    "fx_coefficient": 6.4,
+    "ly_coefficient": 5.3,
+    "ry_coefficient": 5.3
   },
   "pid": {
     "d_gain": 3,

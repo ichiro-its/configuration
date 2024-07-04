@@ -23,9 +23,9 @@
     "foot_comp_ratio": 0.5,
     "foot_height": 25,
     "forward_hip_comp_ratio": -0.02,
-    "move_accel_ratio": 0.09999999999999999,
+    "move_accel_ratio": 0.3000000000000001,
     "period_comp_ratio": -0.5,
-    "period_time": 580,
+    "period_time": 560,
     "swing_right_left": 0,
     "swing_up_down": 0
   }
