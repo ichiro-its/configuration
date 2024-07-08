@@ -28,7 +28,7 @@
       "name": "step_0",
       "pause": 0.02,
       "speed": 0.02,
-      "time": 0.8
+      "time": 0.4
     },
     {
       "joints": {
@@ -56,7 +56,7 @@
       "name": "step_1",
       "pause": 0.02,
       "speed": 0.02,
-      "time": 0.8
+      "time": 0.3
     },
     {
       "joints": {
@@ -84,7 +84,7 @@
       "name": "step_2",
       "pause": 0.02,
       "speed": 0.02,
-      "time": 0.8
+      "time": 0.4
     },
     {
       "joints": {
@@ -112,7 +112,7 @@
       "name": "step_3",
       "pause": 0.02,
       "speed": 0.02,
-      "time": 0.8
+      "time": 0.6
     },
     {
       "joints": {
@@ -140,7 +140,7 @@
       "name": "step_4",
       "pause": 0.02,
       "speed": 0.02,
-      "time": 0.8
+      "time": 0.45
     },
     {
       "joints": {
@@ -168,35 +168,35 @@
       "name": "step_5",
       "pause": 0.02,
       "speed": 0.02,
-      "time": 0.8
+      "time": 0.5
     },
     {
       "joints": {
-        "left_ankle_pitch": -21.269531,
-        "left_ankle_roll": -4.746094,
+        "left_ankle_pitch": -18.984375,
+        "left_ankle_roll": -4.921875,
         "left_elbow": -39.990234,
-        "left_hip_pitch": 41.396484,
-        "left_hip_roll": -8.173828,
-        "left_hip_yaw": -1.933594,
-        "left_knee": -44.736328,
-        "left_shoulder_pitch": 1.933594,
-        "left_shoulder_roll": 30.9375,
+        "left_hip_pitch": 35.419922,
+        "left_hip_roll": -7.470703,
+        "left_hip_yaw": -0.966797,
+        "left_knee": -39.550781,
+        "left_shoulder_pitch": 2.988281,
+        "left_shoulder_roll": 33.925781,
         "neck_pitch": 0,
         "neck_yaw": 0,
-        "right_ankle_pitch": 23.291016,
-        "right_ankle_roll": 3.691406,
+        "right_ankle_pitch": 18.984375,
+        "right_ankle_roll": 4.921875,
         "right_elbow": 39.990234,
-        "right_hip_pitch": -42.451172,
-        "right_hip_roll": 7.119141,
+        "right_hip_pitch": -29.970703,
+        "right_hip_roll": 8.525391,
         "right_hip_yaw": 0.966797,
-        "right_knee": 49.658203,
+        "right_knee": 40.517578,
         "right_shoulder_pitch": -2.988281,
-        "right_shoulder_roll": -28
+        "right_shoulder_roll": -23.994141
       },
       "name": "step_6",
       "pause": 0,
       "speed": 0.02,
-      "time": 0.8
+      "time": 0.6
     }
   ],
   "start_delay": 0,

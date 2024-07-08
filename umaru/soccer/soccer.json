@@ -18,18 +18,18 @@
     "using_skew": false
   },
   "game": {
-    "check_enemy_tilt": -15.0,
+    "check_enemy_tilt": -20.0,
     "check_enemy_using_color": false,
     "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
     "consider_backward_move": true,
     "custom_kick_direction": false,
-    "direction_based_on_goalpost": true,
+    "direction_based_on_goalpost": false,
     "hold_backward_tilt": -5.0,
     "hold_follow_tilt": 10.0,
     "is_map_kick": false,
     "kick_direction": 0.0,
-    "max_accuracy_distance": 200.0,
+    "max_accuracy_distance": 150.0,
     "pivoting_max_sec": 60.0,
     "positioning_bottom_goalpost_threshold": 68.0,
     "positioning_camera_X1": 85.0,
@@ -38,15 +38,15 @@
     "positioning_camera_X4": 225.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -56.0,
-    "positioning_check_enemy_using_upside_tilt": true,
-    "positioning_delay_time": 2.25,
+    "positioning_check_enemy_using_upside_tilt": false,
+    "positioning_delay_time": 1.899999976158142,
     "positioning_field_threshold": 20000.0,
     "positioning_max_sec": 10.0,
     "positioning_robot_area_threshold": 12000.0,
     "positioning_robot_color_threshold": 10000.0,
     "prefer_left_kick": false,
     "refresh_position_with_goalpost": false,
-    "short_kick_position_x": 400.0,
+    "short_kick_position_x": 550.0,
     "using_half_pivot": false
   },
   "keeper": {
@@ -93,11 +93,11 @@
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "a_speed": -1.7000048160552979,
-    "target_x": 0.0,
-    "target_y": 50.0,
-    "x_speed": 0.0,
-    "y_speed": -18.0
+    "a_speed": 0.0,
+    "target_x": -100.0,
+    "target_y": 0.0,
+    "x_speed": -25.0,
+    "y_speed": 0.0
   },
   "mode_penalty_kick": {
     "target_direction": 13.0
@@ -126,11 +126,11 @@
   },
   "soccer": {
     "ball_classifier_type": "dnn",
-    "dnn_with_color": true,
+    "dnn_with_color": false,
     "drop_in": false,
     "test": true,
-    "test_release_x": 500.0,
-    "test_release_y": 500.0,
+    "test_release_x": 375.0,
+    "test_release_y": 300.0,
     "type": "kri"
   },
   "team": {

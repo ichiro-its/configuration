@@ -15,10 +15,10 @@
     "max_delta_direction": 14
   },
   "follow": {
-    "min_tilt_": -50,
+    "min_tilt_": -30,
     "pan_ratio": 0,
     "max_a": 6,
-    "max_x": 26,
+    "max_x": 30,
     "min_x": 12,
     "r_a_offset": -0.521128118,
     "l_a_offset": 0.247227177,
