@@ -94,10 +94,10 @@
   },
   "mode_odometry": {
     "a_speed": 0.0,
-    "target_x": 0.0,
-    "target_y": -50.0,
+    "target_x": -100.0,
+    "target_y": 0.0,
     "x_speed": 0.0,
-    "y_speed": 20.0
+    "y_speed": -20.0
   },
   "mode_penalty_kick": {
     "target_direction": 0.0
@@ -128,7 +128,7 @@
     "ball_classifier_type": "dnn",
     "dnn_with_color": true,
     "drop_in": false,
-    "test": false,
+    "test": true,
     "test_release_x": 300.0,
     "test_release_y": 300.0,
     "type": "kri"
