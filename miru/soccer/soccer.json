@@ -93,11 +93,11 @@
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "a_speed": -1.0,
+    "a_speed": 0.0,
     "target_x": 0.0,
     "target_y": 50.0,
     "x_speed": 0.0,
-    "y_speed": -17.0
+    "y_speed": 20.0
   },
   "mode_penalty_kick": {
     "target_direction": 0.0
@@ -128,7 +128,7 @@
     "ball_classifier_type": "dnn",
     "dnn_with_color": false,
     "drop_in": false,
-    "test": false,
+    "test": true,
     "test_release_x": 300.0,
     "test_release_y": 180.0,
     "type": "robocup"

@@ -47,10 +47,10 @@
     "right_shoulder_roll": -35
   },
   "odometry": {
-    "bx_coefficient": 6.5,
-    "fx_coefficient": 6.83,
-    "ly_coefficient": 5.1,
-    "ry_coefficient": 4.9
+    "bx_coefficient": 5.75,
+    "fx_coefficient": 6.65,
+    "ly_coefficient": 3.0,
+    "ry_coefficient": 4.75
   },
   "pid": {
     "d_gain": 3,
