@@ -32,7 +32,7 @@
   },
   "dribble": {
     "min_x": -18,
-    "max_x": 15,
+    "max_x": 20,
     "min_ly": 15,
     "max_ly": 20,
     "min_ry": -15,
@@ -59,7 +59,7 @@
   },
   "position": {
     "min_x": -5,
-    "max_x": 4.5,
+    "max_x": 8,
     "min_ly": 13,
     "max_ly": 15,
     "min_ry": -13,
@@ -70,7 +70,7 @@
     "min_delta_pan_tilt": 3,
     "min_delta_direction": 8,
     "min_range_pan": -20,
-    "center_right_range_pan": 12,
+    "center_right_range_pan": 13,
     "center_left_range_pan": 13,
     "max_range_pan": 23,
     "min_range_tilt": -80,
