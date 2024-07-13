@@ -28,7 +28,7 @@
       "name": "step_0",
       "pause": 0.02,
       "speed": 0.64,
-      "time": 1
+      "time": 0.4
     },
     {
       "joints": {
@@ -56,7 +56,7 @@
       "name": "step_1",
       "pause": 0.02,
       "speed": 0.64,
-      "time": 1
+      "time": 0.3
     },
     {
       "joints": {
@@ -84,7 +84,7 @@
       "name": "step_2",
       "pause": 0.02,
       "speed": 0.64,
-      "time": 1
+      "time": 0.6
     },
     {
       "joints": {
@@ -112,7 +112,7 @@
       "name": "step_3",
       "pause": 0.02,
       "speed": 0.64,
-      "time": 1
+      "time": 0.5
     },
     {
       "joints": {
@@ -140,7 +140,7 @@
       "name": "step_4",
       "pause": 0.02,
       "speed": 0.64,
-      "time": 1
+      "time": 0.45
     }
   ],
   "start_delay": 0,

@@ -32,7 +32,7 @@
   },
   "dribble": {
     "min_x": -18,
-    "max_x": 15,
+    "max_x": 20,
     "min_ly": 15,
     "max_ly": 20,
     "min_ry": -15,
@@ -53,13 +53,13 @@
     "pivot_stop_limit": 110
   },
   "backward": {
-    "min_x": -8,
-    "max_x": -20,
+    "min_x": -6,
+    "max_x": -23,
     "max_a": 8
   },
   "position": {
     "min_x": -5,
-    "max_x": 4.5,
+    "max_x": 8,
     "min_ly": 13,
     "max_ly": 15,
     "min_ry": -13,
@@ -69,24 +69,24 @@
     "min_delta_pan": 3,
     "min_delta_pan_tilt": 3,
     "min_delta_direction": 8,
-    "min_range_pan": -19,
-    "center_right_range_pan": 10,
-    "center_left_range_pan": 10,
-    "max_range_pan": 21,
+    "min_range_pan": -20,
+    "center_right_range_pan": 13,
+    "center_left_range_pan": 13,
+    "max_range_pan": 23,
     "min_range_tilt": -80,
-    "max_range_tilt": -66,
+    "max_range_tilt": -67,
     "min_dynamic_range_pan": -62,
     "max_dynamic_range_pan": 44,
     "min_dynamic_range_tilt": -72,
     "max_dynamic_range_tilt": -63
   },
   "left_kick": {
-    "target_pan": 18,
+    "target_pan": 20,
     "target_tilt": -69
   },
   "right_kick": {
-    "target_pan": -18,
-    "target_tilt": -69
+    "target_pan": -20.6,
+    "target_tilt": -72.5
   },
   "speed_control": {
     "pitch_unstable_threshold": 12,

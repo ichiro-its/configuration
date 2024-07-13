@@ -1,0 +1,37 @@
+{
+  "name": "dk_kick",
+  "next": "",
+  "poses": [
+    {
+      "joints": {
+        "left_ankle_pitch": -22.060547,
+        "left_ankle_roll": 12.480469,
+        "left_elbow": -39.990234,
+        "left_hip_pitch": 28.212891,
+        "left_hip_roll": -7.470703,
+        "left_hip_yaw": 0.966797,
+        "left_knee": -40.517578,
+        "left_shoulder_pitch": 2.988281,
+        "left_shoulder_roll": 42.978516,
+        "neck_pitch": 0,
+        "neck_yaw": 0,
+        "right_ankle_pitch": -13.007812,
+        "right_ankle_roll": 16.171875,
+        "right_elbow": 39.990234,
+        "right_hip_pitch": -53.613281,
+        "right_hip_roll": 7.294922,
+        "right_hip_yaw": 0,
+        "right_knee": 18.632812,
+        "right_shoulder_pitch": -2.988281,
+        "right_shoulder_roll": -34.980469
+      },
+      "name": "New Pose",
+      "pause": 0,
+      "speed": 0,
+      "time": 0.3
+    }
+  ],
+  "start_delay": 0,
+  "stop_delay": 0,
+  "time_based": true
+}
