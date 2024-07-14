@@ -54,7 +54,7 @@
   },
   "Center": {
     "pan_center": 0,
-    "tilt_center": 0
+    "tilt_center": 45
   },
   "FOVCamera": {
     "horizontal_fov": 79.5,

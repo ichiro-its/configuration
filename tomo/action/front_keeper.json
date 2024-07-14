@@ -32,7 +32,7 @@
     },
     {
       "joints": {
-        "left_ankle_pitch": -74.794922,
+        "left_ankle_pitch": -73.388672,
         "left_ankle_roll": 0.878906,
         "left_elbow": -30.849609,
         "left_hip_pitch": -8.701172,
@@ -41,9 +41,9 @@
         "left_knee": 11.074219,
         "left_shoulder_pitch": -156.269531,
         "left_shoulder_roll": 29.355469,
-        "neck_pitch": 38.671875,
-        "neck_yaw": 0.615234,
-        "right_ankle_pitch": 86.132812,
+        "neck_pitch": 45,
+        "neck_yaw": 0,
+        "right_ankle_pitch": 75.9375,
         "right_ankle_roll": 7.119141,
         "right_elbow": 32.958984,
         "right_hip_pitch": 8.964844,
