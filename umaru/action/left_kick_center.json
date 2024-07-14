@@ -1,5 +1,5 @@
 {
-  "name": "left_kick_short",
+  "name": "left_kick_center",
   "next": "walk_ready",
   "poses": [
     {
@@ -84,7 +84,7 @@
       "name": "step_2",
       "pause": 0,
       "speed": 0.01,
-      "time": 0.3
+      "time": 0.01
     },
     {
       "joints": {

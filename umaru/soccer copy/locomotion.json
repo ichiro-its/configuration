@@ -17,7 +17,7 @@
   },
   "backward":{
     "max_a": 5,
-    "max_x": -18,
+    "max_x": -25,
     "min_x": -10
   },
   "rotate": {
@@ -28,7 +28,7 @@
     "min_tilt_": -40,
     "pan_ratio": 0,
     "max_a": 6,
-    "max_x": 25,
+    "max_x": 28,
     "min_x": 12,
     "r_a_offset": -0.521128118,
     "l_a_offset": 0.247227177,
