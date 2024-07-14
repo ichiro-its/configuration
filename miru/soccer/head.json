@@ -40,11 +40,11 @@
     "bottom_limit": -85
   },
   "Scan": {
-    "scan_speed": 0.4,
+    "scan_speed": 0.3,
     "left_limit": 90,
     "right_limit": -90,
     "top_limit": 0,
-    "bottom_limit": -65
+    "bottom_limit": -50
   },
   "Gain": {
     "pan_p_gain": 0.04,
