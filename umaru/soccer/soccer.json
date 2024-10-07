@@ -25,8 +25,8 @@
     "consider_backward_move": true,
     "custom_kick_direction": false,
     "direction_based_on_goalpost": false,
-    "hold_backward_tilt": -5.0,
-    "hold_follow_tilt": 10.0,
+    "hold_backward_tilt": -15.0,
+    "hold_follow_tilt": -5.0,
     "is_map_kick": false,
     "kick_direction": 0.0,
     "max_accuracy_distance": 150.0,
@@ -36,6 +36,7 @@
     "positioning_camera_X2": 130.0,
     "positioning_camera_X3": 180.0,
     "positioning_camera_X4": 225.0,
+    "positioning_camera_X_center": 150.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -56.0,
     "positioning_check_enemy_using_upside_tilt": false,
@@ -45,8 +46,9 @@
     "positioning_robot_area_threshold": 12000.0,
     "positioning_robot_color_threshold": 10000.0,
     "prefer_left_kick": false,
+    "refresh_position_on_ball_set": true,
     "refresh_position_with_goalpost": false,
-    "short_kick_position_x": 550.0,
+    "short_kick_position_x": 0.0,
     "using_half_pivot": false
   },
   "keeper": {
@@ -95,9 +97,9 @@
   "mode_odometry": {
     "a_speed": -3.0,
     "target_x": 0.0,
-    "target_y": -100.0,
+    "target_y": -50.0,
     "x_speed": 0.0,
-    "y_speed": -20.0
+    "y_speed": -18.0
   },
   "mode_penalty_kick": {
     "target_direction": 13.0
@@ -118,11 +120,11 @@
     "strategy": "offensive"
   },
   "release": {
-    "method": "field",
+    "method": "dnn_front",
     "release_pan_max": 70.0,
     "release_pan_min": -70.0,
-    "tilt": -40.0,
-    "using_button": true
+    "tilt": -30.0,
+    "using_button": false
   },
   "soccer": {
     "ball_classifier_type": "dnn",
