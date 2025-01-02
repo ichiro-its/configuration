@@ -1,4 +1,5 @@
 {
+    "world_scale": 1.0,
     "odom": {
       "translation": {"x": 0.0, "y": 0.0, "z": 0.0},
       "const_rpy": {"roll": 0.0, "pitch": 0.0, "yaw": 0.0}
@@ -13,11 +14,11 @@
     },
     "head": {
       "translation": {"x": 2.9161, "y": 0.0, "z": 6.22},
-      "const_rpy": {"roll": 0.0, "pitch": 0.0, "yaw": 20.0}
+      "const_rpy": {"roll": 0.0, "pitch": 0.0, "yaw": 0.0}
     },
     "gaze": {
       "translation": {"x": 0.0, "y": 0.0, "z": 2.34},
-      "const_rpy": {"roll": 0.0, "pitch": 132.0, "yaw": 0.0}
+      "const_rpy": {"roll": 0.0, "pitch": -90.0, "yaw": 0.0}
     },
     "camera": {
       "translation": {"x": 0.0, "y": 0.0, "z": 4.0},

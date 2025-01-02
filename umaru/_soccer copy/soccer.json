@@ -46,7 +46,6 @@
     "positioning_robot_color_threshold": 10000.0,
     "prefer_left_kick": false,
     "refresh_position_with_goalpost": false,
-    "refresh_position_with_x_intersect": false,
     "short_kick_position_x": 550.0,
     "using_half_pivot": false
   },
@@ -95,10 +94,10 @@
   },
   "mode_odometry": {
     "a_speed": 1.5,
-    "target_x": 0.0,
-    "target_y": -50.0,
-    "x_speed": 0.0,
-    "y_speed": 18.0
+    "target_x": 100.0,
+    "target_y": 0.0,
+    "x_speed": 10.0,
+    "y_speed": 0.0
   },
   "mode_penalty_kick": {
     "target_direction": 13.0
@@ -112,7 +111,7 @@
     "goalkeeper": false,
     "goalkeeper_sit": false,
     "id": 1,
-    "is_technical_challenge": false,
+    "is_technical_challenge": true,
     "name": "umaru",
     "role": "striker",
     "shortkick": false,
@@ -126,11 +125,40 @@
     "tilt": -40.0,
     "using_button": true
   },
+  "robocup_technical_challenge": {
+    "collab_vision_initial_orientation": 0.0,
+    "collab_vision_initial_x": 350.0,
+    "collab_vision_initial_y": 0.0,
+    "collab_vision_minus_x": 30.0,
+    "collab_vision_minus_y": 0.0,
+    "collab_visionless_side_step_limit": 3.0,
+    "collab_visionless_x_addition": 15.0,
+    "dynamic_kick_pan_angle": -40.0,
+    "dynamic_kick_tilt_angle": -65.0,
+    "high_kick_dribble_x": 20.0,
+    "obstacle_run_forward_tilt": -15.0,
+    "obstacle_run_left_border": 265.0,
+    "obstacle_run_max_a_speed": 6.0,
+    "obstacle_run_max_bx_speed": -7.0,
+    "obstacle_run_max_fx_speed": 15.0,
+    "obstacle_run_max_ly_speed": 20.0,
+    "obstacle_run_max_ry_speed": -20.0,
+    "obstacle_run_min_bx_speed": -7.0,
+    "obstacle_run_min_fx_speed": 8.0,
+    "obstacle_run_min_ly_speed": 17.0,
+    "obstacle_run_min_ry_speed": -17.0,
+    "obstacle_run_obstacle_bottom_boundary": 200.0,
+    "obstacle_run_obstacle_left_boundary": 66.0,
+    "obstacle_run_obstacle_right_boundary": 254.0,
+    "obstacle_run_obstacle_top_boundary": 180.0,
+    "obstacle_run_right_border": 335.0,
+    "obstacle_run_side_obstacle_min_tilt": -18.0
+  },
   "soccer": {
-    "ball_classifier_type": "dnn",
+    "ball_classifier_type": "color",
     "dnn_with_color": false,
     "drop_in": false,
-    "test": false,
+    "test": true,
     "test_release_x": 375.0,
     "test_release_y": 300.0,
     "type": "robocup"
