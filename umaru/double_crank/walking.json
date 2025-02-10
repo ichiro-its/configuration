@@ -1,0 +1,26 @@
+{
+  "timing": {
+    "dsp_duration": 0.17,
+    "plan_period": 0.34,
+    "step_frames": 17.0,
+    "com_period": 1.0
+  },
+  "posture": {
+    "com_height": 0.375,
+    "foot_height": 0.06,
+    "feet_lateral": 0.34
+  },
+  "offset": {
+    "foot_x_offset": -0.04360000000000016,
+    "foot_y_offset": 0.0495,
+    "foot_z_offset": 0.011499999999999982,
+    "step_y_offset": 0.06,
+    "odometry_x_offset": 0.0,
+    "odometry_y_offset": 0.0
+  },
+  "stride": {
+    "max_x": 0.05,
+    "max_y": 0.03,
+    "max_a": 11.45916
+  }
+}
