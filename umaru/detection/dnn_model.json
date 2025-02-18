@@ -1,0 +1,5 @@
+{
+  "model": "/yolov8s_320_10oct/best.xml",
+  "config": "",
+  "classes": "/yolov8s_320_10oct/obj.names"
+}

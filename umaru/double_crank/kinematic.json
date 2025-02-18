@@ -1,0 +1,12 @@
+{
+  "leg": {
+    "ankle_length": 0.043,
+    "calf_length": 0.118,
+    "knee_length": 0.023,
+    "thigh_length": 0.118
+  },
+  "offset": {
+    "x": -0.0525,
+    "y": 0.0625
+  }
+}
