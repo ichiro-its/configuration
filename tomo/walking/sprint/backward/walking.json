@@ -50,7 +50,7 @@
   },
   "odometry": {
     "bx_coefficient": 5.6,
-    "fx_coefficient": 5.5,
+    "fx_coefficient": 5.6,
     "ly_coefficient": 4.6000000000001,
     "ry_coefficient": 4.5
   },

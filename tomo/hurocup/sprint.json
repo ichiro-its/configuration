@@ -1,0 +1,19 @@
+{
+  "sprint": {
+    "sprint_distance": 305,
+    "deceleration_distance": 240,
+    "min_deceleration": 0.5,
+    "forward_angle_compensation": 0.7,
+    "backward_angle_compensation": 0.3,
+    "walk_in_position_time_limit": 0.3,
+    "walkready_page": 110
+  },
+  "speed": {
+    "min_fx_speed": 40,
+    "constant_x_speed": 43,
+    "max_fx_speed": 47,
+    "min_bx_speed": -50,
+    "max_bx_speed": -55,
+    "max_a_speed": 6
+  }
+}
