@@ -88,5 +88,6 @@
     }
   ],
   "start_delay": 0,
-  "stop_delay": 0
+  "stop_delay": 0,
+  "time_based": true
 }

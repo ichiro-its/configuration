@@ -40,21 +40,21 @@
     "top_limit": 10
   },
   "Scan": {
-    "scan_speed": 0.4,
+    "scan_speed": 0.8,
     "left_limit": 75,
     "right_limit": -75,
     "top_limit": 0,
     "bottom_limit": -45
   },
   "Gain": {
-    "pan_p_gain": 0.035,
+    "pan_p_gain": 0.03,
     "pan_d_gain": 0.04,
-    "tilt_p_gain": 0.052,
+    "tilt_p_gain": 0.03,
     "tilt_d_gain": 0.02
   },
   "Center": {
     "pan_center": 0,
-    "tilt_center": 45
+    "tilt_center": 0
   },
   "FOVCamera": {
     "horizontal_fov": 79.5,

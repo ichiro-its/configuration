@@ -95,8 +95,8 @@
         "left_hip_roll": -2.460938,
         "left_hip_yaw": -2.900391,
         "left_knee": -127.177734,
-        "left_shoulder_pitch": -6.943359,
-        "left_shoulder_roll": 36.035156,
+        "left_shoulder_pitch": -4.658203,
+        "left_shoulder_roll": 29.619141,
         "neck_pitch": 0,
         "neck_yaw": 0,
         "right_ankle_pitch": 64.6875,
@@ -106,8 +106,8 @@
         "right_hip_roll": 4.570312,
         "right_hip_yaw": 1.845703,
         "right_knee": 135.263672,
-        "right_shoulder_pitch": 67.148438,
-        "right_shoulder_roll": -47.724609
+        "right_shoulder_pitch": 6.679688,
+        "right_shoulder_roll": -39.462891
       },
       "name": "step_3",
       "pause": 0,
