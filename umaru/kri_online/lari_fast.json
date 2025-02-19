@@ -1,0 +1,21 @@
+{
+    "sprint": {
+        "sprint_distance": 480,
+        "deceleration_distance": 0,
+        "min_deceleration": 1,
+        "forward_angle_compensation": 0,
+        "backward_angle_compensation": 0,
+        "turn_back_angle": 140,
+        "turn_back_end_direction": 90,
+        "walk_in_position_time_limit": 2,
+        "run_tilt": -8
+    },
+    "speed": {
+        "min_fx_speed": 63,
+        "max_fx_speed": 68,
+        "second_max_fx_speed": 70,
+        "turn_x": 43,
+        "turn_a": -31,
+        "max_a_speed": 8
+    }
+}
