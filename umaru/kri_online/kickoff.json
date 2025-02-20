@@ -9,7 +9,7 @@
     "positioning_max_tilt": -0.386090487,
     "positioning_min_pan": 0.195644304,
     "positioning_min_tilt": 0.268271714,
-    "start_with_kick": true
+    "start_with_kick": false
   },
   "limit": {
     "bottom": -0.379437,
