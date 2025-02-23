@@ -1,0 +1,48 @@
+{
+  "dribble": {
+    "follow_tilt": -50,
+    "field_length": 595,
+    "u_turn_length": 15,
+    "move_max_x_run": 50,
+    "move_min_x_run": 35,
+    "move_max_x_run_second": 60,
+    "move_min_x_run_second": 35,
+    "move_a_run": 4,
+    "go_back_direction": 180,
+    "only_dribble": false,
+    "compensation_angle": -8,
+    "compensation_y": -65,
+    "kick_direction": 180,
+    "acceleration_distance": 35
+  },
+  "skew": {
+    "enable_skew": false,
+    "skew_ball_distance": 75,
+    "skew_u_turn_distance": 100,
+    "skew_u_turn_length": 32,
+    "skew_min_tilt": -20,
+    "skew_max_pan": -54,
+    "skew_min_radius": 15,
+    "radius_coefficient": 2.4000001,
+    "skew_radius_coefficient": 1
+  },
+  "run_skew": {
+    "enable_run_only": true,
+    "min_tilt": -8,
+    "compensation_x_speed": 4,
+    "pan_orientation_comp": 20,
+    "max_pan_orientation": 70
+  },
+  "motion": {
+    "enable_left_kick": false,
+    "enable_right_kick": true,
+    "left_kick": 45,
+    "left_kick_far": 14,
+    "right_kick": 7,
+    "side_left_kick": 10,
+    "side_right_kick": 9,
+    "kick_addition_distance": -150,
+    "kick_addition_state": true,
+    "done_first_kick": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "game": {
+    "backward_tilt": 40.0,
+    "dribble_sec_white_line": 2.79999995,
+    "enable_dribble_strategy": true,
+    "field_length": 600.0,
+    "follow_tilt": -50.0,
+    "max_position_direction": -58.0,
+    "medium_kick_y": -35.0,
+    "min_dribble_tilt": -79.0,
+    "min_position_direction": -80.0,
+    "slow_kick_y": -70.0,
+    "state_enable_auto_forward": false
+  },
+  "motion": {
+    "acceleration_distance": 3.0,
+    "backward_x": 55.0,
+    "ball_distance_cam_localization": 25.0,
+    "done_go_forward_rotate_comp": 35.0,
+    "dribble_sec_delay": 2.0,
+    "estimated_distance_kick": 140.0,
+    "estimated_distance_medium_kick": 75.0,
+    "estimated_distance_slow_kick": 35.0,
+    "first_target_x": 420.0,
+    "first_target_y": -20.0,
+    "kick_direction": 0.0,
+    "kick_sec_delay": 0.600000024
+  },
+  "scan_limit": {
+    "bottom": -80.0,
+    "left": 90.0,
+    "right": 0.0,
+    "top": -15.0
+  }
+}

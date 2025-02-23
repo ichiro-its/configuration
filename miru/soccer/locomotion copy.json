@@ -1,0 +1,106 @@
+{
+  "move": {
+    "min_x": 15,
+    "max_x": 25,
+    "max_a": 7,
+    "max_y": 12
+  },
+  "rotate": {
+    "max_a": 8,
+    "max_delta_direction": 14
+  },
+  "follow": {
+    "min_x": 12,
+    "max_x": 30,
+    "min_ly": 13,
+    "max_ly": 15,
+    "min_ry": -13,
+    "max_ry": -15,
+    "max_a": 7,
+    "l_a_offset": 0,
+    "r_a_offset": 0,
+    "min_tilt_": -50,
+    "pan_ratio": 0,
+    "y_move": false
+  },
+  "skew": {
+    "max_x": 15,
+    "max_a": 10,
+    "tilt": -30,
+    "pan_comp": 27,
+    "delta_direction_comp": 45
+  },
+  "dribble": {
+    "min_x": -18,
+    "max_x": 20,
+    "min_ly": 15,
+    "max_ly": 20,
+    "min_ry": -15,
+    "max_ry": -20,
+    "max_a": 7,
+    "pan_comp": 8
+  },
+  "pivot": {
+    "min_x": -5,
+    "max_x": 8,
+    "max_ly": 25,
+    "max_ry": -25,
+    "max_a": 6,
+    "target_tilt": -63,
+    "pan_range_ratio": 0.5,
+    "max_delta_direction": 4,
+    "pan_range_a_speed": 18,
+    "pivot_stop_limit": 110
+  },
+  "backward": {
+    "min_x": -6,
+    "max_x": -23,
+    "max_a": 8
+  },
+  "position": {
+    "min_x": -5,
+    "max_x": 8,
+    "min_ly": 13,
+    "max_ly": 15,
+    "min_ry": -13,
+    "max_ry": -15,
+    "max_a": 7,
+    "min_delta_tilt": 3,
+    "min_delta_pan": 3,
+    "min_delta_pan_tilt": 3,
+    "min_delta_direction": 8,
+    "min_range_pan": -20,
+    "center_right_range_pan": 13,
+    "center_left_range_pan": 13,
+    "max_range_pan": 23,
+    "min_range_tilt": -80,
+    "max_range_tilt": -67,
+    "min_dynamic_range_pan": -62,
+    "max_dynamic_range_pan": 44,
+    "min_dynamic_range_tilt": -72,
+    "max_dynamic_range_tilt": -63
+  },
+  "left_kick": {
+    "target_pan": 20,
+    "target_tilt": -69
+  },
+  "right_kick": {
+    "target_pan": -20.6,
+    "target_tilt": -72.5
+  },
+  "speed_control": {
+    "pitch_unstable_threshold": 12,
+    "roll_unstable_threshold": 12,
+    "using_speed_control": true
+  },
+  "left": {
+    "min_ly": 13,
+    "max_ly": 15,
+    "max_a": 7
+  },
+  "right": {
+    "min_ly": -13,
+    "max_ly": -15,
+    "max_a": 7
+  }
+}

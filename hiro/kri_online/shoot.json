@@ -1,0 +1,33 @@
+{
+  "game": {
+    "follow_tilt": 4.0,
+    "move_to_target_x": 15.0,
+    "move_to_target_y": 15.0,
+    "positioning_camera_X1": 80.0,
+    "positioning_camera_X2": 160.0,
+    "positioning_camera_X3": 240.0,
+    "positioning_check_ball_pan": 0.0,
+    "positioning_check_ball_tilt": -21.0,
+    "positioning_max_pan": 23.0,
+    "positioning_max_tilt": -24.0,
+    "positioning_min_pan": -23.0,
+    "positioning_min_tilt": -22.0,
+    "walk_in_position_time": 0.5,
+    "using_half_pivot": true
+  },
+  "motion": {
+    "kick_direction": 0.0,
+    "kick_sec_delay": 0.200000003,
+    "transition_to_kick": 0.200000003
+  },
+  "move_head": {
+    "head_pan": -5.0,
+    "head_tilt": 0.0
+  },
+  "scan_limit": {
+    "bottom": -30.0,
+    "left": 40.0,
+    "right": -40.0,
+    "top": 5.0
+  }
+}

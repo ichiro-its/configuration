@@ -1,0 +1,25 @@
+{
+  "game": {
+    "compensation_angle": -0.478396088,
+    "follow_tilt": -0.537322879,
+    "positioning_camera_X1": -0.789143085,
+    "positioning_check_ball_pan": 0.274479389,
+    "positioning_check_ball_tilt": -0.278112203,
+    "positioning_max_pan": -0.410395086,
+    "positioning_max_tilt": -0.386090487,
+    "positioning_min_pan": 0.195644304,
+    "positioning_min_tilt": 0.268271714,
+    "start_with_kick": false
+  },
+  "limit": {
+    "bottom": -0.379437,
+    "left": 0.31650421,
+    "right": -0.547972381,
+    "top": 0.265491903
+  },
+  "motion": {
+    "kick_direction": -0.539558411,
+    "left_kick": -1084860136,
+    "right_kick": -1149045598
+  }
+}
