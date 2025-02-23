@@ -1,0 +1,31 @@
+{
+  "centerline": {
+    "enable_blue": false,
+    "enable_green": false,
+    "enable_red": true,
+    "enable_yellow": true
+  },
+  "marathon": {
+    "follow_tilt": -70.0,
+    "min_odometry_sec": 3.0,
+    "odometry_tilt": -30.0
+  },
+  "speed": {
+    "max_fx_speed": 11.0,
+    "max_la_speed": 7.0,
+    "max_ly_speed": 10.0,
+    "max_ra_speed": -7.0,
+    "max_ry_speed": -10.0,
+    "min_fx_speed": 8.0
+  },
+  "vision": {
+    "middle_bottom_boundary": 200.0,
+    "middle_left_boundary": 50.0,
+    "middle_right_boundary": 270.0,
+    "middle_top_boundary": 180.0,
+    "rate_marker_left": 0.66,
+    "rate_marker_right": 0.15,
+    "top_bottom_boundary": 60.0,
+    "top_top_boundary": 40.0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "motion": {
+    "downward": "spartan_downward",
+    "upward": "spartan_upward"
+  },
+  "spartan": {
+    "move_tilt": -70.0
+  },
+  "vision": {
+    "left_boundary_height": 10.0,
+    "left_boundary_width": 60.0,
+    "left_boundary_x": 60.0,
+    "left_boundary_y": 180.0,
+    "right_boundary_height": 10.0,
+    "right_boundary_width": 60.0,
+    "right_boundary_x": 200.0,
+    "right_boundary_y": 180.0
+  }
+}

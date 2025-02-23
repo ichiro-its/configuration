@@ -1,0 +1,25 @@
+{
+  "penalty_kick": {
+    "follow_tilt": -10,
+    "initial_position_x": 300,
+    "initial_position_y": 300,
+    "goal_position_x": 400,
+    "goal_position_y": 300,
+    "left_kick": 10,
+    "right_kick": -10
+  },
+  "shoot_left": {
+    "direction": -10,
+    "target_x": 400,
+    "target_y": 300
+  },
+  "shoot_right": {
+    "direction": 10,
+    "target_x": 400,
+    "target_y": 300
+  },
+  "motion": {
+    "left_kick": "left_kick",
+    "right_kick": "right_kick"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "basketball": {
+    "basket_direction_comp": -8.0,
+    "basket_target_pan_2_point": -4.4,
+    "basket_target_pan_3_point": -8.7,
+    "basket_target_pan_5_point": -4.4,
+    "basket_target_tilt_2_point": 60.0,
+    "basket_target_tilt_3_point": 52.0,
+    "basket_target_tilt_5_point": -24.0,
+    "max_go_forward": 100.0,
+    "min_delta_pan": 90.0,
+    "min_go_backward": 100.0,
+    "offset_angle_2_point": 0.0,
+    "pick_target_pan": -30.0,
+    "pick_target_tilt": -45.0,
+    "position_shoot_tilt": -85.0,
+    "second_unit_time_count": 1.0,
+    "target_pan_from_left": -22.5,
+    "target_pan_from_right": -22.5,
+    "target_tilt_from_left": 18.0,
+    "target_tilt_from_right": 18.0,
+    "unit_time_count": 1.0
+  },
+  "motion": {
+    "pick_ball": "basketball_pick_ball",
+    "second_throw_ball_5_point": "basketball_throw",
+    "throw_ball_2_point": "basketball_throw",
+    "throw_ball_3_point": "basketball_throw",
+    "throw_ball_5_point": "basketball_throw",
+    "walkready": "walk_ready"
+  },
+  "scan_limit": {
+    "bottom": -75.0,
+    "left": 50.0,
+    "right": -50.0,
+    "top": -20.0
+  },
+  "speed": {
+    "default_max_a_speed": -5.0,
+    "default_max_bx_speed": -5.0,
+    "default_max_fx_speed": 5.0,
+    "default_max_ly_speed": 5.0,
+    "default_max_ry_speed": -5.0,
+    "default_min_fx_speed": 3.0
+  },
+  "strategy": {
+    "2_point": false,
+    "3_point": true
+  },
+  "vision": {
+    "red_center_offset": 0.0,
+    "white_bottom_boundary": 180.0,
+    "white_left_boundary": 100.0,
+    "white_right_boundary": 200.0,
+    "white_top_boundary": 140.0
+  }
+}

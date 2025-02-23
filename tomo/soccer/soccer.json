@@ -33,9 +33,10 @@
     "pivoting_max_sec": 0.0,
     "positioning_bottom_goalpost_threshold": 68.0,
     "positioning_camera_X1": 51.0,
-    "positioning_camera_X2": 140.0,
+    "positioning_camera_X2": 157.0,
     "positioning_camera_X3": 206.0,
     "positioning_camera_X4": 260.0,
+    "positioning_camera_X_center": 0.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -52.0,
     "positioning_check_enemy_using_upside_tilt": false,
@@ -45,6 +46,7 @@
     "positioning_robot_area_threshold": 15000.0,
     "positioning_robot_color_threshold": 0.800000011920929,
     "prefer_left_kick": false,
+    "refresh_position_on_ball_set": false,
     "refresh_position_with_goalpost": false,
     "short_kick_position_x": 450.0,
     "using_half_pivot": false
@@ -53,36 +55,34 @@
     "cancel_move_on_lost_ball": false,
     "center_boundary_height": 160.0,
     "center_boundary_width": 180.0,
-    "delay_follow_ball_after_kick_sec": 5.0,
-    "disable_fall": true,
     "enable_keeper_sidekick": false,
     "keeper_center_position": 300.0,
-    "keeper_draw_area": true,
+    "keeper_draw_area": false,
     "keeper_fall_center_min_thresold": 1.0,
     "keeper_fall_left_min_thresold": 1.0,
     "keeper_fall_right_min_thresold": 1.0,
     "keeper_fall_tilt": -20.0,
     "keeper_follow_tilt": 0.0,
     "keeper_force_sit": false,
-    "keeper_left_position": 230.0,
-    "keeper_move_left_max_delta_ball": -400.0,
-    "keeper_move_left_min_delta_ball": -80.0,
-    "keeper_move_right_max_delta_ball": 400.0,
-    "keeper_move_right_min_delta_ball": 80.0,
-    "keeper_right_position": 370.0,
+    "keeper_left_position": 260.0,
+    "keeper_move_left_max_delta_ball": 0.0,
+    "keeper_move_left_min_delta_ball": 0.0,
+    "keeper_move_right_max_delta_ball": 0.0,
+    "keeper_move_right_min_delta_ball": 0.0,
+    "keeper_right_position": 0.0,
     "keeper_sit_strategy": true,
     "keeper_tunning_mode": false,
     "kick_sit_tilt": 0.0,
-    "kick_up_tilt": 40.0,
-    "left_boundary_height": 170.0,
+    "kick_up_tilt": 80.0,
+    "left_boundary_height": 130.0,
     "left_boundary_width": 100.0,
-    "max_on_position_time": 20.0,
-    "move_by_another_robot_max_delta_ball": 0.0,
+    "max_on_position_time": 200.0,
     "move_by_another_robot_max_delta_position": 350.0,
-    "refresh_position_with_x": true,
-    "refresh_position_with_x_tilt": 0.0,
-    "right_boundary_height": 170.0,
-    "right_boundary_width": 100.0
+    "move_by_another_robot_min_delta_ball": 0.0,
+    "right_boundary_height": 130.0,
+    "right_boundary_width": 100.0,
+    "sit_sit_tilt": 0.0,
+    "sit_up_tilt": 0.0
   },
   "kickoff": {
     "hold_enemy_kickoff_time": 3.0,
@@ -95,14 +95,11 @@
     "using_slow_kick": false
   },
   "mode_odometry": {
-    "a_speed": 1.0,
-    "target_x": 0.0,
-    "target_y": -50.0,
-    "x_speed": 0.0,
-    "y_speed": 22.0
-  },
-  "mode_penalty_keeper": {
-    "keeper_head_tilt": -35.0
+    "a_speed": 1.5,
+    "target_x": 100.0,
+    "target_y": 0.0,
+    "x_speed": 5.0,
+    "y_speed": -0.0
   },
   "mode_penalty_kick": {
     "target_direction": 30.0
@@ -114,32 +111,32 @@
     "diagonal_chance": 0.5,
     "dribble_chance": 0.5,
     "goalkeeper": true,
-    "goalkeeper_sit": true,
+    "goalkeeper_sit": false,
     "id": 4,
     "name": "tomo",
-    "role": "goalkeeper",
+    "role": "keeper",
     "shortkick": false,
     "sidekick": false,
     "strategy": "offensive"
   },
   "release": {
-    "method": "dnn",
-    "release_pan_max": 90.0,
-    "release_pan_min": -90.0,
-    "tilt": -10.0,
+    "method": "dnn_front",
+    "release_pan_max": 70.0,
+    "release_pan_min": -70.0,
+    "tilt": 0.0,
     "using_button": false
   },
   "soccer": {
-    "ball_classifier_type": "dnn",
+    "ball_classifier_type": "field",
     "dnn_with_color": false,
     "drop_in": false,
     "test": true,
-    "test_release_x": 400.0,
+    "test_release_x": 0.0,
     "test_release_y": 300.0,
-    "type": "robocup"
+    "type": "kri"
   },
   "team": {
     "color": "red",
-    "id": 16
+    "id": 1
   }
 }

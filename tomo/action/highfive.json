@@ -1,0 +1,93 @@
+{
+  "name": "highfive",
+  "next": "",
+  "poses": [
+    {
+      "joints": {
+        "left_ankle_pitch": -24.697266,
+        "left_ankle_roll": -1.845703,
+        "left_elbow": -56.953125,
+        "left_hip_pitch": 50.273438,
+        "left_hip_roll": -5.888672,
+        "left_hip_yaw": -2.988281,
+        "left_knee": -51.679688,
+        "left_shoulder_pitch": 5.976562,
+        "left_shoulder_roll": 39.990234,
+        "neck_pitch": 0,
+        "neck_yaw": 0,
+        "right_ankle_pitch": 23.642578,
+        "right_ankle_roll": 3.867188,
+        "right_elbow": 56.953125,
+        "right_hip_pitch": -50.273438,
+        "right_hip_roll": 4.833984,
+        "right_hip_yaw": 0,
+        "right_knee": 57.568359,
+        "right_shoulder_pitch": -4.921875,
+        "right_shoulder_roll": -39.990234
+      },
+      "name": "step_0",
+      "pause": 0,
+      "speed": 0,
+      "time": 0.2
+    },
+    {
+      "joints": {
+        "left_ankle_pitch": -24.697266,
+        "left_ankle_roll": -1.845703,
+        "left_elbow": -103.183594,
+        "left_hip_pitch": 50.273438,
+        "left_hip_roll": -5.888672,
+        "left_hip_yaw": -2.988281,
+        "left_knee": -51.679688,
+        "left_shoulder_pitch": 5.976562,
+        "left_shoulder_roll": 39.990234,
+        "neck_pitch": 0,
+        "neck_yaw": 0,
+        "right_ankle_pitch": 23.642578,
+        "right_ankle_roll": 3.867188,
+        "right_elbow": 100.898438,
+        "right_hip_pitch": -50.273438,
+        "right_hip_roll": 4.833984,
+        "right_hip_yaw": 0,
+        "right_knee": 57.568359,
+        "right_shoulder_pitch": -4.921875,
+        "right_shoulder_roll": -39.990234
+      },
+      "name": "step_1",
+      "pause": 0,
+      "speed": 0,
+      "time": 0.2
+    },
+    {
+      "joints": {
+        "left_ankle_pitch": -24.697266,
+        "left_ankle_roll": -1.845703,
+        "left_elbow": -9.492188,
+        "left_hip_pitch": 50.273438,
+        "left_hip_roll": -5.888672,
+        "left_hip_yaw": -2.988281,
+        "left_knee": -51.679688,
+        "left_shoulder_pitch": -142.822266,
+        "left_shoulder_roll": 39.990234,
+        "neck_pitch": 44.912109,
+        "neck_yaw": -0.175781,
+        "right_ankle_pitch": 23.642578,
+        "right_ankle_roll": 3.867188,
+        "right_elbow": 6.679688,
+        "right_hip_pitch": -50.273438,
+        "right_hip_roll": 4.833984,
+        "right_hip_yaw": 0,
+        "right_knee": 57.568359,
+        "right_shoulder_pitch": 146.513672,
+        "right_shoulder_roll": -39.990234
+      },
+      "name": "step_2",
+      "pause": 0,
+      "speed": 0,
+      "time": 0.4
+    }
+  ],
+  "start_delay": 0,
+  "stop_delay": 0,
+  "time_based": true
+}
