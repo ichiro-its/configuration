@@ -1,5 +1,5 @@
 {
-  "name": "new_action",
+  "name": "init",
   "next": "",
   "poses": [
     {
@@ -25,12 +25,13 @@
         "right_shoulder_pitch": 0,
         "right_shoulder_roll": 0
       },
-      "name": "New Pose",
-      "pause": 0,
-      "speed": 0,
+      "name": "step_0",
+      "pause": 0.02,
+      "speed": 0.02,
       "time": 1
     }
   ],
   "start_delay": 0,
-  "stop_delay": 0
+  "stop_delay": 0,
+  "time_based": true
 }

@@ -47,8 +47,8 @@
     "bottom_limit": -60
   },
   "Gain": {
-    "pan_p_gain": 0.05,
-    "pan_d_gain": 0.049,
+    "pan_p_gain": 0.0515,
+    "pan_d_gain": 0.0491,
     "tilt_p_gain": 0.04,
     "tilt_d_gain": 0.038
   },
