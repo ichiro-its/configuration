@@ -6,9 +6,9 @@
     "accel_left_limit": 400.0
   },
   "orientation_limit": {
-    "pitch_back_limit": 36,
-    "pitch_front_limit": -47,
-    "roll_right_limit": 38,
-    "roll_left_limit": -31
+    "pitch_back_limit": 1036,
+    "pitch_front_limit": -1047,
+    "roll_right_limit": 1038,
+    "roll_left_limit": -1031
   }
 }
