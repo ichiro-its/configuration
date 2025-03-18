@@ -1,5 +1,10 @@
 {
   "pass": {
-    "kick_chosen": "right_kick"
+    "head_pan": 0.0,
+    "head_tilt": -60.0,
+    "kick_chosen": "right_kick_short",
+    "positioning_camera_X1": 50.0,
+    "positioning_camera_X2": 270.0,
+    "wait_for_ball": false
   }
 }

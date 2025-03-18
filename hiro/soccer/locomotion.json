@@ -1,22 +1,22 @@
 {
   "move": {
-    "min_x": 18,
+    "min_x": 15,
     "max_x": 22,
-    "max_a": 7,
-    "max_y": 20
+    "max_a": 5,
+    "max_y": 10
   },
   "backward": {
-    "min_x": -4,
-    "max_x": -10,
-    "max_a": 6
+    "min_x": -14,
+    "max_x": -20,
+    "max_a": 5
   },
   "rotate": {
-    "max_a": 6,
-    "max_delta_direction": 14
+    "max_a": 9,
+    "max_delta_direction": 7
   },
   "follow": {
-    "min_x": 18,
-    "max_x": 20,
+    "min_x": 15,
+    "max_x": 22,
     "min_ly": 12,
     "max_ly": 18,
     "min_ry": -18,
@@ -30,8 +30,8 @@
     "time_move_follow_head": 10
   },
   "skew": {
-    "max_x": 12,
-    "max_a": 14,
+    "max_x": 20,
+    "max_a": 7,
     "tilt": -30,
     "pan_comp": 27,
     "delta_direction_comp": 45
@@ -47,47 +47,47 @@
     "pan_comp": 8
   },
   "pivot": {
-    "min_x": -6,
-    "max_x": 12,
-    "max_ly": 20,
-    "max_ry": -18,
-    "max_a": 4,
-    "target_tilt": -35,
+    "min_x": -8,
+    "max_x": 15,
+    "max_ly": 25,
+    "max_ry": -28,
+    "max_a": 3.5,
+    "target_tilt": -60,
     "pan_range_ratio": 0.3,
-    "max_delta_direction": 10,
+    "max_delta_direction": 5,
     "pan_range_a_speed": 20,
     "pivot_stop_limit": 60
   },
   "position": {
     "min_x": -5,
-    "max_x": 13,
+    "max_x": 12,
     "min_ly": 15,
-    "max_ly": 15,
+    "max_ly": 20,
     "min_ry": -15,
-    "max_ry": -15,
-    "max_a": 6,
+    "max_ry": -20,
+    "max_a": 4,
     "min_delta_tilt": 2,
     "min_delta_pan": 2,
     "min_delta_pan_tilt": 3,
-    "min_delta_direction": 10,
-    "min_range_pan": -21,
-    "center_right_range_pan": 5,
-    "center_left_range_pan": 5,
-    "max_range_pan": 21,
-    "min_range_tilt": -66,
-    "max_range_tilt": -59,
+    "min_delta_direction": 15,
+    "min_range_pan": -15.6,
+    "center_right_range_pan": 9.8,
+    "center_left_range_pan": 13.5,
+    "max_range_pan": 20.3,
+    "min_range_tilt": -68.4,
+    "max_range_tilt": -63.3,
     "min_dynamic_range_pan": -40,
     "max_dynamic_range_pan": 40,
     "min_dynamic_range_tilt": -40,
     "max_dynamic_range_tilt": 40
   },
   "left_kick": {
-    "target_pan": 20,
-    "target_tilt": -62
+    "target_pan": 17.2,
+    "target_tilt": -65.2
   },
   "right_kick": {
-    "target_pan": -20,
-    "target_tilt": -62
+    "target_pan": -10.2,
+    "target_tilt": -64.9
   },
   "left": {
     "max_ly": 15,

@@ -1,7 +1,7 @@
 {
   "move": {
-    "min_x": 18,
-    "max_x": 22,
+    "min_x": 14,
+    "max_x": 18,
     "max_a": 7,
     "max_y": 20
   },
