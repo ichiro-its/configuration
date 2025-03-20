@@ -17,7 +17,11 @@
     "right_hip_yaw": -1,
     "right_knee": 1,
     "right_shoulder_pitch": 1,
-    "right_shoulder_roll": 1
+    "right_shoulder_roll": 1,
+    "right_gripper": 1,
+    "left_gripper": 1,
+    "right_shoulder_yaw": 1,
+    "left_shoulder_yaw": 1
   },
   "balance": {
     "balance_ankle_pitch_gain": 0.2800000004470348,
@@ -46,7 +50,9 @@
     "right_hip_yaw": 0,
     "right_knee": -4,
     "right_shoulder_pitch": -10,
-    "right_shoulder_roll": -40
+    "right_shoulder_roll": -40,
+    "right_shoulder_yaw": 0,
+    "left_shoulder_yaw": 0
   },
   "odometry": {
     "bx_coefficient": 5.6,
