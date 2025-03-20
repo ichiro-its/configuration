@@ -16,7 +16,6 @@
   },
   "soccer": {
     "always_dribble": false,
-    "dynamic_kick": 0.0,
     "follow_tilt": -45.0
   }
 }

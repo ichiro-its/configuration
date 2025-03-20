@@ -17,10 +17,10 @@
     "min_fx_speed": 9.0
   },
   "scan_limit": {
-    "bottom": -75.0,
-    "left": 10.0,
-    "right": -10.0,
-    "top": -40.0
+    "bottom_limit": -75.0,
+    "left_limit": 10.0,
+    "right_limit": -10.0,
+    "top_limit": -40.0
   },
   "top_speed": {
     "max_a_speed": 2.0,
@@ -44,11 +44,11 @@
     "min_line_area": 2500.0,
     "min_state_sec": 20.0,
     "mode": "80",
+    "motion_walkready": "walk_ready",
     "no_a_speed_sec_mid": 0.0,
     "no_a_speed_sec_top": 0.0,
     "pan_limit_left": 4.0,
     "pan_limit_right": 6.0,
-    "walkready": "walk_ready",
     "weightlifting_tilt": -79.0,
     "weightlifting_tilt_middle": -90.0,
     "weightlifting_tilt_top": -100.0

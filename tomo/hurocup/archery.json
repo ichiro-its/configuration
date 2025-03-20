@@ -26,14 +26,14 @@
     "walkready": "walk_ready"
   },
   "scan_limit": {
-    "left": 50,
-    "right": -50,
-    "top": -20,
-    "bottom": -75
+    "left_limit": 50,
+    "right_limit": -50,
+    "top_limit": -20,
+    "bottom_limit": -75
   },
-  "speed": {
-    "default_fx_speed": 8,
-    "default_bx_speed": -5,
-    "default_a_speed": 6
+  "default_speed": {
+    "fx_speed": 8,
+    "bx_speed": -5,
+    "a_speed": 6
   }
 }

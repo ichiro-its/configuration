@@ -21,6 +21,14 @@
     "target_tilt_from_right": 18.0,
     "unit_time_count": 1.0
   },
+  "default_speed": {
+    "max_a_speed": -5.0,
+    "max_bx_speed": -5.0,
+    "max_fx_speed": 5.0,
+    "max_ly_speed": 5.0,
+    "max_ry_speed": -5.0,
+    "min_fx_speed": 3.0
+  },
   "motion": {
     "pick_ball": "basketball_pick_ball",
     "second_throw_ball_5_point": "basketball_throw",
@@ -30,18 +38,10 @@
     "walkready": "walk_ready"
   },
   "scan_limit": {
-    "bottom": -75.0,
-    "left": 50.0,
-    "right": -50.0,
-    "top": -20.0
-  },
-  "speed": {
-    "default_max_a_speed": -5.0,
-    "default_max_bx_speed": -5.0,
-    "default_max_fx_speed": 5.0,
-    "default_max_ly_speed": 5.0,
-    "default_max_ry_speed": -5.0,
-    "default_min_fx_speed": 3.0
+    "bottom_limit": -75.0,
+    "left_limit": 50.0,
+    "right_limit": -50.0,
+    "top_limit": -20.0
   },
   "strategy": {
     "2_point": false,
