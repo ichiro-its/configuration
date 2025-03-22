@@ -28,7 +28,7 @@
                 "right_shoulder_roll": -29.970703125
             },
             "name": "step_0",
-            "pause_time": 0.16,
+            "pause": 0.16,
             "speed": 0.0,
             "time": 0.64
         },
@@ -58,7 +58,7 @@
                 "right_shoulder_roll": 59.0625
             },
             "name": "step_1",
-            "pause_time": 0.16,
+            "pause": 0.16,
             "speed": 0.0,
             "time": 1.44
         },
@@ -88,7 +88,7 @@
                 "right_shoulder_roll": 126.03515625
             },
             "name": "step_2",
-            "pause_time": 0.16,
+            "pause": 0.16,
             "speed": 0.0,
             "time": 1.44
         },
@@ -118,7 +118,7 @@
                 "right_shoulder_roll": 125.595703125
             },
             "name": "step_3",
-            "pause_time": 0.16,
+            "pause": 0.16,
             "speed": 0.0,
             "time": 2.04
         },
@@ -148,7 +148,7 @@
                 "right_shoulder_roll": 125.595703125
             },
             "name": "step_4",
-            "pause_time": 0.0,
+            "pause": 0.0,
             "speed": 0.0,
             "time": 0.56
         },
@@ -178,7 +178,7 @@
                 "right_shoulder_roll": -29.970703125
             },
             "name": "step_5",
-            "pause_time": 0.0,
+            "pause": 0.0,
             "speed": 0.0,
             "time": 0.96
         },
@@ -208,7 +208,7 @@
                 "right_shoulder_roll": -39.90234375
             },
             "name": "step_6",
-            "pause_time": 0.4,
+            "pause": 0.4,
             "speed": 0.0,
             "time": 0.96
         },
@@ -238,7 +238,7 @@
                 "right_shoulder_roll": -39.90234375
             },
             "name": "step_7",
-            "pause_time": 0.4,
+            "pause": 0.4,
             "speed": 0.0,
             "time": 0.96
         },
@@ -268,7 +268,7 @@
                 "right_shoulder_roll": -29.970703125
             },
             "name": "step_8",
-            "pause_time": 0.0,
+            "pause": 0.0,
             "speed": 0.0,
             "time": 0.48
         },
@@ -298,7 +298,7 @@
                 "right_shoulder_roll": -29.970703125
             },
             "name": "step_9",
-            "pause_time": 0.0,
+            "pause": 0.0,
             "speed": 0.0,
             "time": 0.96
         }

@@ -28,7 +28,7 @@
                 "right_shoulder_roll": -37.177734375
             },
             "name": "step_0",
-            "pause_time": 0.08,
+            "pause": 0.08,
             "speed": 0.0,
             "time": 0.56
         },
@@ -58,7 +58,7 @@
                 "right_shoulder_roll": -41.66015625
             },
             "name": "step_1",
-            "pause_time": 0.08,
+            "pause": 0.08,
             "speed": 0.0,
             "time": 0.48
         },
@@ -88,7 +88,7 @@
                 "right_shoulder_roll": -41.66015625
             },
             "name": "step_2",
-            "pause_time": 0.12,
+            "pause": 0.12,
             "speed": 0.0,
             "time": 0.48
         },
@@ -118,7 +118,7 @@
                 "right_shoulder_roll": -40.78125
             },
             "name": "step_3",
-            "pause_time": 0.08,
+            "pause": 0.08,
             "speed": 0.0,
             "time": 0.64
         },
@@ -148,7 +148,7 @@
                 "right_shoulder_roll": -40.78125
             },
             "name": "step_4",
-            "pause_time": 0.08,
+            "pause": 0.08,
             "speed": 0.0,
             "time": 0.88
         },
@@ -178,7 +178,7 @@
                 "right_shoulder_roll": -40.78125
             },
             "name": "step_5",
-            "pause_time": 0.08,
+            "pause": 0.08,
             "speed": 0.0,
             "time": 0.64
         },
@@ -208,7 +208,7 @@
                 "right_shoulder_roll": -38.935546875
             },
             "name": "step_6",
-            "pause_time": 0.0,
+            "pause": 0.0,
             "speed": 0.0,
             "time": 1.2
         }

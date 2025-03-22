@@ -28,7 +28,7 @@
                 "right_shoulder_roll": -34.1015625
             },
             "name": "step_0",
-            "pause_time": 0.24,
+            "pause": 0.24,
             "speed": 0.0,
             "time": 0.64
         },
@@ -58,7 +58,7 @@
                 "right_shoulder_roll": -34.1015625
             },
             "name": "step_1",
-            "pause_time": 0.16,
+            "pause": 0.16,
             "speed": 0.0,
             "time": 1.2
         },
@@ -88,7 +88,7 @@
                 "right_shoulder_roll": -34.1015625
             },
             "name": "step_2",
-            "pause_time": 0.4,
+            "pause": 0.4,
             "speed": 0.0,
             "time": 1.2
         },
@@ -118,7 +118,7 @@
                 "right_shoulder_roll": -34.1015625
             },
             "name": "step_3",
-            "pause_time": 0.4,
+            "pause": 0.4,
             "speed": 0.0,
             "time": 2.0
         },
@@ -148,7 +148,7 @@
                 "right_shoulder_roll": -34.1015625
             },
             "name": "step_4",
-            "pause_time": 0.0,
+            "pause": 0.0,
             "speed": 0.0,
             "time": 0.08
         }

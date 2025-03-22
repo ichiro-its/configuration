@@ -25,14 +25,14 @@
   <link name="body">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Body.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Body.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="0.0 0.0 0.0"/>
       <material name="black"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Body.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Body.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 0" xyz="0.0 0.0 0.0"/>
     </collision>
@@ -46,14 +46,14 @@
   <link name="neck">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Neck.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Neck.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 1.5707963267948966 0" xyz="0.0 -0.0184 -0.013000000000000001"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Neck.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Neck.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 1.5707963267948966 0" xyz="0.0 -0.0184 -0.013000000000000001"/>
     </collision>
@@ -61,14 +61,14 @@
   <link name="head">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Head.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Head.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -1.5707963267948966 0" xyz="0.0 0.0 0.0"/>
       <material name="black"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Head.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Head.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -1.5707963267948966 0" xyz="0.0 0.0 0.0"/>
     </collision>
@@ -76,14 +76,14 @@
   <link name="right_shoulder">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Shoulder.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Shoulder.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 1.5707963267948966" xyz="0.0 0.0 0.0"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Shoulder.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Shoulder.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 1.5707963267948966" xyz="0.0 0.0 0.0"/>
     </collision>
@@ -91,14 +91,14 @@
   <link name="right_upper_arm">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Upper_Arm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Upper_Arm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 0" xyz="0.0 0.034999999999999996 0.006"/>
       <material name="black"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Upper_Arm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Upper_Arm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 0" xyz="0.0 0.034999999999999996 0.006"/>
     </collision>
@@ -106,14 +106,14 @@
   <link name="right_forearm">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Forearm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Forearm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 1.5707963267948966" xyz="-0.034999999999999996 0.006 0.16000000000000003"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Forearm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Forearm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 1.5707963267948966" xyz="-0.034999999999999996 0.006 0.16000000000000003"/>
     </collision>
@@ -121,14 +121,14 @@
   <link name="left_shoulder">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Shoulder.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Shoulder.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 1.5707963267948966" xyz="0.0 0.0 0.0"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Shoulder.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Shoulder.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 1.5707963267948966" xyz="0.0 0.0 0.0"/>
     </collision>
@@ -136,14 +136,14 @@
   <link name="left_upper_arm">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Upper_Arm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Upper_Arm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 0" xyz="0.0 0.034999999999999996 0.006"/>
       <material name="black"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Upper_Arm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Upper_Arm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 0" xyz="0.0 0.034999999999999996 0.006"/>
     </collision>
@@ -151,14 +151,14 @@
   <link name="left_forearm">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Forearm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Forearm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 1.5707963267948966" xyz="-0.034999999999999996 0.006 0.16000000000000003"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Forearm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Forearm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 1.5707963267948966 1.5707963267948966" xyz="-0.034999999999999996 0.006 0.16000000000000003"/>
     </collision>
@@ -166,14 +166,14 @@
   <link name="right_groin">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Groin.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Groin.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 -1.5707963267948966 0" xyz="-0.083 -0.047 -0.010000000000000002"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Groin.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Groin.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 -1.5707963267948966 0" xyz="-0.083 -0.047 -0.010000000000000002"/>
     </collision>
@@ -181,14 +181,14 @@
   <link name="right_buttock">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Buttock.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Buttock.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 0 0" xyz="-0.036 -0.047 0.046000000000000006"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Buttock.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Buttock.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 0 0" xyz="-0.036 -0.047 0.046000000000000006"/>
     </collision>
@@ -196,14 +196,14 @@
   <link name="right_thigh">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Thigh.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Thigh.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 0 0" xyz="0.0 0.008 -0.034999999999999996"/>
       <material name="black"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Thigh.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Thigh.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 0 0" xyz="0.0 0.008 -0.034999999999999996"/>
     </collision>
@@ -211,14 +211,14 @@
   <link name="right_calf">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Calf.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Calf.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -1.5707963267948966 0" xyz="0.026400000000000003 0.014000000000000002 0.038000000000000006"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Calf.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Calf.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -1.5707963267948966 0" xyz="0.026400000000000003 0.014000000000000002 0.038000000000000006"/>
     </collision>
@@ -226,14 +226,14 @@
   <link name="right_heel">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Heel.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Heel.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 1.5707963267948966" xyz="-0.0478 -0.0104 -0.0456"/>
       <material name="black"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Heel.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Heel.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 1.5707963267948966" xyz="-0.0478 -0.0104 -0.0456"/>
     </collision>
@@ -241,14 +241,14 @@
   <link name="right_foot">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Right_Foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Right_Foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 3.141592653589793" xyz="0.010000000000000002 -0.0478 -0.0456"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Right_Foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Right_Foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 3.141592653589793" xyz="0.010000000000000002 -0.0478 -0.0456"/>
     </collision>
@@ -256,14 +256,14 @@
   <link name="left_groin">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Groin.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Groin.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 -1.5707963267948966 0" xyz="-0.083 -0.047 -0.010000000000000002"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Groin.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Groin.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 -1.5707963267948966 0" xyz="-0.083 -0.047 -0.010000000000000002"/>
     </collision>
@@ -271,14 +271,14 @@
   <link name="left_buttock">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Buttock.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Buttock.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 0 0" xyz="-0.036 -0.047 0.046000000000000006"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Buttock.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Buttock.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 0 0" xyz="-0.036 -0.047 0.046000000000000006"/>
     </collision>
@@ -286,14 +286,14 @@
   <link name="left_thigh">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Thigh.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Thigh.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 0 3.141592653589793" xyz="0.0 -0.008 -0.034999999999999996"/>
       <material name="black"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Thigh.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Thigh.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="-1.5707963267948966 0 3.141592653589793" xyz="0.0 -0.008 -0.034999999999999996"/>
     </collision>
@@ -301,14 +301,14 @@
   <link name="left_calf">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Calf.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Calf.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -1.5707963267948966 3.141592653589793" xyz="-0.026400000000000003 -0.014000000000000002 0.038000000000000006"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Calf.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Calf.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -1.5707963267948966 3.141592653589793" xyz="-0.026400000000000003 -0.014000000000000002 0.038000000000000006"/>
     </collision>
@@ -316,14 +316,14 @@
   <link name="left_heel">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Heel.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Heel.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0.0478 0.0104 -0.0456"/>
       <material name="black"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Heel.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Heel.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0.0478 0.0104 -0.0456"/>
     </collision>
@@ -331,14 +331,14 @@
   <link name="left_foot">
     <visual>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Left_Foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Left_Foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 3.141592653589793" xyz="0.010000000000000002 0.0478 -0.0456"/>
       <material name="light_gray"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://shikaku_test/meshes/teen_size/Left_Foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://meshes/teen_size/Left_Foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="1.5707963267948966 0 3.141592653589793" xyz="0.010000000000000002 0.0478 -0.0456"/>
     </collision>
@@ -469,7 +469,7 @@
   <joint name="camera_joint" type="revolute">
     <parent link="head"/>
     <child link="camera"/>
-    <origin rpy="-1.5707963267948966 3.141592653589793 0" xyz="0.0 0.020000000000000004 0.04000000000000001"/>
+    <origin rpy="-1.5707963267948966 0 0" xyz="0.0 0.020000000000000004 0.04000000000000001"/>
     <limit effort="1000" lower="0" upper="0" velocity="1"/>
   </joint>
   <link name="right_foot_frame">

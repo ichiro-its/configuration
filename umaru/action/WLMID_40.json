@@ -28,7 +28,7 @@
                 "right_shoulder_roll": -36.9140625
             },
             "name": "step_0",
-            "pause_time": 0.16,
+            "pause": 0.16,
             "speed": 0.0,
             "time": 1.6
         }
