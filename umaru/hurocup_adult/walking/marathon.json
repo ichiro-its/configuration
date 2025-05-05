@@ -1,0 +1,72 @@
+{
+  "Offset": {
+    "x_offset": 10,
+    "y_offset": 25,
+    "z_offset": 25,
+    "roll_offset": 0.6999999806284904,
+    "pitch_offset": -4.200000032782555,
+    "yaw_offset": -2.980232283178452e-8,
+    "hip_pitch_offset": 13.00000010430813
+  },
+  "Ratio": {
+    "period_time": 650,
+    "dsp_ratio": -0.01999998904764655,
+    "foot_height": 32,
+    "swing_right_left": 1.000000104308132,
+    "swing_up_down": 0,
+    "arm_swing_gain": 0.299999974668026,
+    "backward_hip_comp_ratio": -0.009999994933605372,
+    "forward_hip_comp_ratio": -0.0899999988079071,
+    "foot_comp_ratio": 2.23517426789499e-10,
+    "dsp_comp_ratio": -0.009999970197677843,
+    "period_comp_ratio": 0,
+    "move_accel_ratio": 0.15,
+    "foot_accel_ratio": 0.07400000223517417
+  },
+  "Balance": {
+    "arm_balance": false,
+    "balance_knee_gain": -0.1999999992549419,
+    "balance_ankle_pitch_gain": -0.2400000102818013,
+    "balance_hip_roll_gain": 0.03000000372529033,
+    "balance_ankle_roll_gain": 0.01000000350177287
+  },
+  "Odometry": {
+    "fx_coefficient": 6.5,
+    "bx_coefficient": 7.4,
+    "ly_coefficient": 6.3,
+    "ry_coefficient": 7.5
+  },
+  "PID": {
+    "p_gain": 27,
+    "i_gain": 2,
+    "d_gain": 3
+  },
+  "InitAngles": {
+    "r_hip_yaw": 1,
+    "r_hip_pitch": 0,
+    "r_hip_roll": 4,
+    "r_knee": -1,
+    "r_ankle_pitch": -2,
+    "r_ankle_roll": 2,
+    "l_hip_yaw": 0,
+    "l_hip_pitch": 0,
+    "l_hip_roll": -4,
+    "l_knee": 2,
+    "l_ankle_pitch": 5,
+    "l_ankle_roll": -3,
+    "r_shoulder_pitch": -15,
+    "r_shoulder_roll": -34,
+    "r_elbow": -45,
+    "r_gripper": -30,
+    "l_shoulder_pitch": 16,
+    "l_shoulder_roll": 34,
+    "l_elbow": 54,
+    "l_gripper": 30
+  },
+  "Kinematic": {
+    "thigh_length": 138,
+    "calf_length": 138,
+    "ankle_length": 49,
+    "leg_length": 325
+  }
+}

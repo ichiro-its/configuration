@@ -1,0 +1,22 @@
+{
+  "field": {
+    "circle_diameter": 100.0,
+    "height": 600.0,
+    "width": 800.0
+  },
+  "motion": {
+    "enable_left_kick": false,
+    "enable_right_kick": false,
+    "left_kick": "left_kick",
+    "right_kick": "right_kick"
+  },
+  "player": {
+    "kickoff_position_x": 355.0,
+    "kickoff_position_y": 300.0
+  },
+  "united_soccer": {
+    "always_dribble": false,
+    "dynamic_kick": 0.0,
+    "follow_tilt": -30.0
+  }
+}

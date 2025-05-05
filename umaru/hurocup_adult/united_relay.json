@@ -1,0 +1,10 @@
+{
+  "speed": {
+    "max_a_speed": 0.0,
+    "max_fx_speed": 0.0,
+    "min_fx_speed": 0.0
+  },
+  "united_relay": {
+    "forward_angle_compensation": 0.0
+  }
+}

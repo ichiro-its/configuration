@@ -1,0 +1,22 @@
+{
+  "marathon": {
+    "follow_tilt": -65.0,
+    "odometry_tilt": -30.0
+  },
+  "speed": {
+    "max_fx_speed": 13.0,
+    "max_la_speed": 6.0,
+    "max_ly_speed": 7.0,
+    "max_ra_speed": -6.0,
+    "max_ry_speed": -7.0,
+    "min_fx_speed": 10.0
+  },
+  "vision": {
+    "middle_bottom_boundary": 250.0,
+    "middle_left_boundary": 50.0,
+    "middle_right_boundary": 270.0,
+    "middle_top_boundary": 200.0,
+    "rate_marker_left": 0.63,
+    "rate_marker_right": 0.25
+  }
+}
