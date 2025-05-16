@@ -30,9 +30,9 @@
     "min_ry_speed": 0.0
   },
   "vision": {
-    "line_bottom_boundary": 140.0,
+    "line_bottom_boundary": 160.0,
     "line_top_boundary": 120.0,
-    "red_bottom_boundary": 167.0,
+    "red_bottom_boundary": 200.0,
     "red_center_limit": 3.0,
     "red_center_offset": 5.0,
     "red_top_boundary": 135.0
@@ -44,7 +44,7 @@
     "max_delta_direction": 7.0,
     "min_delta_direction": 2.0,
     "min_state_time": 10.0,
-    "mode": "40",
+    "mode": "60",
     "time_for_pass_line": 4.2,
     "weightlifting_tilt": -67.0,
     "weightlifting_tilt_top": -110.0
