@@ -53,10 +53,6 @@
     "fx_coefficient": 7.22,
     "ly_coefficient": 4.72,
     "ry_coefficient": 4.25
-    "bx_coefficient": 5.65,
-    "fx_coefficient": 7.22,
-    "ly_coefficient": 4.72,
-    "ry_coefficient": 4.25
   },
   "pid": {
     "d_gain": 3,

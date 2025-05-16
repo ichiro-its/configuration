@@ -66,7 +66,6 @@
     "max_delta_direction": 3,
     "pan_range_a_speed": 20,
     "pivot_stop_limit": 60
-    "pivot_stop_limit": 60
   },
   "position": {
     "max_a": 6,

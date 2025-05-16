@@ -26,7 +26,6 @@
     "period_comp_ratio": 0.2,
     "period_time": 550,
     "arm_swing_gain": 0,
-    "arm_swing_gain": 0,
     "swing_right_left": 0.05,
     "swing_up_down": 0
   }
