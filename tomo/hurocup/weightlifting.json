@@ -44,7 +44,7 @@
     "min_line_area": 2500.0,
     "min_state_sec": 20.0,
     "mode": "80",
-    "motion_walkready": "walk_ready",
+    "motion_walkready": "walk_ready_weightlifting",
     "no_a_speed_sec_mid": 0.0,
     "no_a_speed_sec_top": 0.0,
     "pan_limit_left": 4.0,

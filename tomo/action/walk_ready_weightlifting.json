@@ -1,0 +1,41 @@
+{
+  "name": "walk_ready_weightlifting",
+  "next": "",
+  "poses": [
+    {
+      "joints": {
+        "left_ankle_pitch": -22.5,
+        "left_ankle_roll": -4.04296875,
+        "left_elbow": 74.970703125,
+        "left_gripper": 79.98046875,
+        "left_hip_pitch": 33.837890625,
+        "left_hip_roll": -6.064453125,
+        "left_hip_yaw": 0.17578125,
+        "left_knee": -45.966796875,
+        "left_shoulder_pitch": 19.951171875,
+        "left_shoulder_roll": 40.95703125,
+        "left_shoulder_yaw": 0.966796875,
+        "neck_pitch": 0,
+        "neck_yaw": 0,
+        "right_ankle_pitch": 23.466796875,
+        "right_ankle_roll": 5.009765625,
+        "right_elbow": -74.970703125,
+        "right_gripper": -84.990234375,
+        "right_hip_pitch": -30.849609375,
+        "right_hip_roll": 7.03125,
+        "right_hip_yaw": -0.17578125,
+        "right_knee": 48.955078125,
+        "right_shoulder_pitch": -19.951171875,
+        "right_shoulder_roll": -40.95703125,
+        "right_shoulder_yaw": 0
+      },
+      "name": "step_0",
+      "pause": 0.02,
+      "speed": 0.04,
+      "time": 1
+    }
+  ],
+  "start_delay": 0,
+  "stop_delay": 0,
+  "time_based": true
+}
