@@ -4,7 +4,7 @@
     "max_bx_speed": -10.0,
     "max_fx_speed": 11.0,
     "max_ly_speed": 20.0,
-    "max_ry_speed": -14.0,
+    "max_ry_speed": -20.0,
     "min_fx_speed": 8.0
   },
   "middle_speed": {
@@ -30,12 +30,13 @@
     "min_ry_speed": 0.0
   },
   "vision": {
-    "line_bottom_boundary": 160.0,
-    "line_top_boundary": 120.0,
-    "red_bottom_boundary": 200.0,
-    "red_center_limit": 3.0,
-    "red_center_offset": 5.0,
-    "red_top_boundary": 135.0
+    "line_bottom_boundary": 110.0,
+    "line_top_boundary": 60.0,
+    "min_line_area": 6200.0,
+    "red_bottom_boundary": 192.0,
+    "red_center_limit": 10.0,
+    "red_center_offset": 10.0,
+    "red_top_boundary": 160.0
   },
   "weightlifting": {
     "delta_pan_limit": 4.0,
@@ -45,7 +46,7 @@
     "min_delta_direction": 2.0,
     "min_state_time": 10.0,
     "mode": "60",
-    "time_for_pass_line": 4.2,
+    "time_for_pass_line": 2.2,
     "weightlifting_tilt": -67.0,
     "weightlifting_tilt_top": -110.0
   }

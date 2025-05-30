@@ -1,10 +1,10 @@
 {
   "balance": {
     "enable": false,
-    "balance_knee_gain": 0.02,
-    "balance_ankle_pitch_gain": -0.30000001028180134,
-    "balance_hip_roll_gain": -0.039999996274709675,
-    "balance_ankle_roll_gain": -0.039999996498227136
+    "balance_knee_gain": -0.4,
+    "balance_ankle_pitch_gain": -0.2000000102818014,
+    "balance_hip_roll_gain": 0.20000000372529028,
+    "balance_ankle_roll_gain": 0.10000000350177288
   },
   "pid": {
     "p_gain": 28,
@@ -18,27 +18,27 @@
     "ly_coefficient": 6.3
   },
   "init_angles": {
-    "left_hip_roll": -3,
-    "left_hip_pitch": 5,
+    "left_hip_roll": -4,
+    "left_hip_pitch": 3,
     "left_hip_yaw": 0,
-    "left_knee": 0,
+    "left_knee": 2,
     "left_ankle_roll": -3,
     "left_ankle_pitch": 0,
-    "left_shoulder_roll": 28,
-    "left_shoulder_pitch": 30,
+    "left_shoulder_roll": 35,
+    "left_shoulder_pitch": 32,
     "left_shoulder_yaw": 0,
-    "left_elbow": 50,
-    "left_gripper": 85,
-    "right_hip_roll": 3,
-    "right_hip_pitch": 0,
+    "left_elbow": 60,
+    "left_gripper": 80,
+    "right_hip_roll": 4,
+    "right_hip_pitch": 2,
     "right_hip_yaw": 0,
     "right_knee": 2,
-    "right_ankle_roll": 2,
-    "right_ankle_pitch": 3,
-    "right_shoulder_roll": -45,
-    "right_shoulder_pitch": -39,
+    "right_ankle_roll": 3,
+    "right_ankle_pitch": 2,
+    "right_shoulder_roll": -46,
+    "right_shoulder_pitch": -41,
     "right_shoulder_yaw": 0,
-    "right_elbow": -50,
+    "right_elbow": -48,
     "right_gripper": -85
   },
   "angles_direction": {

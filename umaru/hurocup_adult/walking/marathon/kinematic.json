@@ -1,9 +1,9 @@
 {
   "length": {
-    "thigh_length": 199,
-    "calf_length": 195,
-    "ankle_length": 59.7,
-    "leg_length": 453.7
+    "leg_length": 409.7,
+    "thigh_length": 180,
+    "calf_length": 180,
+    "ankle_length": 49.7
   },
   "offset": {
     "x_offset": 10,
