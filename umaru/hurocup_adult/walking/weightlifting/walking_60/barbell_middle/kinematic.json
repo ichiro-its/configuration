@@ -9,8 +9,8 @@
     "forward_hip_comp_ratio": -0.12999999880790708,
     "foot_comp_ratio": 0.34,
     "dsp_comp_ratio": 0,
-    "move_accel_ratio": 0.4,
-    "foot_accel_ratio": 0.2000000024586916,
+    "move_accel_ratio": 0.3,
+    "foot_accel_ratio": 0.1000000024586916,
     "period_time": 570,
     "period_comp_ratio": 0
   },

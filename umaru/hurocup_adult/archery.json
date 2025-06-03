@@ -32,10 +32,10 @@
     "top_limit": 0.0
   },
   "vision": {
-    "boundary_height": 160.0,
-    "boundary_width": 100.0,
+    "boundary_height": 60.0,
+    "boundary_width": 30.0,
     "boundary_x": 110.0,
-    "boundary_y": 80.0,
+    "boundary_y": 160.0,
     "white_boundary_height": 20.0,
     "white_boundary_width": 120.0,
     "white_boundary_x": 60.0,
