@@ -28,14 +28,14 @@
   "blue": {
     "invert_hue": false,
     "max_hsv": [
-      226,
+      237,
       100,
       100
     ],
     "min_hsv": [
       210,
       52,
-      37
+      19
     ]
   },
   "field": {
