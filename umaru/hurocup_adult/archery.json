@@ -1,44 +1,19 @@
 {
   "archery": {
-    "arrow_time": 0.5,
-    "delta_pan_limit": 1.5,
-    "go_backward_time": 5.0,
-    "max_delta_direction": 8.0,
-    "min_delta_direction": 4.0,
-    "pan_archery": 100.0,
-    "pan_scanning": 0.0,
-    "shoot_angle": 110.0,
-    "target_direction_ratio": 0.6,
-    "target_period": 10.0,
-    "tilt_archery": -10.0,
-    "tilt_scanning": -80.0
-  },
-  "default_speed": {
-    "max_a_speed": 5.0,
-    "max_bx_speed": 0.0,
-    "max_fx_speed": 0.0,
-    "max_ly_speed": 0.0,
-    "max_ry_speed": 0.0,
-    "min_fx_speed": 0.0
+    "arrow_time": 0.6,
+    "pan_archery": -90.0,
+    "target_period": 0.9,
+    "tilt_archery": 0.0
   },
   "motion": {
-    "before_shooting": "archery_before_shooting",
-    "shooting": "archery_shooting"
-  },
-  "scan_limit": {
-    "bottom_limit": -30.0,
-    "left_limit": 110.0,
-    "right_limit": -10.0,
-    "top_limit": 0.0
+    "before_shooting": "archery_before_shoot",
+    "initial": "archery_initial",
+    "shooting": "archery_shoot"
   },
   "vision": {
-    "boundary_height": 60.0,
-    "boundary_width": 30.0,
-    "boundary_x": 110.0,
-    "boundary_y": 160.0,
-    "white_boundary_height": 20.0,
-    "white_boundary_width": 120.0,
-    "white_boundary_x": 60.0,
-    "white_boundary_y": 150.0
+    "min_red_area": 1.0,
+    "target_radius": 10.0,
+    "target_x": 155.0,
+    "target_y": 157.0
   }
 }

@@ -1,0 +1,41 @@
+{
+  "name": "archery_initial",
+  "next": "",
+  "poses": [
+    {
+      "joints": {
+        "left_ankle_pitch": -23.994140625,
+        "left_ankle_roll": -5.44921875,
+        "left_elbow": 73.65234375,
+        "left_gripper": -22.763671875,
+        "left_hip_pitch": 27.685546875,
+        "left_hip_roll": -5.009765625,
+        "left_hip_yaw": 0,
+        "left_knee": -47.28515625,
+        "left_shoulder_pitch": -6.240234375,
+        "left_shoulder_roll": -62.05078125,
+        "left_shoulder_yaw": 0.966796875,
+        "neck_pitch": -15,
+        "neck_yaw": 0,
+        "right_ankle_pitch": 26.982421875,
+        "right_ankle_roll": 6.416015625,
+        "right_elbow": -69.78515625,
+        "right_gripper": -11.6015625,
+        "right_hip_pitch": -24.873046875,
+        "right_hip_roll": 5.009765625,
+        "right_hip_yaw": 0,
+        "right_knee": 49.21875,
+        "right_shoulder_pitch": 7.20703125,
+        "right_shoulder_roll": 40.341796875,
+        "right_shoulder_yaw": 0
+      },
+      "name": "step_0",
+      "pause": 0.16,
+      "speed": 0,
+      "time": 1.6
+    }
+  ],
+  "start_delay": 0,
+  "stop_delay": 0,
+  "time_based": true
+}
