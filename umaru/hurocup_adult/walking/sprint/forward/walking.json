@@ -12,7 +12,7 @@
     "d_gain": 3
   },
   "odometry": {
-    "fx_coefficient": 4.55,
+    "fx_coefficient": 4.57,
     "bx_coefficient": 7.4,
     "ry_coefficient": 7.5,
     "ly_coefficient": 6.3

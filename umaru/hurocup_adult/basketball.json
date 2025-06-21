@@ -36,9 +36,9 @@
     "l_pick_ball_mid": "basketball_pick_left_mid",
     "l_pick_ball_wide": "basketball_pick_left_wide",
     "l_throw_ball": "basketball_left_throw",
-    "r_pick_ball": "basketball_pick_right_narrow",
+    "r_pick_ball": "basketball_pick_right_mid",
     "r_pick_ball_mid": "basketball_pick_right_mid",
-    "r_pick_ball_wide": "basketball_pick_right_wide",
+    "r_pick_ball_wide": "basketball_pick_right_mid",
     "r_throw_ball": "basketball_right_throw"
   },
   "position": {

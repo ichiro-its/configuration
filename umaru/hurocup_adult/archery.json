@@ -1,6 +1,6 @@
 {
   "archery": {
-    "arrow_time": 0.6,
+    "arrow_time": 0.5,
     "pan_archery": -90.0,
     "target_period": 0.9,
     "tilt_archery": 0.0
