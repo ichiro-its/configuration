@@ -1,0 +1,110 @@
+{
+  "move": {
+    "max_x": 20,
+    "max_a": 9,
+    "min_x": -10,
+    "max_y": 14
+  },
+  "left": {
+    "min_ly": 13,
+    "max_ly": 15,
+    "max_a": 8
+  },
+  "right": {
+    "min_ry": -13,
+    "max_ry": -15,
+    "max_a": -8
+  },
+  "backward":{
+    "max_a": 4,
+    "max_x": -16,
+    "min_x": -12
+  },
+  "rotate": {
+    "max_a": 8,
+    "max_delta_direction": 14
+  },
+  "follow": {
+    "min_tilt_": -48,
+    "pan_ratio": 0.3,
+    "max_a": 9,
+    "max_x": 23,
+    "min_x": 14,
+    "r_a_offset": -0.521128118,
+    "l_a_offset": 0.247227177,
+    "y_move": false,
+    "max_ry": -6,
+    "min_ry": -8,
+    "max_ly": 8,
+    "min_ly": 6,
+    "time_move_follow_head": 10
+  },
+  "skew": {
+    "max_x": 14,
+    "max_a": 7,
+    "tilt": -30,
+    "pan_comp": 65,
+    "delta_direction_comp": 50
+  },
+  "dribble": {
+    "max_ly": 20,
+    "min_ry": -10,
+    "min_ly": 10,
+    "max_x": 20,
+    "max_a": 10,
+    "max_ry": -20,
+    "min_x": -7,
+    "pan_comp": 5
+  },
+  "pivot": {
+    "target_tilt": -65.0,
+    "max_ry": -23,
+    "min_x": -5.4,
+    "max_ly": 25,
+    "max_x": 9,
+    "max_a": 6,
+    "max_delta_direction": 3,
+    "pan_range_a_speed": 20,
+    "pivot_stop_limit": 60
+  },
+  "position": {
+    "max_a": 8,
+    "min_x": -4,
+    "max_ry": -13.5,
+    "min_ly": 13,
+    "min_ry": -18.3,
+    "max_x": 11,
+    "max_ly": 18.8,
+    "min_delta_tilt": 3,
+    "min_delta_pan": 3,
+    "min_delta_pan_tilt": 3,
+    "min_delta_direction": 4,
+    "max_range_tilt": -66.3,
+    "min_range_tilt": -68.8,
+    "min_range_pan": -22.6,
+    "center_right_range_pan": 8,
+    "center_left_range_pan": 5,
+    "max_range_pan": 22.0
+  },
+  "left_kick": {
+    "target_tilt": -68.0,
+    "target_pan": 21.7
+  },
+  "right_kick": {
+    "target_tilt": -68.0,
+    "target_pan": -20.4
+  },
+  "localization": {
+    "enable": true,
+    "debug": false,
+    "num_particles": 1000,
+    "min_centered_particles_ratio": 0.35,
+    "short_term_avg_ratio": 0.02,
+    "long_term_avg_ratio": 0.015,
+    "reset_particles_threshold": 0.3,
+    "sigma_x": 4,
+    "sigma_y": 4,
+    "max_distance_x": 500,
+    "max_distance_y": 350
+  }
+}

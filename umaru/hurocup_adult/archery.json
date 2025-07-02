@@ -12,8 +12,8 @@
   },
   "vision": {
     "min_red_area": 1.0,
-    "target_radius": 10.0,
-    "target_x": 180.0,
+    "target_radius": 5.0,
+    "target_x": 190.0,
     "target_y": 160.0
   }
 }

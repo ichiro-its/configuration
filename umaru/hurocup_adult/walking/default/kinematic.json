@@ -1,6 +1,6 @@
 {
   "ratio": {
-    "dsp_ratio": -0.029999989047646572,
+    "dsp_ratio": -0.01999998904764657,
     "foot_height": 35,
     "swing_right_left": 1,
     "swing_up_down": 0,
@@ -11,7 +11,7 @@
     "dsp_comp_ratio": 0,
     "move_accel_ratio": 0.4,
     "foot_accel_ratio": 0.2000000024586916,
-    "period_time": 630,
+    "period_time": 650,
     "period_comp_ratio": 0
   },
   "offset": {

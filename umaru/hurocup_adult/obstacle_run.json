@@ -30,10 +30,10 @@
     "side_yellow_min_tilt": -60.0
   },
   "vision": {
-    "blue_bottom_boundary": 180.0,
+    "blue_bottom_boundary": 185.0,
     "blue_left_boundary": 66.0,
     "blue_right_boundary": 254.0,
-    "blue_top_boundary": 160.0,
+    "blue_top_boundary": 155.0,
     "min_blue_area": 500.0,
     "min_red_area": 200.0,
     "min_yellow_area": 50.0,

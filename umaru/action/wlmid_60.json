@@ -15,8 +15,8 @@
         "left_shoulder_pitch": 29.970703125,
         "left_shoulder_roll": 27.94921875,
         "left_shoulder_yaw": 0.966796875,
-        "neck_pitch": -126.826171875,
-        "neck_yaw": -2.28515625,
+        "neck_pitch": -15,
+        "neck_yaw": 0,
         "right_ankle_pitch": 24.08203125,
         "right_ankle_roll": 5.44921875,
         "right_elbow": -39.990234375,
@@ -25,7 +25,7 @@
         "right_hip_roll": 5.888671875,
         "right_hip_yaw": 0,
         "right_knee": 45.52734375,
-        "right_shoulder_pitch": -29.970703125,
+        "right_shoulder_pitch": -16.962890625,
         "right_shoulder_roll": -45.966796875,
         "right_shoulder_yaw": 0
       },
@@ -57,7 +57,7 @@
         "right_hip_roll": 15.64453125,
         "right_hip_yaw": 0,
         "right_knee": 139.658203125,
-        "right_shoulder_pitch": -29.970703125,
+        "right_shoulder_pitch": -16.970703125,
         "right_shoulder_roll": -45.966796875,
         "right_shoulder_yaw": 0
       },
@@ -89,7 +89,7 @@
         "right_hip_roll": 16.875,
         "right_hip_yaw": 0,
         "right_knee": 139.74609375,
-        "right_shoulder_pitch": 14.150390625,
+        "right_shoulder_pitch": 27.150390625,
         "right_shoulder_roll": -45,
         "right_shoulder_yaw": 0
       },
@@ -121,7 +121,7 @@
         "right_hip_roll": 16.875,
         "right_hip_yaw": 0,
         "right_knee": 139.74609375,
-        "right_shoulder_pitch": 14.150390625,
+        "right_shoulder_pitch": 27.150390625,
         "right_shoulder_roll": -45,
         "right_shoulder_yaw": 0
       },
@@ -153,7 +153,7 @@
         "right_hip_roll": 16.875,
         "right_hip_yaw": 0,
         "right_knee": 139.74609375,
-        "right_shoulder_pitch": -40.25390625,
+        "right_shoulder_pitch": -27.25390625,
         "right_shoulder_roll": -39.638671875,
         "right_shoulder_yaw": 0
       },
@@ -185,7 +185,7 @@
         "right_hip_roll": 20.0390625,
         "right_hip_yaw": 0,
         "right_knee": 134.736328125,
-        "right_shoulder_pitch": -40.25390625,
+        "right_shoulder_pitch": -27.25390625,
         "right_shoulder_roll": -40.166015625,
         "right_shoulder_yaw": 0
       },
@@ -217,7 +217,7 @@
         "right_hip_roll": 5.009765625,
         "right_hip_yaw": 0,
         "right_knee": 49.21875,
-        "right_shoulder_pitch": -35.947265625,
+        "right_shoulder_pitch": -22.947265625,
         "right_shoulder_roll": -45.966796875,
         "right_shoulder_yaw": 0
       },

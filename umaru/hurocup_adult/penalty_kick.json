@@ -14,12 +14,12 @@
   },
   "shoot_left": {
     "direction": -38.0,
-    "target_x": 40.0,
-    "target_y": -40.0
+    "target_x": 20.0,
+    "target_y": -20.0
   },
   "shoot_right": {
     "direction": 30.0,
-    "target_x": 25.0,
-    "target_y": 25.0
+    "target_x": 20.0,
+    "target_y": 20.0
   }
 }

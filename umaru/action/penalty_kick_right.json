@@ -1,6 +1,6 @@
 {
   "name": "penalty_kick_right",
-  "next": "",
+  "next": "walk_ready",
   "poses": [
     {
       "joints": {
