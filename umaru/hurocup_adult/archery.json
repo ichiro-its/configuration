@@ -1,8 +1,13 @@
 {
   "archery": {
-    "arrow_time": 0.59,
+    "arrow_time": 0.5,
+    "check_target_time": 3.0,
+    "count_before_shoot": 1,
+    "dynamic_target_period": true,
+    "dynamic_yaw": true,
+    "max_yaw_offset": 12.0,
     "pan_archery": -90.0,
-    "target_period": 0.9,
+    "target_period": 0.65,
     "tilt_archery": 0.0
   },
   "motion": {
@@ -12,8 +17,8 @@
   },
   "vision": {
     "min_red_area": 1.0,
-    "target_radius": 5.0,
-    "target_x": 190.0,
-    "target_y": 160.0
+    "target_radius": 6.0,
+    "target_x": 160.0,
+    "target_y": 156.0
   }
 }

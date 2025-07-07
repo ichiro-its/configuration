@@ -21,7 +21,7 @@
     "roll_offset": -1,
     "pitch_offset": 1.7000000000000006,
     "yaw_offset": 0,
-    "hip_pitch_offset": 12
+    "hip_pitch_offset": 15
   },
   "length": {
     "leg_length": 453.7,
