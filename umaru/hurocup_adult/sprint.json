@@ -1,23 +1,40 @@
 {
+  "backward_odometry": {
+    "bx_coefficient": 4.2,
+    "fx_coefficient": 4.7,
+    "ly_coefficient": 6.3,
+    "ry_coefficient": 7.5
+  },
+  "forward_odometry": {
+    "bx_coefficient": 7.4,
+    "fx_coefficient": 5.9,
+    "ly_coefficient": 6.3,
+    "ry_coefficient": 7.5
+  },
   "speed": {
-    "constant_x_speed": 38.0,
-    "max_a_speed": 5.0,
-    "max_bx_speed": -40.0,
-    "max_fx_speed": 39.0,
-    "min_bx_speed": -34.0,
-    "min_fx_speed": 35.0
+    "constant_x_speed": 42.0,
+    "max_ba_speed": 7.0,
+    "max_bx_speed": -50.0,
+    "max_fa_speed": 5.0,
+    "max_fx_speed": 45.0,
+    "min_bx_speed": -40.0,
+    "min_fx_speed": 37.0
   },
   "sprint": {
-    "acceleration_distance": 70.0,
-    "backward_angle_compensation": 0.0,
-    "deceleration_distance": 340.0,
+    "backward_acc_distance": 60.0,
+    "backward_angle_compensation": 10.0,
+    "backward_dec_distance": 370.0,
+    "backward_min_acceleration": 0.4,
+    "backward_min_deceleration": 0.85,
+    "forward_acc_distance": 50.0,
     "forward_angle_compensation": 0.0,
-    "min_acceleration": 0.4,
-    "min_deceleration": 0.5,
+    "forward_dec_distance": 350.0,
+    "forward_min_acceleration": 0.45,
+    "forward_min_deceleration": 0.6,
     "sprint_distance": 400.0,
     "walk_in_position_time_limit": 0.5
   },
   "walking": {
-    "hip_pitch_offset": 15.0
+    "hip_pitch_offset": 17.0
   }
 }

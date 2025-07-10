@@ -3,10 +3,10 @@
     "backward_5_point_tilt": -75.0,
     "basket_direction_comp": 0.0,
     "basket_target_pan_2_point": -4.4,
-    "basket_target_pan_3_point": 5.7,
+    "basket_target_pan_3_point": -10.7,
     "basket_target_pan_5_point": -13.0,
     "basket_target_tilt_2_point": 60.0,
-    "basket_target_tilt_3_point": -24.0,
+    "basket_target_tilt_3_point": 0.0,
     "basket_target_tilt_5_point": -8.2,
     "go_back_5_point_time": 1.1,
     "max_go_forward": 100.0,
@@ -18,37 +18,37 @@
     "pick_target_tilt": -63.8,
     "position_shoot_tilt": -85.0,
     "second_unit_time_count": 1.0,
-    "target_pan_from_left": -27.5,
-    "target_pan_from_right": -27.5,
-    "target_tilt_from_left": -63.8,
-    "target_tilt_from_right": -63.8,
+    "target_pan_from_left": -40.5,
+    "target_pan_from_right": -40.5,
+    "target_tilt_from_left": -55.8,
+    "target_tilt_from_right": -55.8,
     "unit_time_count": 1.0
   },
   "default_speed": {
-    "max_a_speed": -5.0,
-    "max_bx_speed": -5.0,
-    "max_fx_speed": 5.0,
-    "max_ly_speed": 5.0,
-    "max_ry_speed": -5.0,
-    "min_fx_speed": 3.0
+    "max_a_speed": -15.0,
+    "max_bx_speed": -15.0,
+    "max_fx_speed": 20.0,
+    "max_ly_speed": 15.0,
+    "max_ry_speed": -15.0,
+    "min_fx_speed": 15.0
   },
   "motion": {
-    "pick_ball": "basketball_pick_ball",
-    "second_throw_ball_5_point": "basketball_throw",
-    "throw_ball_2_point": "basketball_throw",
-    "throw_ball_3_point": "basketball_throw",
-    "throw_ball_5_point": "basketball_throw",
-    "walkready": "walk_ready"
+    "pick_ball": "basketball_pick_right",
+    "second_throw_ball_5_point": "basketball_right_throw",
+    "throw_ball_2_point": "basketball_right_throw",
+    "throw_ball_3_point": "basketball_right_throw",
+    "throw_ball_5_point": "basketball_right_throw",
+    "walkready": "walk_ready_basketball"
   },
   "scan_limit": {
     "bottom_limit": -75.0,
     "left_limit": 50.0,
     "right_limit": -50.0,
-    "top_limit": -20.0
+    "top_limit": 0.0
   },
   "strategy": {
     "2_point": false,
-    "3_point": false
+    "3_point": true
   },
   "vision": {
     "line_bottom_boundary": 230.0,
