@@ -1,6 +1,6 @@
 {
   "marathon": {
-    "follow_tilt": -65.0,
+    "follow_tilt": -60.0,
     "odometry_tilt": -30.0
   },
   "speed": {
