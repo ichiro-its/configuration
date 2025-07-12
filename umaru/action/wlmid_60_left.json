@@ -1,6 +1,6 @@
 {
   "name": "wlmid_60_left",
-  "next": "",
+  "next": "walk_ready_wl_mid",
   "poses": [
     {
       "joints": {
@@ -25,7 +25,7 @@
         "right_hip_roll": 6.6796875,
         "right_hip_yaw": 0,
         "right_knee": 45.263671875,
-        "right_shoulder_pitch": -17.9296875,
+        "right_shoulder_pitch": -27.9296875,
         "right_shoulder_roll": -43.9453125,
         "right_shoulder_yaw": 0
       },
@@ -57,7 +57,7 @@
         "right_hip_roll": 14.150390625,
         "right_hip_yaw": 0.791015625,
         "right_knee": 139.74609375,
-        "right_shoulder_pitch": -20.0390625,
+        "right_shoulder_pitch": -30.0390625,
         "right_shoulder_roll": -41.396484375,
         "right_shoulder_yaw": 0
       },
@@ -79,8 +79,8 @@
         "left_shoulder_pitch": -31.025390625,
         "left_shoulder_roll": 32.255859375,
         "left_shoulder_yaw": 0.966796875,
-        "neck_pitch": -29.8828125,
-        "neck_yaw": 0.263671875,
+        "neck_pitch": -82,
+        "neck_yaw": 0,
         "right_ankle_pitch": 99.755859375,
         "right_ankle_roll": 17.75390625,
         "right_elbow": 26.806640625,
@@ -89,7 +89,7 @@
         "right_hip_roll": 14.150390625,
         "right_hip_yaw": 0.791015625,
         "right_knee": 136.669921875,
-        "right_shoulder_pitch": 24.2578125,
+        "right_shoulder_pitch": 14.2578125,
         "right_shoulder_roll": -42.978515625,
         "right_shoulder_yaw": 0
       },
@@ -121,7 +121,7 @@
         "right_hip_roll": 14.150390625,
         "right_hip_yaw": 0.791015625,
         "right_knee": 136.669921875,
-        "right_shoulder_pitch": 24.2578125,
+        "right_shoulder_pitch": 14.2578125,
         "right_shoulder_roll": -42.978515625,
         "right_shoulder_yaw": 0
       },
@@ -153,7 +153,7 @@
         "right_hip_roll": 14.150390625,
         "right_hip_yaw": 0.791015625,
         "right_knee": 139.74609375,
-        "right_shoulder_pitch": -32.51953125,
+        "right_shoulder_pitch": -42.51953125,
         "right_shoulder_roll": -47.109375,
         "right_shoulder_yaw": 0
       },
@@ -185,7 +185,7 @@
         "right_hip_roll": 4.833984375,
         "right_hip_yaw": 0.087890625,
         "right_knee": 108.45703125,
-        "right_shoulder_pitch": -32.51953125,
+        "right_shoulder_pitch": -42.51953125,
         "right_shoulder_roll": -47.109375,
         "right_shoulder_yaw": 0
       },
@@ -193,38 +193,6 @@
       "pause": 0,
       "speed": 0,
       "time": 1
-    },
-    {
-      "joints": {
-        "left_ankle_pitch": -20.91796875,
-        "left_ankle_roll": -5.44921875,
-        "left_elbow": 51.943359375,
-        "left_gripper": 79.98046875,
-        "left_hip_pitch": 35.771484375,
-        "left_hip_roll": -5.009765625,
-        "left_hip_yaw": 0,
-        "left_knee": -47.4609375,
-        "left_shoulder_pitch": 31.9921875,
-        "left_shoulder_roll": 22.939453125,
-        "left_shoulder_yaw": 0.966796875,
-        "neck_pitch": -75,
-        "neck_yaw": 0,
-        "right_ankle_pitch": 21.884765625,
-        "right_ankle_roll": 4.39453125,
-        "right_elbow": -49.921875,
-        "right_gripper": -84.990234375,
-        "right_hip_pitch": -36.73828125,
-        "right_hip_roll": 5.009765625,
-        "right_hip_yaw": 0,
-        "right_knee": 49.39453125,
-        "right_shoulder_pitch": -19.951171875,
-        "right_shoulder_roll": -39.990234375,
-        "right_shoulder_yaw": 0
-      },
-      "name": "wr_mid",
-      "pause": 0,
-      "speed": 0,
-      "time": 1.5
     }
   ],
   "start_delay": 0,
