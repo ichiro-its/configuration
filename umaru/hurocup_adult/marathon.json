@@ -1,7 +1,11 @@
 {
   "marathon": {
-    "follow_tilt": -60.0,
-    "odometry_tilt": -30.0
+    "enable_blue_line": true,
+    "enable_red_line": false,
+    "enable_white_line": false,
+    "enable_yellow_line": true,
+    "follow_tilt": -68.0,
+    "odometry_tilt": -68.0
   },
   "speed": {
     "max_fx_speed": 13.0,
@@ -12,10 +16,15 @@
     "min_fx_speed": 10.0
   },
   "vision": {
+    "marker_height_boundary": 80.0,
+    "marker_width_boundary": 140.0,
+    "marker_x_boundary": 160.0,
+    "marker_y_boundary": 160.0,
     "middle_bottom_boundary": 250.0,
     "middle_left_boundary": 50.0,
     "middle_right_boundary": 270.0,
     "middle_top_boundary": 200.0,
+    "min_white_area": 380.0,
     "rate_marker_left": 0.63,
     "rate_marker_right": 0.15
   }

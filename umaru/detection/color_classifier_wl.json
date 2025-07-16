@@ -2,14 +2,14 @@
   "ball": {
     "invert_hue": false,
     "max_hsv": [
-      6,
-      50,
+      90,
+      100,
       100
     ],
     "min_hsv": [
-      0,
-      44,
-      46
+      50,
+      50,
+      50
     ]
   },
   "basketball": {
@@ -25,17 +25,30 @@
       75
     ]
   },
+  "black": {
+    "invert_hue": false,
+    "max_hsv": [
+      288,
+      72,
+      31
+    ],
+    "min_hsv": [
+      60,
+      0,
+      0
+    ]
+  },
   "blue": {
     "invert_hue": false,
     "max_hsv": [
-      57,
+      274,
       100,
       100
     ],
     "min_hsv": [
-      42,
-      0,
-      17
+      170,
+      44,
+      24
     ]
   },
   "field": {
@@ -54,53 +67,53 @@
   "line": {
     "invert_hue": false,
     "max_hsv": [
-      360,
+      6,
       100,
       100
     ],
     "min_hsv": [
-      6,
-      0,
-      73
+      25,
+      18,
+      8
     ]
   },
   "red": {
     "invert_hue": true,
     "max_hsv": [
-      353,
+      337,
       100,
       100
     ],
     "min_hsv": [
-      14,
-      45,
-      35
+      15,
+      73,
+      44
     ]
   },
   "white": {
     "invert_hue": false,
     "max_hsv": [
       360,
-      31,
+      100,
       100
     ],
     "min_hsv": [
       0,
       0,
-      42
+      63
     ]
   },
   "yellow": {
     "invert_hue": false,
     "max_hsv": [
-      59,
+      62,
       100,
-      100
+      99
     ],
     "min_hsv": [
-      51,
-      52,
-      8
+      30,
+      39,
+      31
     ]
   }
 }

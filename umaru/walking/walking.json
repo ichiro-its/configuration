@@ -55,8 +55,8 @@
     "ry_coefficient": 4.2
   },
   "pid": {
-    "d_gain": 3,
-    "i_gain": 2,
-    "p_gain": 28
+    "p_gain": 0,
+    "i_gain": 0,
+    "d_gain": 0
   }
 }

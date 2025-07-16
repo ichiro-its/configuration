@@ -1,38 +1,40 @@
 {
+  "head": {
+    "check_side_pan": 40.0,
+    "check_side_tilt": -45.0,
+    "enter_min_tilt": -45.0,
+    "forward_tilt": -50.0,
+    "max_side_move_pan": 15.0,
+    "side_blue_min_tilt": -60.0,
+    "side_yellow_min_tilt": -60.0
+  },
   "motion": {
-    "almost_crawl_up": "crawl_almost_up",
+    "crawl": "crawl",
     "crawl_down": "crawl_down",
-    "crawl_left": "crawl_left",
     "crawl_up": "crawl_up"
   },
   "obstacle_run": {
     "crawl_length": 20,
-    "crawl_max_count": 8,
-    "enable_crawl": false,
+    "crawl_max_count": 10,
+    "enable_crawl": true,
     "left_border": -90.0,
     "right_border": 90.0
   },
   "speed": {
-    "max_a_speed": 6.0,
+    "max_a_speed": 4.0,
     "max_bx_speed": -15.0,
-    "max_fx_speed": 15.0,
-    "max_ly_speed": 21.5,
-    "max_ry_speed": -24.0,
+    "max_fx_speed": 25.0,
+    "max_ly_speed": 30.0,
+    "max_ry_speed": -30.0,
     "min_bx_speed": -10.0,
-    "min_fx_speed": 4.0,
-    "min_ly_speed": 17.0,
-    "min_ry_speed": -18.0
-  },
-  "tilt": {
-    "enter_min_tilt": -45.0,
-    "forward_tilt": -50.0,
-    "side_blue_min_tilt": -60.0,
-    "side_yellow_min_tilt": -60.0
+    "min_fx_speed": 15.0,
+    "min_ly_speed": 25.0,
+    "min_ry_speed": -25.0
   },
   "vision": {
     "blue_bottom_boundary": 185.0,
-    "blue_left_boundary": 66.0,
-    "blue_right_boundary": 254.0,
+    "blue_left_boundary": 55.0,
+    "blue_right_boundary": 265.0,
     "blue_top_boundary": 155.0,
     "min_blue_area": 500.0,
     "min_red_area": 200.0,

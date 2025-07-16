@@ -7,9 +7,9 @@
     "balance_ankle_roll_gain": 0
   },
   "pid": {
-    "p_gain": 28,
-    "i_gain": 2,
-    "d_gain": 3
+    "p_gain": 0,
+    "i_gain": 0,
+    "d_gain": 0
   },
   "odometry": {
     "fx_coefficient": 7.7,

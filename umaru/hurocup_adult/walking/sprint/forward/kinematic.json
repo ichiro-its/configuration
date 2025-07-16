@@ -10,8 +10,8 @@
     "foot_comp_ratio": 0.5,
     "dsp_comp_ratio": -0.5,
     "move_accel_ratio": 0.4,
-    "foot_accel_ratio": 0.2000000024586916,
-    "period_time": 550,
+    "foot_accel_ratio": 0.15000000245869158,
+    "period_time": 520,
     "period_comp_ratio": 0
   },
   "offset": {

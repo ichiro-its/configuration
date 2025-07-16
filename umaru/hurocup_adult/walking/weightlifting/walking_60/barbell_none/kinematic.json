@@ -9,9 +9,9 @@
     "forward_hip_comp_ratio": -0.0799999988079071,
     "foot_comp_ratio": 0.5,
     "dsp_comp_ratio": -0.5,
-    "move_accel_ratio": 0.4,
-    "foot_accel_ratio": 0.2000000024586916,
-    "period_time": 600,
+    "move_accel_ratio": 0.25,
+    "foot_accel_ratio": 0.15000000245869155,
+    "period_time": 650,
     "period_comp_ratio": 0
   },
   "offset": {
