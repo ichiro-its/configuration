@@ -9,7 +9,7 @@
     "goal_position_y": 0.0,
     "initial_position_x": 0.0,
     "initial_position_y": 0.0,
-    "left_kick": true,
+    "left_kick": false,
     "right_kick": true
   },
   "shoot_left": {

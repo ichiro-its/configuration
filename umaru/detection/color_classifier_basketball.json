@@ -15,14 +15,27 @@
   "basketball": {
     "invert_hue": false,
     "max_hsv": [
-      68,
+      114,
       100,
       100
     ],
     "min_hsv": [
-      46,
-      33,
-      58
+      63,
+      61,
+      35
+    ]
+  },
+  "black": {
+    "invert_hue": false,
+    "max_hsv": [
+      360,
+      100,
+      22
+    ],
+    "min_hsv": [
+      0,
+      0,
+      0
     ]
   },
   "blue": {
