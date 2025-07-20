@@ -10,7 +10,7 @@
     "foot_comp_ratio": 0.5,
     "dsp_comp_ratio": -0.5,
     "move_accel_ratio": 0.30000000000000004,
-    "foot_accel_ratio": 0.15000000245869155,
+    "foot_accel_ratio": 0.10000000245869159,
     "period_time": 650,
     "period_comp_ratio": 0
   },
