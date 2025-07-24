@@ -61,7 +61,7 @@
         "right_shoulder_roll": -39.990234375,
         "right_shoulder_yaw": 0
       },
-      "name": "New Pose",
+      "name": "step_1",
       "pause": 0,
       "speed": 0,
       "time": 2
@@ -93,7 +93,7 @@
         "right_shoulder_roll": -44.736328125,
         "right_shoulder_yaw": 0
       },
-      "name": "step_1",
+      "name": "step_2",
       "pause": 0,
       "speed": 0,
       "time": 1
@@ -125,7 +125,7 @@
         "right_shoulder_roll": -44.736328125,
         "right_shoulder_yaw": 0
       },
-      "name": "step_2",
+      "name": "step_3",
       "pause": 0,
       "speed": 0,
       "time": 1
@@ -157,7 +157,7 @@
         "right_shoulder_roll": -45.52734375,
         "right_shoulder_yaw": 0
       },
-      "name": "step_3",
+      "name": "step_4",
       "pause": 0,
       "speed": 0,
       "time": 1
@@ -189,7 +189,7 @@
         "right_shoulder_roll": -40.693359375,
         "right_shoulder_yaw": 0
       },
-      "name": "step_4",
+      "name": "step_5",
       "pause": 0,
       "speed": 0,
       "time": 1
@@ -221,7 +221,7 @@
         "right_shoulder_roll": -40.693359375,
         "right_shoulder_yaw": 0
       },
-      "name": "step_5",
+      "name": "step_6",
       "pause": 0,
       "speed": 0,
       "time": 1

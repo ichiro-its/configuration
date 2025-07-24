@@ -12,10 +12,10 @@
     "d_gain": 0
   },
   "odometry": {
-    "fx_coefficient": 4.7,
-    "bx_coefficient": 4.6,
-    "ry_coefficient": 7.5,
-    "ly_coefficient": 6.3
+    "fx_coefficient": 5.0,
+    "bx_coefficient": 5.6,
+    "ry_coefficient": 5.0,
+    "ly_coefficient": 3.2
   },
   "init_angles": {
     "left_hip_roll": -4,

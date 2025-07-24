@@ -6,7 +6,7 @@
     "swing_up_down": 0,
     "arm_swing_gain": 0,
     "backward_hip_comp_ratio": -0.1699999980628492,
-    "forward_hip_comp_ratio": -0.19999999880790714,
+    "forward_hip_comp_ratio": -0.21999999880790716,
     "foot_comp_ratio": 0,
     "dsp_comp_ratio": 0,
     "move_accel_ratio": 0.24999999999999994,
@@ -15,13 +15,13 @@
     "period_comp_ratio": 0
   },
   "offset": {
-    "x_offset": 5,
+    "x_offset": 10,
     "y_offset": 25,
     "z_offset": 30,
     "roll_offset": 0,
-    "pitch_offset": 2.4000000000000012,
+    "pitch_offset": 2.100000000000001,
     "yaw_offset": 0,
-    "hip_pitch_offset": 11.400000000000002
+    "hip_pitch_offset": 9.400000000000002
   },
   "length": {
     "leg_length": 453.7,

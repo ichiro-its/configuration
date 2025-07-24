@@ -10,16 +10,17 @@
     "initial_position_x": 0.0,
     "initial_position_y": 0.0,
     "left_kick": false,
-    "right_kick": true
+    "right_kick": true,
+    "using_new_pivot": true
   },
   "shoot_left": {
-    "direction": -38.0,
-    "target_x": 20.0,
+    "direction": -34.0,
+    "target_x": 10.0,
     "target_y": -20.0
   },
   "shoot_right": {
-    "direction": 30.0,
-    "target_x": 20.0,
+    "direction": 34.0,
+    "target_x": 10.0,
     "target_y": 20.0
   }
 }

@@ -24,12 +24,12 @@
     "max_a_speed": 4.0,
     "max_bx_speed": -15.0,
     "max_fx_speed": 25.0,
-    "max_ly_speed": 30.0,
-    "max_ry_speed": -30.0,
+    "max_ly_speed": 25.0,
+    "max_ry_speed": -22.0,
     "min_bx_speed": -10.0,
-    "min_fx_speed": 15.0,
-    "min_ly_speed": 25.0,
-    "min_ry_speed": -25.0
+    "min_fx_speed": 13.0,
+    "min_ly_speed": 20.0,
+    "min_ry_speed": -17.0
   },
   "vision": {
     "blue_bottom_boundary": 185.0,
@@ -44,6 +44,6 @@
     "yellow_bottom_boundary": 220.0,
     "yellow_left_boundary": 85.0,
     "yellow_right_boundary": 235.0,
-    "yellow_top_boundary": 190.0
+    "yellow_top_boundary": 165.0
   }
 }
