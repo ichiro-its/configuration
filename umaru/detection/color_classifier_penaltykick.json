@@ -2,14 +2,14 @@
   "ball": {
     "invert_hue": false,
     "max_hsv": [
-      80,
+      103,
       100,
       100
     ],
     "min_hsv": [
-      70,
-      37,
-      50
+      54,
+      34,
+      24
     ]
   },
   "basketball": {
@@ -54,14 +54,14 @@
   "field": {
     "invert_hue": false,
     "max_hsv": [
-      176,
+      178,
       100,
       100
     ],
     "min_hsv": [
-      123,
-      56,
-      39
+      166,
+      21,
+      8
     ]
   },
   "line": {

@@ -1,5 +1,16 @@
 {
+  "keeper": {
+    "enable_keeper_fall": true,
+    "keeper_fall_dist": 30.0,
+    "keeper_fall_left_pan": 35.0,
+    "keeper_fall_right_pan": -35.0,
+    "keeper_sit_dist": 60.0,
+    "keeper_sit_tilt": -45.0
+  },
   "motion": {
+    "keeper_fall_left": "keeper_fall_left",
+    "keeper_fall_right": "keeper_fall_right",
+    "keeper_sit": "keeper_sit",
     "left_kick": "penalty_kick_left",
     "right_kick": "penalty_kick_right"
   },
