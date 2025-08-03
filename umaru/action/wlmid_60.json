@@ -1,6 +1,6 @@
 {
   "name": "wlmid_60",
-  "next": "walk_ready_wl_mid",
+  "next": "walk_ready_wl_60_mid",
   "poses": [
     {
       "joints": {

@@ -14,8 +14,8 @@
     "static_tilt": -60.0
   },
   "walking": {
-    "enable_walk_in_position": false,
-    "walk_config_name": "walking/default/",
-    "walkready_motion_name": "walk_ready"
+    "enable_walk_in_position": true,
+    "walk_config_name": "walking/basketball/",
+    "walkready_motion_name": "walk_ready_basketball"
   }
 }

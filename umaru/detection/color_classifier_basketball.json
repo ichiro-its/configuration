@@ -6,11 +6,22 @@
       50,
       100
     ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
     "min_hsv": [
       0,
       44,
       46
-    ]
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
   },
   "basketball": {
     "invert_hue": false,
@@ -19,11 +30,22 @@
       100,
       100
     ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
     "min_hsv": [
       63,
       61,
       35
-    ]
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
   },
   "black": {
     "invert_hue": false,
@@ -32,11 +54,22 @@
       100,
       15
     ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
     "min_hsv": [
       0,
       0,
       0
-    ]
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
   },
   "blue": {
     "invert_hue": false,
@@ -45,11 +78,22 @@
       100,
       100
     ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
     "min_hsv": [
       42,
       0,
       17
-    ]
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
   },
   "field": {
     "invert_hue": false,
@@ -58,11 +102,22 @@
       100,
       100
     ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
     "min_hsv": [
       27,
       0,
       5
-    ]
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
   },
   "line": {
     "invert_hue": false,
@@ -71,11 +126,22 @@
       100,
       100
     ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
     "min_hsv": [
       25,
       18,
       8
-    ]
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
   },
   "red": {
     "invert_hue": true,
@@ -84,11 +150,22 @@
       100,
       100
     ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
     "min_hsv": [
       5,
       56,
-      14
-    ]
+      47
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
   },
   "white": {
     "invert_hue": false,
@@ -97,23 +174,45 @@
       46,
       100
     ],
+    "max_lab": [
+      255,
+      6,
+      19
+    ],
     "min_hsv": [
       0,
       0,
       42
-    ]
+    ],
+    "min_lab": [
+      175,
+      -30,
+      -21
+    ],
+    "use_lab": true
   },
   "yellow": {
     "invert_hue": false,
     "max_hsv": [
-      59,
+      79,
       100,
-      100
+      99
+    ],
+    "max_lab": [
+      255,
+      0,
+      127
     ],
     "min_hsv": [
-      51,
-      52,
-      8
-    ]
+      41,
+      54,
+      31
+    ],
+    "min_lab": [
+      0,
+      -26,
+      50
+    ],
+    "use_lab": true
   }
 }

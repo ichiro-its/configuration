@@ -1,81 +1,51 @@
 {
-  "ball": {
-    "invert_hue": false,
-    "max_hsv": [
-      90,
-      100,
-      100
-    ],
-    "min_hsv": [
-      50,
-      50,
-      50
-    ]
-  },
-  "basketball": {
-    "invert_hue": false,
-    "max_hsv": [
-      56,
-      100,
-      100
-    ],
-    "min_hsv": [
-      34,
-      18,
-      75
-    ]
-  },
   "black": {
-    "invert_hue": false,
+    "invert_hue": true,
     "max_hsv": [
-      288,
-      72,
-      31
+      154,
+      53,
+      36
+    ],
+    "max_lab": [
+      115,
+      6,
+      2
     ],
     "min_hsv": [
-      60,
+      72,
       0,
       0
-    ]
+    ],
+    "min_lab": [
+      0,
+      -81,
+      -32
+    ],
+    "use_lab": true
   },
   "blue": {
     "invert_hue": false,
     "max_hsv": [
-      274,
+      247,
       100,
       100
     ],
-    "min_hsv": [
-      170,
-      44,
-      24
-    ]
-  },
-  "field": {
-    "invert_hue": false,
-    "max_hsv": [
-      332,
-      100,
-      100
+    "max_lab": [
+      255,
+      82,
+      -24
     ],
     "min_hsv": [
-      27,
-      0,
-      5
-    ]
-  },
-  "line": {
-    "invert_hue": false,
-    "max_hsv": [
-      6,
-      100,
-      100
+      183,
+      49,
+      33
     ],
-    "min_hsv": [
-      25,
-      18,
-      8
-    ]
+    "min_lab": [
+      73,
+      -68,
+      -128
+    ],
+    "use_lab": true
   },
   "red": {
     "invert_hue": true,
@@ -84,11 +54,22 @@
       100,
       100
     ],
+    "max_lab": [
+      255,
+      127,
+      77
+    ],
     "min_hsv": [
       15,
-      73,
+      52,
       0
-    ]
+    ],
+    "min_lab": [
+      46,
+      19,
+      9
+    ],
+    "use_lab": true
   },
   "white": {
     "invert_hue": false,
@@ -97,23 +78,45 @@
       100,
       100
     ],
+    "max_lab": [
+      255,
+      94,
+      24
+    ],
     "min_hsv": [
       0,
       0,
-      56
-    ]
+      33
+    ],
+    "min_lab": [
+      151,
+      -57,
+      -61
+    ],
+    "use_lab": true
   },
   "yellow": {
     "invert_hue": false,
     "max_hsv": [
-      62,
+      79,
       100,
       99
     ],
+    "max_lab": [
+      255,
+      0,
+      127
+    ],
     "min_hsv": [
-      30,
-      39,
+      41,
+      54,
       31
-    ]
+    ],
+    "min_lab": [
+      0,
+      -26,
+      18
+    ],
+    "use_lab": true
   }
 }

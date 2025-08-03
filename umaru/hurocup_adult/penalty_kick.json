@@ -1,15 +1,15 @@
 {
   "keeper": {
     "enable_keeper_fall": true,
-    "keeper_fall_dist": 30.0,
-    "keeper_fall_left_pan": 35.0,
-    "keeper_fall_right_pan": -35.0,
-    "keeper_sit_dist": 60.0,
-    "keeper_sit_tilt": -45.0
+    "keeper_fall_dist": 40.0,
+    "keeper_fall_left_pan": 15.0,
+    "keeper_fall_orientation": 75.0,
+    "keeper_fall_right_pan": -15.0,
+    "keeper_fall_tilt": -14.0
   },
   "motion": {
-    "keeper_fall_left": "keeper_fall_left",
-    "keeper_fall_right": "keeper_fall_right",
+    "keeper_fall_left": "keeper_fall",
+    "keeper_fall_right": "keeper_fall",
     "keeper_sit": "keeper_sit",
     "left_kick": "penalty_kick_left",
     "right_kick": "penalty_kick_right"
@@ -20,18 +20,18 @@
     "goal_position_y": 0.0,
     "initial_position_x": 0.0,
     "initial_position_y": 0.0,
-    "left_kick": false,
+    "left_kick": true,
     "right_kick": true,
     "using_new_pivot": true
   },
   "shoot_left": {
-    "direction": -34.0,
-    "target_x": 10.0,
-    "target_y": -20.0
+    "direction": -32.0,
+    "target_x": 20.0,
+    "target_y": -45.0
   },
   "shoot_right": {
-    "direction": 34.0,
-    "target_x": 10.0,
-    "target_y": 20.0
+    "direction": 26.0,
+    "target_x": 20.0,
+    "target_y": 45.0
   }
 }

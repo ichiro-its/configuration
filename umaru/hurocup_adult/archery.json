@@ -1,7 +1,7 @@
 {
   "archery": {
-    "angle_error_coef": 1.2,
-    "arrow_time": 0.495,
+    "angle_error_coef": 1.32,
+    "arrow_time": 0.605,
     "check_target_time": 3.0,
     "count_before_shoot": 1,
     "delta_shoot_time": 0.02,
@@ -21,7 +21,7 @@
   "vision": {
     "min_red_area": 1.0,
     "target_radius": 5.0,
-    "target_x": 138.0,
-    "target_y": 142.0
+    "target_x": 153.0,
+    "target_y": 157.0
   }
 }
