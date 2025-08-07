@@ -1,0 +1,41 @@
+{
+  "name": "basketball_ready_to_pick_right",
+  "next": "",
+  "poses": [
+    {
+      "joints": {
+        "left_ankle_pitch": -20.830078125,
+        "left_ankle_roll": -6.591796875,
+        "left_elbow": -4.921875,
+        "left_gripper": 79.98046875,
+        "left_hip_pitch": 37.177734375,
+        "left_hip_roll": -6.591796875,
+        "left_hip_yaw": 0.087890625,
+        "left_knee": -41.572265625,
+        "left_shoulder_pitch": 19.951171875,
+        "left_shoulder_roll": 23.994140625,
+        "left_shoulder_yaw": 0.966796875,
+        "neck_pitch": -30,
+        "neck_yaw": 0,
+        "right_ankle_pitch": 20.830078125,
+        "right_ankle_roll": 7.55859375,
+        "right_elbow": 6.85546875,
+        "right_gripper": -27.94921875,
+        "right_hip_pitch": -37.177734375,
+        "right_hip_roll": 6.591796875,
+        "right_hip_yaw": -0.087890625,
+        "right_knee": 43.9453125,
+        "right_shoulder_pitch": -23.466796875,
+        "right_shoulder_roll": -39.7265625,
+        "right_shoulder_yaw": 0
+      },
+      "name": "step_0",
+      "pause": 0,
+      "speed": 0,
+      "time": 0.5
+    }
+  ],
+  "start_delay": 0,
+  "stop_delay": 0,
+  "time_based": true
+}

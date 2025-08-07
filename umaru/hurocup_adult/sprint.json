@@ -12,45 +12,45 @@
     "ry_coefficient": 7.5
   },
   "speed": {
-    "constant_x_speed": 47.0,
+    "constant_x_speed": 40.0,
     "max_ba_speed": 5.0,
     "max_bx_speed": -45.0,
     "max_fa_speed": 5.0,
-    "max_fx_speed": 45.0,
-    "min_bx_speed": -40.0,
+    "max_fx_speed": 40.0,
+    "min_bx_speed": -35.0,
     "min_fx_speed": 35.0
   },
   "sprint": {
     "backward_acc_distance": 70.0,
     "backward_angle_compensation": 0.0,
     "backward_dec_distance": 450.0,
-    "backward_min_acceleration": 0.7,
+    "backward_min_acceleration": 0.6,
     "backward_min_deceleration": 1.0,
     "check_finish_distance_backward": 320.0,
-    "check_finish_distance_forward": 300.0,
+    "check_finish_distance_forward": 325.0,
     "enable_side_detection": true,
     "finish_by_vision": true,
     "finish_tilt": -80.0,
     "forward_acc_distance": 50.0,
     "forward_angle_compensation": 0.0,
-    "forward_dec_distance": 370.0,
-    "forward_min_acceleration": 0.5,
-    "forward_min_deceleration": 0.8,
+    "forward_dec_distance": 390.0,
+    "forward_min_acceleration": 0.6,
+    "forward_min_deceleration": 0.9,
     "sprint_distance": 400.0,
     "sprint_tilt": -45.0,
-    "time_for_pass_finish_backward": 0.3,
-    "time_for_pass_finish_forward": 0.2,
+    "time_for_pass_finish_backward": 2.0,
+    "time_for_pass_finish_forward": 0.5,
     "walk_in_position_time_limit": 0.5
   },
   "vision": {
     "finish_bottom_boundary": 180,
     "finish_top_boundary": 135,
-    "min_finish_area": 1000,
+    "min_finish_area": 500,
     "side_boundary_width": 100.0,
     "side_boundary_x": 10.0,
-    "side_line_threshold": 0.5
+    "side_line_threshold": 1.0
   },
   "walking": {
-    "hip_pitch_offset": 17.5
+    "hip_pitch_offset": 17.0
   }
 }

@@ -1,19 +1,32 @@
 {
   "motion": {
-    "downward": "spartan_down_kid",
-    "upward": "spartan_step"
+    "downward": "spartan_step_down",
+    "upward": "spartan_step_up"
   },
   "spartan": {
+    "delay_after_motion_time": 2.0,
+    "down_feet_offset": 12.0,
+    "min_near_terrain_time": 1.0,
     "move_tilt": -70.0
   },
+  "speed": {
+    "max_a_speed": 6.0,
+    "max_bx_speed": -8.0,
+    "max_fx_speed": 5.0,
+    "max_ly_speed": 17.0,
+    "max_ry_speed": -17.0
+  },
   "vision": {
+    "check_area_height": 40.0,
     "left_boundary_height": 20.0,
-    "left_boundary_width": 60.0,
-    "left_boundary_x": 90.0,
-    "left_boundary_y": 145.0,
+    "left_boundary_width": 40.0,
+    "left_boundary_x": 125.0,
+    "left_boundary_y": 143.0,
+    "min_left_area": 500.0,
+    "min_right_area": 350.0,
     "right_boundary_height": 20.0,
-    "right_boundary_width": 60.0,
-    "right_boundary_x": 180.0,
-    "right_boundary_y": 145.0
+    "right_boundary_width": 40.0,
+    "right_boundary_x": 195.0,
+    "right_boundary_y": 143.0
   }
 }

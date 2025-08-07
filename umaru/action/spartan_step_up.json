@@ -1,5 +1,5 @@
 {
-  "name": "spartan_step",
+  "name": "spartan_step_up",
   "next": "walk_ready",
   "poses": [
     {

@@ -3,7 +3,7 @@
     "detect_ball": true,
     "detect_basketball": false,
     "detect_black": false,
-    "detect_blue": false,
+    "detect_blue": true,
     "detect_line": false,
     "detect_red": false,
     "detect_white": false,
@@ -14,8 +14,8 @@
     "static_tilt": -60.0
   },
   "walking": {
-    "enable_walk_in_position": true,
-    "walk_config_name": "walking/basketball/",
-    "walkready_motion_name": "walk_ready_basketball"
+    "enable_walk_in_position": false,
+    "walk_config_name": "walking/default/",
+    "walkready_motion_name": "walk_ready"
   }
 }

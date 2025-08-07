@@ -1,0 +1,32 @@
+{
+  "ratio": {
+    "dsp_ratio": -0.1,
+    "foot_height": 40,
+    "swing_right_left": 5,
+    "swing_up_down": 0,
+    "arm_swing_gain": 0,
+    "backward_hip_comp_ratio": -0.09999999806284919,
+    "forward_hip_comp_ratio": -0.059999998807907136,
+    "foot_comp_ratio": 0.1,
+    "dsp_comp_ratio": -0.4,
+    "move_accel_ratio": 0.3,
+    "foot_accel_ratio": 0.12000002458691574,
+    "period_time": 550,
+    "period_comp_ratio": 0
+  },
+  "offset": {
+    "x_offset": -15,
+    "y_offset": 35,
+    "z_offset": 25,
+    "roll_offset": 0,
+    "pitch_offset": 3.9999999999999996,
+    "yaw_offset": 0,
+    "hip_pitch_offset": 17
+  },
+  "length": {
+    "leg_length": 453.7,
+    "thigh_length": 199,
+    "calf_length": 199,
+    "ankle_length": 59.7
+  }
+}

@@ -7,21 +7,21 @@
       100
     ],
     "max_lab": [
-      255,
+      175,
       127,
       127
     ],
     "min_hsv": [
-      9,
+      28,
       57,
       24
     ],
     "min_lab": [
-      0,
-      -128,
-      -127
+      77,
+      6,
+      54
     ],
-    "use_lab": false
+    "use_lab": true
   },
   "basketball": {
     "invert_hue": false,

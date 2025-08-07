@@ -19,9 +19,9 @@
     "y_offset": 30,
     "z_offset": 50,
     "roll_offset": 0,
-    "pitch_offset": 2.300000000000002,
+    "pitch_offset": 3.0000000000000027,
     "yaw_offset": 0,
-    "hip_pitch_offset": 12.500000000000002
+    "hip_pitch_offset": 11.500000000000002
   },
   "length": {
     "leg_length": 453.7,

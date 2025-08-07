@@ -27,11 +27,11 @@
   "shoot_left": {
     "direction": -32.0,
     "target_x": 20.0,
-    "target_y": -45.0
+    "target_y": -50.0
   },
   "shoot_right": {
-    "direction": 26.0,
+    "direction": 22.0,
     "target_x": 20.0,
-    "target_y": 45.0
+    "target_y": 50.0
   }
 }
