@@ -5,7 +5,7 @@
     "check_side_pan": 45.0,
     "check_side_tilt": -40.0,
     "enter_min_tilt": -40.0,
-    "forward_tilt": -30.0,
+    "forward_tilt": -35.0,
     "max_side_move_pan": 15.0,
     "side_blue_min_tilt": -60.0,
     "side_yellow_min_tilt": -60.0
@@ -17,7 +17,7 @@
   },
   "obstacle_run": {
     "crawl_length": 20,
-    "crawl_max_count": 10,
+    "crawl_max_count": 13,
     "enable_crawl": true,
     "left_border": -90.0,
     "right_border": 90.0
@@ -38,12 +38,12 @@
     "blue_left_boundary": 45.0,
     "blue_right_boundary": 275.0,
     "blue_top_boundary": 130.0,
-    "min_blue_area": 1200.0,
+    "min_blue_area": 500.0,
     "min_line_area": 550.0,
     "min_red_area": 400.0,
     "min_yellow_area": 800.0,
-    "red_bottom_boundary": 70.0,
-    "red_top_boundary": 10.0,
+    "red_bottom_boundary": 110.0,
+    "red_top_boundary": 70.0,
     "side_boundary_bottom": 240.0,
     "side_boundary_top": 0.0,
     "side_boundary_width": 100.0,

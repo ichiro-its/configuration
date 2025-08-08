@@ -1,8 +1,8 @@
 {
   "archery": {
-    "angle_error_coef": 1.3,
-    "arrow_time": 0.605,
-    "arrow_time_slow": 0.59,
+    "angle_error_coef": 1.35,
+    "arrow_time": 0.4,
+    "arrow_time_slow": 0.39,
     "check_target_time": 2.5,
     "count_before_shoot": 1,
     "delta_shoot_time": 0.02,
@@ -11,7 +11,7 @@
     "dynamic_yaw": true,
     "focal_length": 324.9721946,
     "max_target_period": 8.0,
-    "max_yaw_offset": 25.0,
+    "max_yaw_offset": 14.0,
     "min_target_period": 1.0,
     "pan_archery": -90.0,
     "target_period": 2.3,
@@ -27,7 +27,7 @@
     "min_red_area": 1.0,
     "remove_area_x": 120.0,
     "target_radius": 4.0,
-    "target_x": 143.0,
-    "target_y": 139.0
+    "target_x": 142.0,
+    "target_y": 119.0
   }
 }
