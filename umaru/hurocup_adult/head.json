@@ -43,7 +43,7 @@
     "scan_speed": 0.3,
     "left_limit": 75,
     "right_limit": -75,
-    "top_limit": -40,
+    "top_limit": -15,
     "bottom_limit": -30
   },
   "Gain": {
