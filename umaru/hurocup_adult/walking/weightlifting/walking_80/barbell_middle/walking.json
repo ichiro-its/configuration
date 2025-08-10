@@ -7,10 +7,10 @@
     "balance_ankle_roll_gain": -0.039999996498227136
   },
   "pid": {
-    "p_gain": 0,
+    "p_gain": 3,
     "i_gain": 0,
-    "d_gain": 0,
-    "hip_knee_ratio": 0.5
+    "d_gain": 2.2,
+    "hip_knee_ratio": 0.7999999999999999
   },
   "odometry": {
     "fx_coefficient": 5,

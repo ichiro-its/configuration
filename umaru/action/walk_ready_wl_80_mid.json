@@ -4,7 +4,7 @@
   "poses": [
     {
       "joints": {
-        "left_ankle_pitch": -24.08203125,
+        "left_ankle_pitch": -23.73046875,
         "left_ankle_roll": -4.921875,
         "left_elbow": 37.96875,
         "left_gripper": 90,
@@ -14,10 +14,10 @@
         "left_knee": -52.20703125,
         "left_shoulder_pitch": 19.951171875,
         "left_shoulder_roll": 25.927734375,
-        "left_shoulder_yaw": 0,
-        "neck_pitch": -75.5859375,
-        "neck_yaw": 23.37890625,
-        "right_ankle_pitch": 25.048828125,
+        "left_shoulder_yaw": -50.712890625,
+        "neck_pitch": -60.1171875,
+        "neck_yaw": 0.087890625,
+        "right_ankle_pitch": 24.697265625,
         "right_ankle_roll": 4.921875,
         "right_elbow": -37.96875,
         "right_gripper": -90,
@@ -27,7 +27,7 @@
         "right_knee": 52.20703125,
         "right_shoulder_pitch": -24.9609375,
         "right_shoulder_roll": -39.990234375,
-        "right_shoulder_yaw": 0
+        "right_shoulder_yaw": -130.4296875
       },
       "name": "New Pose",
       "pause": 0.1,

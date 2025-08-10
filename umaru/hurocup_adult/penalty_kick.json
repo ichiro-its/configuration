@@ -1,22 +1,11 @@
 {
-  "goal_direction": {
-    "goal_direction": 0.0,
-    "use_static_direction": true
-  },
   "keeper": {
     "enable_keeper_fall": true,
     "keeper_fall_dist": 40.0,
     "keeper_fall_left_pan": 15.0,
     "keeper_fall_orientation": 75.0,
     "keeper_fall_right_pan": -15.0,
-    "keeper_fall_tilt": -14.0,
-    "keeper_rotate_a_speed": 6.0,
-    "keeper_rotate_y_speed": 20.0,
-    "keeper_use_a_inverse": true,
-    "keeper_y_max_left": -50.0,
-    "keeper_y_move": false,
-    "keeper_y_max_right": 50.0,
-    "keeper_y_speed": 14.0
+    "keeper_fall_tilt": -14.0
   },
   "motion": {
     "keeper_fall_left": "keeper_fall",

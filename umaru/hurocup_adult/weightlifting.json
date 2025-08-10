@@ -1,6 +1,6 @@
 {
   "default_speed": {
-    "max_a_speed": 7.0,
+    "max_a_speed": 8.0,
     "max_bx_speed": -20.0,
     "max_fx_speed": 20.0,
     "max_ly_speed": 20.0,
@@ -32,13 +32,13 @@
   },
   "vision": {
     "line_bottom_boundary": 190.0,
-    "line_top_boundary": 100.0,
+    "line_top_boundary": 130.0,
     "min_line_area": 1000.0,
     "min_red_area": 50.0,
-    "red_bottom_boundary": 150.0,
-    "red_center_limit": 4.0,
+    "red_bottom_boundary": 155.0,
+    "red_center_limit": 10.0,
     "red_center_offset": -5.0,
-    "red_top_boundary": 115.0
+    "red_top_boundary": 140.0
   },
   "weightlifting": {
     "barbell_tilt_threshold": 50.0,

@@ -1,27 +1,27 @@
 {
   "ball": {
-    "invert_hue": true,
+    "invert_hue": false,
     "max_hsv": [
-      351,
+      90,
       100,
       100
     ],
     "max_lab": [
-      175,
+      255,
       127,
       127
     ],
     "min_hsv": [
-      28,
-      57,
-      24
+      50,
+      50,
+      50
     ],
     "min_lab": [
-      77,
-      6,
-      54
+      0,
+      -128,
+      -127
     ],
-    "use_lab": true
+    "use_lab": false
   },
   "basketball": {
     "invert_hue": false,
@@ -50,9 +50,9 @@
   "black": {
     "invert_hue": false,
     "max_hsv": [
-      59,
-      100,
-      99
+      288,
+      72,
+      31
     ],
     "max_lab": [
       255,
@@ -60,9 +60,9 @@
       127
     ],
     "min_hsv": [
-      51,
+      60,
       0,
-      64
+      0
     ],
     "min_lab": [
       0,
@@ -74,7 +74,7 @@
   "blue": {
     "invert_hue": false,
     "max_hsv": [
-      237,
+      274,
       100,
       100
     ],
@@ -84,9 +84,9 @@
       127
     ],
     "min_hsv": [
-      203,
-      72,
-      39
+      215,
+      44,
+      24
     ],
     "min_lab": [
       0,
@@ -98,24 +98,24 @@
   "field": {
     "invert_hue": false,
     "max_hsv": [
-      178,
+      332,
       100,
       100
     ],
     "max_lab": [
-      66,
-      -81,
-      4
+      255,
+      127,
+      127
     ],
     "min_hsv": [
-      146,
-      42,
-      33
+      27,
+      0,
+      5
     ],
     "min_lab": [
       0,
       -128,
-      -1
+      -127
     ],
     "use_lab": false
   },
@@ -146,7 +146,7 @@
   "red": {
     "invert_hue": true,
     "max_hsv": [
-      353,
+      337,
       100,
       100
     ],
@@ -156,9 +156,9 @@
       127
     ],
     "min_hsv": [
-      10,
-      29,
-      0
+      15,
+      73,
+      44
     ],
     "min_lab": [
       0,
@@ -171,7 +171,7 @@
     "invert_hue": false,
     "max_hsv": [
       360,
-      46,
+      100,
       100
     ],
     "max_lab": [
@@ -182,7 +182,7 @@
     "min_hsv": [
       0,
       0,
-      42
+      76
     ],
     "min_lab": [
       0,
