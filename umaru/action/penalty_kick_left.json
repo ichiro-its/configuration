@@ -82,7 +82,7 @@
         "neck_pitch": -30,
         "neck_yaw": 0,
         "right_ankle_pitch": 18.45703125,
-        "right_ankle_roll": -6.5,
+        "right_ankle_roll": -5.537109375,
         "right_elbow": -45,
         "right_gripper": -29.970703125,
         "right_hip_pitch": -36.38671875,
@@ -96,7 +96,7 @@
       "name": "step_2",
       "pause": 0,
       "speed": 0,
-      "time": 0.32
+      "time": 0.35
     },
     {
       "joints": {
