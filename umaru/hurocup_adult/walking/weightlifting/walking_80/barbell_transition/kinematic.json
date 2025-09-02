@@ -9,15 +9,15 @@
     "forward_hip_comp_ratio": -0.2499999988079072,
     "foot_comp_ratio": 0,
     "dsp_comp_ratio": 0,
-    "move_accel_ratio": 0.24999999999999994,
-    "foot_accel_ratio": 0.18000000245869163,
+    "move_accel_ratio": 0.2,
+    "foot_accel_ratio": 0.1000000024586916,
     "period_time": 600,
     "period_comp_ratio": 0
   },
   "offset": {
     "x_offset": 15,
     "y_offset": 30,
-    "z_offset": 30,
+    "z_offset": 50,
     "roll_offset": 0,
     "pitch_offset": -1.5999999999999985,
     "yaw_offset": 0,

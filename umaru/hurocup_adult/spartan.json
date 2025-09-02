@@ -12,7 +12,7 @@
   "speed": {
     "max_a_speed": 6.0,
     "max_bx_speed": -8.0,
-    "max_fx_speed": 5.0,
+    "max_fx_speed": 15.0,
     "max_ly_speed": 17.0,
     "max_ry_speed": -17.0
   },
@@ -21,12 +21,12 @@
     "left_boundary_height": 20.0,
     "left_boundary_width": 40.0,
     "left_boundary_x": 125.0,
-    "left_boundary_y": 143.0,
+    "left_boundary_y": 123.0,
     "min_left_area": 500.0,
     "min_right_area": 350.0,
     "right_boundary_height": 20.0,
     "right_boundary_width": 40.0,
     "right_boundary_x": 195.0,
-    "right_boundary_y": 143.0
+    "right_boundary_y": 123.0
   }
 }

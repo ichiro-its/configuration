@@ -4,21 +4,21 @@
     "fx_coefficient": 3.55,
     "ly_coefficient": 6.3,
     "ry_coefficient": 7.5,
-    "use_custom_coef": true
+    "use_custom_coef": false
   },
   "speed": {
     "max_a_speed": 5.0,
-    "max_x_speed": 18.0,
-    "max_y_speed": 20.0,
-    "min_x_speed": 14.0,
-    "min_y_speed": 15.0
+    "max_x_speed": 12.0,
+    "max_y_speed": 0.0,
+    "min_x_speed": 8.0,
+    "min_y_speed": 0.0
   },
   "target": {
-    "target_x": 250.0,
+    "target_x": 999990.0,
     "target_y": 0.0
   },
   "walking": {
-    "walk_config_name": "walking/marathon/",
-    "walkready_motion_name": "walk_ready_marathon"
+    "walk_config_name": "walking/spartan/",
+    "walkready_motion_name": "walk_ready_spartan"
   }
 }

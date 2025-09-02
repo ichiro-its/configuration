@@ -1,11 +1,11 @@
 {
   "head": {
-    "check_front_side_pan": 45.0,
-    "check_front_side_tilt": -40.0,
-    "check_side_pan": 45.0,
-    "check_side_tilt": -40.0,
+    "check_front_side_pan": 30.0,
+    "check_front_side_tilt": -60.0,
+    "check_side_pan": 30.0,
+    "check_side_tilt": -60.0,
     "enter_min_tilt": -40.0,
-    "forward_tilt": -35.0,
+    "forward_tilt": -45.0,
     "max_side_move_pan": 15.0,
     "side_blue_min_tilt": -60.0,
     "side_yellow_min_tilt": -60.0
@@ -18,28 +18,28 @@
   "obstacle_run": {
     "crawl_length": 20,
     "crawl_max_count": 13,
-    "enable_crawl": true,
+    "enable_crawl": false,
     "left_border": -90.0,
     "right_border": 90.0
   },
   "speed": {
-    "max_a_speed": 6.0,
-    "max_bx_speed": -15.0,
-    "max_fx_speed": 20.0,
-    "max_ly_speed": 22.0,
-    "max_ry_speed": -24.0,
-    "min_bx_speed": -8.0,
-    "min_fx_speed": 15.0,
-    "min_ly_speed": 14.0,
-    "min_ry_speed": -14.0
+    "max_a_speed": 3.0,
+    "max_bx_speed": -6.0,
+    "max_fx_speed": 10.0,
+    "max_ly_speed": 18.0,
+    "max_ry_speed": -18.0,
+    "min_bx_speed": -4.0,
+    "min_fx_speed": 8.0,
+    "min_ly_speed": 15.0,
+    "min_ry_speed": -15.0
   },
   "vision": {
-    "blue_bottom_boundary": 170.0,
-    "blue_left_boundary": 45.0,
-    "blue_right_boundary": 275.0,
-    "blue_top_boundary": 130.0,
+    "blue_bottom_boundary": 220.0,
+    "blue_left_boundary": 60.0,
+    "blue_right_boundary": 260.0,
+    "blue_top_boundary": 145.0,
     "min_blue_area": 500.0,
-    "min_line_area": 550.0,
+    "min_line_area": 1800.0,
     "min_red_area": 400.0,
     "min_yellow_area": 800.0,
     "red_bottom_boundary": 110.0,
@@ -47,9 +47,9 @@
     "side_boundary_bottom": 240.0,
     "side_boundary_top": 0.0,
     "side_boundary_width": 100.0,
-    "yellow_bottom_boundary": 180.0,
+    "yellow_bottom_boundary": 225.0,
     "yellow_left_boundary": 65.0,
     "yellow_right_boundary": 255.0,
-    "yellow_top_boundary": 130.0
+    "yellow_top_boundary": 150.0
   }
 }

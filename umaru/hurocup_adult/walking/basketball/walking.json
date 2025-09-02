@@ -9,14 +9,14 @@
   "pid": {
     "p_gain": 4,
     "i_gain": 0,
-    "d_gain": 3.6000000000000005,
-    "hip_knee_ratio": 0.7
+    "d_gain": 3,
+    "hip_knee_ratio": 0.7999999999999999
   },
   "odometry": {
-    "fx_coefficient": 4.7,
-    "bx_coefficient": 4.6,
-    "ry_coefficient": 7.5,
-    "ly_coefficient": 6.3
+    "fx_coefficient": 4.4,
+    "bx_coefficient": 4.3,
+    "ry_coefficient": 2.5,
+    "ly_coefficient": 1.9
   },
   "init_angles": {
     "left_hip_roll": -4,

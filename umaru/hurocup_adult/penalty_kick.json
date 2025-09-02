@@ -1,11 +1,22 @@
 {
+  "goal_direction": {
+    "goal_direction": 15.0,
+    "use_static_direction": true
+  },
   "keeper": {
     "enable_keeper_fall": true,
     "keeper_fall_dist": 40.0,
-    "keeper_fall_left_pan": 15.0,
+    "keeper_fall_left_pan": 12.0,
     "keeper_fall_orientation": 75.0,
-    "keeper_fall_right_pan": -15.0,
-    "keeper_fall_tilt": -14.0
+    "keeper_fall_right_pan": -12.0,
+    "keeper_fall_tilt": -14.0,
+    "keeper_rotate_a_speed": 9.0,
+    "keeper_rotate_y_speed": 18.0,
+    "keeper_use_a_inverse": false,
+    "keeper_y_left_target": -50.0,
+    "keeper_y_move": false,
+    "keeper_y_right_target": 50.0,
+    "keeper_y_speed": 20.0
   },
   "motion": {
     "keeper_fall_left": "keeper_fall",
@@ -25,13 +36,13 @@
     "using_new_pivot": true
   },
   "shoot_left": {
-    "direction": -32.0,
+    "direction": -40.0,
     "target_x": 20.0,
-    "target_y": -50.0
+    "target_y": -130.0
   },
   "shoot_right": {
-    "direction": 22.0,
+    "direction": 40.0,
     "target_x": 20.0,
-    "target_y": 50.0
+    "target_y": 130.0
   }
 }

@@ -5,7 +5,7 @@
     "basket_target_pan_2_point": -8.0,
     "basket_target_pan_3_point": -8.0,
     "basket_target_pan_5_point": -8.0,
-    "basket_target_pan_from_left": -9.0,
+    "basket_target_pan_from_left": -5.0,
     "basket_target_pan_from_right": -4.0,
     "basket_target_tilt_2_point": 0.0,
     "basket_target_tilt_3_point": 0.0,
@@ -24,13 +24,13 @@
     "second_unit_time_count": 1.0,
     "target_pan_from_left": -27.0,
     "target_pan_from_right": -27.0,
-    "target_tilt_from_left": -51.8,
-    "target_tilt_from_right": -51.5,
+    "target_tilt_from_left": -48.5,
+    "target_tilt_from_right": -48.5,
     "unit_time_count": 1.0
   },
   "default_speed": {
     "max_a_speed": 6.0,
-    "max_bx_speed": -8.0,
+    "max_bx_speed": -9.0,
     "max_fx_speed": 15.0,
     "max_ly_speed": 20.0,
     "max_ry_speed": -20.0,
@@ -45,7 +45,7 @@
     "basket_max_x_pos": 128.0,
     "basket_mid_x_pos": 169.0,
     "basket_min_x_pos": 248.0,
-    "max_shoulder_roll": -60.0,
+    "max_shoulder_roll": -61.0,
     "mid_shoulder_roll": -55.0,
     "min_shoulder_roll": -45.0
   },
@@ -55,7 +55,7 @@
     "look_for_basket_pan": 20.0,
     "look_for_basket_tilt": 0.0,
     "look_for_holder_pan": 0.0,
-    "look_for_holder_tilt": -68.0
+    "look_for_holder_tilt": -72.0
   },
   "motion": {
     "pick_ball": "basketball_pick_right",
@@ -77,15 +77,15 @@
     "3_point": true
   },
   "vision": {
-    "holder_bottom_boundary": 140.0,
+    "holder_bottom_boundary": 130.0,
     "holder_left_boundary": 75.0,
     "holder_right_boundary": 255.0,
     "holder_top_boundary": 30.0,
-    "line_bottom_boundary": 80.0,
+    "line_bottom_boundary": 100.0,
     "line_left_boundary": 0.0,
     "line_right_boundary": 320.0,
-    "line_top_boundary": 30.0,
-    "min_line_area": 2000.0,
+    "line_top_boundary": 45.0,
+    "min_line_area": 400.0,
     "red_bottom_boundary": 40.0,
     "red_center_offset": 0.0,
     "red_left_boundary": 176.0,

@@ -9,8 +9,8 @@
   "pid": {
     "p_gain": 4,
     "i_gain": 0,
-    "d_gain": 3.5,
-    "hip_knee_ratio": 0.8
+    "d_gain": 3.6,
+    "hip_knee_ratio": 0.7000000000000001
   },
   "odometry": {
     "fx_coefficient": 4.7,
