@@ -5,11 +5,14 @@
     "finish_distance": 250.0,
     "forward_angle_compensation": 0.0,
     "forward_tilt": -75.0,
-    "position_tilt": -75.0,
+    "max_delta_direction": 3.0,
+    "max_delta_pan": 3.0,
+    "max_delta_tilt": 3.0,
+    "position_tilt": -70.0,
+    "target_pan": -40.0,
+    "target_tilt": -65.0,
     "time_for_pass_finish": 3.0,
-    "walk_in_position_time_limit": 2.0,
-    "follow_target_pan": -20.0,
-    "follow_target_tilt": -70.0
+    "walk_in_position_time_limit": 2.0
   },
   "default_speed": {
     "max_a_speed": 6.0,
@@ -31,10 +34,12 @@
     "finish_bottom_boundary": 150,
     "finish_top_boundary": 0,
     "min_finish_area": 500,
-    "stone_center_limit": 10.0,
-    "stone_center_offset": 0.0,
-    "stone_top_boundary": 140.0,
-    "stone_bottom_boundary": 115,
-    "min_stone_area": 300.0
+    "min_stone_area": 100.0,
+    "stone_bottom_boundary": 100.0,
+    "stone_center_limit": 100.0,
+    "stone_center_offset": 100.0,
+    "stone_left_boundary": 100.0,
+    "stone_right_boundary": 100.0,
+    "stone_top_boundary": 100.0
   }
 }

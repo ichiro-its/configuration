@@ -10,10 +10,10 @@
     "p_gain": 3,
     "i_gain": 0,
     "d_gain": 2.2,
-    "hip_knee_ratio": 0.7999999999999999
+    "hip_knee_ratio": 0.7
   },
   "odometry": {
-    "fx_coefficient": 5,
+    "fx_coefficient": 4.3,
     "bx_coefficient": 7.4,
     "ry_coefficient": 7.5,
     "ly_coefficient": 6.3
@@ -24,7 +24,7 @@
     "left_hip_yaw": 0,
     "left_knee": -5,
     "left_ankle_roll": -3,
-    "left_ankle_pitch": -1,
+    "left_ankle_pitch": -4,
     "left_shoulder_roll": 26,
     "left_shoulder_pitch": 20,
     "left_shoulder_yaw": 0,
@@ -36,11 +36,11 @@
     "right_knee": 5,
     "right_ankle_roll": 3,
     "right_ankle_pitch": 2,
-    "right_shoulder_roll": -40,
-    "right_shoulder_pitch": -25,
+    "right_shoulder_roll": -30,
+    "right_shoulder_pitch": -18,
     "right_shoulder_yaw": 0,
-    "right_elbow": -38,
-    "right_gripper": -90
+    "right_elbow": -34,
+    "right_gripper": -82
   },
   "angles_direction": {
     "left_shoulder_pitch": -1,
