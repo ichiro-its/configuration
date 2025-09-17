@@ -1,12 +1,12 @@
 {
   "archery": {
     "angle_error_coef": 1.35,
-    "arrow_time": 0.3095,
-    "arrow_time_slow": 0.3105,
-    "check_target_time": 6.0,
-    "count_before_shoot": 2,
+    "arrow_time": 0.3395,
+    "arrow_time_slow": 0.4905,
+    "check_target_time": 3.5,
+    "count_before_shoot": 1,
     "delta_shoot_time": 0.05,
-    "dynamic_arrow_time": true,
+    "dynamic_arrow_time": false,
     "dynamic_target_period": true,
     "dynamic_yaw": true,
     "focal_length": 324.9721946,
@@ -25,9 +25,9 @@
   },
   "vision": {
     "min_red_area": 1.0,
-    "remove_area_x": 100.0,
+    "remove_area_x": 0.0,
     "target_radius": 4.0,
-    "target_x": 150.0,
-    "target_y": 86.0
+    "target_x": 139.0,
+    "target_y": 99.0
   }
 }

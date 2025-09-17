@@ -1,6 +1,6 @@
 {
   "biseokchigi": {
-    "check_finish_distance": 100.0,
+    "check_finish_distance": 1.0,
     "finish_by_vision": true,
     "finish_distance": 250.0,
     "forward_angle_compensation": 0.0,
@@ -28,18 +28,18 @@
     "min_fx_speed": 20.0
   },
   "motion": {
-    "motion_drop_stone": "biseokchigi_drop_stone"
+    "motion_drop_stone": "biseokchigi"
   },
   "vision": {
     "finish_bottom_boundary": 150,
     "finish_top_boundary": 0,
     "min_finish_area": 500,
-    "min_stone_area": 100.0,
+    "min_stone_area": 10.0,
     "stone_bottom_boundary": 100.0,
-    "stone_center_limit": 100.0,
+    "stone_center_limit": 10.0,
     "stone_center_offset": 100.0,
-    "stone_left_boundary": 100.0,
-    "stone_right_boundary": 100.0,
-    "stone_top_boundary": 100.0
+    "stone_left_boundary": 50.0,
+    "stone_right_boundary": 150.0,
+    "stone_top_boundary": 50.0
   }
 }
