@@ -40,7 +40,7 @@
     "sprint_tilt": -75.0,
     "time_for_pass_finish_backward": 2.0,
     "time_for_pass_finish_forward": 0.8,
-    "walk_in_position_time_limit": 1.0
+    "walk_in_position_time_limit": 1.5
   },
   "vision": {
     "finish_bottom_boundary": 150,

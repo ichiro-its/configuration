@@ -9,6 +9,10 @@
     "max_delta_pan": 3.0,
     "max_delta_tilt": 3.0,
     "position_tilt": -70.0,
+    "scan_bottom_limit": -70.0,
+    "scan_left_limit": 30.0,
+    "scan_right_limit": -30.0,
+    "scan_top_limit": -60.0,
     "target_pan": -40.0,
     "target_tilt": -65.0,
     "time_for_pass_finish": 3.0,
@@ -32,14 +36,14 @@
   },
   "vision": {
     "finish_bottom_boundary": 150,
-    "finish_top_boundary": 0,
+    "finish_top_boundary": 100,
     "min_finish_area": 500,
-    "min_stone_area": 10.0,
-    "stone_bottom_boundary": 100.0,
-    "stone_center_limit": 10.0,
-    "stone_center_offset": 100.0,
-    "stone_left_boundary": 50.0,
-    "stone_right_boundary": 150.0,
-    "stone_top_boundary": 50.0
+    "min_stone_area": 100.0,
+    "stone_bottom_boundary": 115.0,
+    "stone_center_limit": 3.0,
+    "stone_center_offset": 0.0,
+    "stone_left_boundary": 60.0,
+    "stone_right_boundary": 95.0,
+    "stone_top_boundary": 85.0
   }
 }
