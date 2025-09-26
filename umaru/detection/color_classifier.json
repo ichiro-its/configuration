@@ -120,28 +120,28 @@
     "use_lab": false
   },
   "line": {
-    "invert_hue": false,
+    "invert_hue": true,
     "max_hsv": [
-      78,
+      342,
       100,
       100
     ],
     "max_lab": [
-      255,
+      126,
       127,
-      127
+      69
     ],
     "min_hsv": [
-      53,
-      18,
-      51
+      30,
+      91,
+      15
     ],
     "min_lab": [
-      0,
-      -128,
-      -127
+      39,
+      30,
+      7
     ],
-    "use_lab": false
+    "use_lab": true
   },
   "red": {
     "invert_hue": true,
@@ -157,8 +157,8 @@
     ],
     "min_hsv": [
       15,
-      23,
-      0
+      73,
+      44
     ],
     "min_lab": [
       0,

@@ -1,6 +1,6 @@
 {
   "ratio": {
-    "dsp_ratio": -0.1000000000000001,
+    "dsp_ratio": -0.10000000000000009,
     "foot_height": 25,
     "swing_right_left": 0,
     "swing_up_down": 0,
@@ -15,13 +15,13 @@
     "period_comp_ratio": 0
   },
   "offset": {
-    "x_offset": -5,
+    "x_offset": -7,
     "y_offset": 30,
     "z_offset": 50,
     "roll_offset": 0,
-    "pitch_offset": 2.7000000000000015,
+    "pitch_offset": 2.7,
     "yaw_offset": 0,
-    "hip_pitch_offset": 11
+    "hip_pitch_offset": 10.5
   },
   "length": {
     "leg_length": 453.7,

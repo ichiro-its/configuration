@@ -13,7 +13,7 @@
   },
   "speed": {
     "constant_x_speed": 37.0,
-    "max_ba_speed": 3.5,
+    "max_ba_speed": 4.0,
     "max_bx_speed": -42.0,
     "max_fa_speed": 3.0,
     "max_fx_speed": 32.0,
@@ -24,7 +24,7 @@
     "backward_acc_distance": 40.0,
     "backward_angle_compensation": 0.0,
     "backward_dec_distance": 450.0,
-    "backward_min_acceleration": 0.3,
+    "backward_min_acceleration": 0.25,
     "backward_min_deceleration": 1.0,
     "check_finish_distance_backward": 400.0,
     "check_finish_distance_forward": 25.0,
@@ -35,12 +35,12 @@
     "forward_angle_compensation": 0.0,
     "forward_dec_distance": 200.0,
     "forward_min_acceleration": 0.8,
-    "forward_min_deceleration": 0.5,
-    "sprint_distance": 400.0,
+    "forward_min_deceleration": 0.25,
+    "sprint_distance": 220.0,
     "sprint_tilt": -75.0,
     "time_for_pass_finish_backward": 2.0,
     "time_for_pass_finish_forward": 0.8,
-    "walk_in_position_time_limit": 1.5
+    "walk_in_position_time_limit": 0.2
   },
   "vision": {
     "finish_bottom_boundary": 150,
