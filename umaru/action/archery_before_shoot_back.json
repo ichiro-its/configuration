@@ -1,15 +1,15 @@
 {
-  "name": "archery_shoot",
+  "name": "archery_before_shoot_back",
   "next": "",
   "poses": [
     {
       "joints": {
         "left_ankle_pitch": 0,
-        "left_ankle_roll": -18.544921875,
+        "left_ankle_roll": -21,
         "left_elbow": -2.63671875,
-        "left_gripper": -97.56640625,
+        "left_gripper": -63.28125,
         "left_hip_pitch": 0,
-        "left_hip_roll": -31.552734375,
+        "left_hip_roll": -33,
         "left_hip_yaw": 0.087890625,
         "left_knee": 0,
         "left_shoulder_pitch": -11.513671875,
@@ -18,21 +18,21 @@
         "neck_pitch": 0,
         "neck_yaw": -90,
         "right_ankle_pitch": 0,
-        "right_ankle_roll": -3.69140625,
+        "right_ankle_roll": -6,
         "right_elbow": -8.26171875,
         "right_gripper": 45.791015625,
         "right_hip_pitch": 0,
-        "right_hip_roll": -16.5234375,
+        "right_hip_roll": -20,
         "right_hip_yaw": -4.04296875,
         "right_knee": 0,
         "right_shoulder_pitch": 1.494140625,
         "right_shoulder_roll": 55.986328125,
         "right_shoulder_yaw": 0
       },
-      "name": "New Pose",
+      "name": "step_0",
       "pause": 0,
       "speed": 0,
-      "time": 0.001
+      "time": 1
     }
   ],
   "start_delay": 0,
