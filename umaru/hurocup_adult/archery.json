@@ -1,22 +1,24 @@
 {
   "archery": {
-    "angle_error_coef": 1.35,
-    "arrow_time": 0.425,
-    "arrow_time_slow": 0.395,
+    "angle_error_coef": 1.4,
+    "arrow_time": 0.451,
+    "arrow_time_slow": 0.515,
     "check_line": true,
     "check_line_pan": -45.0,
     "check_line_tilt": -75.0,
     "check_target_time": 5.0,
     "count_before_shoot": 1,
-    "delta_shoot_time": 0.005,
+    "delta_shoot_time": 0.01,
     "dynamic_arrow_time": false,
     "dynamic_target_period": true,
     "dynamic_yaw": true,
     "focal_length": 324.9721946,
+    "head_roll_gain": 2.0,
     "max_target_period": 15.0,
     "max_yaw_offset": 16.0,
     "min_target_period": 1.0,
     "mode_yaw_tuning": false,
+    "move_yaw_time": 1.0,
     "pan_archery": -90.0,
     "shoulder_roll_max_offset": 2.5,
     "strategy": 3,
@@ -45,12 +47,12 @@
   "vision": {
     "check_line_min_x": 225.0,
     "min_red_area": 1.0,
-    "remove_area_x": 0.0,
+    "remove_area_x": 50.0,
     "robot_feet_x": 175.0,
     "robot_feet_y": 132.0,
-    "target_radius": 4.0,
+    "target_radius": 3.0,
     "target_x": 148.0,
-    "target_y": 146.0,
-    "target_y_low": 156.0
+    "target_y": 130.0,
+    "target_y_low": 146.0
   }
 }

@@ -35,10 +35,10 @@
     "line_top_boundary": 90.0,
     "min_line_area": 1500.0,
     "min_red_area": 50.0,
-    "red_bottom_boundary": 152.0,
+    "red_bottom_boundary": 154.0,
     "red_center_limit": 5.0,
     "red_center_offset": 0.0,
-    "red_top_boundary": 138.0
+    "red_top_boundary": 140.0
   },
   "weightlifting": {
     "barbell_tilt_threshold": 50.0,
@@ -51,7 +51,7 @@
     "lift_top_time": 10.0,
     "lift_up_using_vision": true,
     "lift_up_walk_in_position_time": 1.5,
-    "max_delta_direction": 1.5,
+    "max_delta_direction": 1.0,
     "max_y_comp": 80.0,
     "min_delta_direction": 1.0,
     "min_state_time": 15.0,
