@@ -1,7 +1,7 @@
 {
   "archery": {
-    "angle_error_coef": 1.4,
-    "arrow_time": 0.451,
+    "angle_error_coef": 1.35,
+    "arrow_time": 0.441,
     "arrow_time_slow": 0.515,
     "check_line": true,
     "check_line_pan": -45.0,
@@ -13,7 +13,7 @@
     "dynamic_target_period": true,
     "dynamic_yaw": true,
     "focal_length": 324.9721946,
-    "head_roll_gain": 2.0,
+    "head_roll_gain": 1.7,
     "max_target_period": 15.0,
     "max_yaw_offset": 16.0,
     "min_target_period": 1.0,
@@ -33,11 +33,11 @@
     "shooting": "archery_shoot"
   },
   "polygon": {
-    "a_x": 205,
-    "a_y": 160,
-    "b_x": 140,
-    "b_y": 90,
-    "c_x": 250,
+    "a_x": 177,
+    "a_y": 185,
+    "b_x": 107,
+    "b_y": 119,
+    "c_x": 252,
     "c_y": 0,
     "d_x": 320,
     "d_y": 0,
@@ -47,12 +47,12 @@
   "vision": {
     "check_line_min_x": 225.0,
     "min_red_area": 1.0,
-    "remove_area_x": 50.0,
-    "robot_feet_x": 175.0,
-    "robot_feet_y": 132.0,
+    "remove_area_x": 80.0,
+    "robot_feet_x": 147.0,
+    "robot_feet_y": 162.0,
     "target_radius": 3.0,
-    "target_x": 148.0,
-    "target_y": 130.0,
+    "target_x": 151.0,
+    "target_y": 135.0,
     "target_y_low": 146.0
   }
 }
