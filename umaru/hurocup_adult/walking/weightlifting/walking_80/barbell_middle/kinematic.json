@@ -9,7 +9,7 @@
     "forward_hip_comp_ratio": -0.21000000000000016,
     "foot_comp_ratio": 0.5,
     "dsp_comp_ratio": 0,
-    "move_accel_ratio": 0.30000000000000004,
+    "move_accel_ratio": 0.20000000000000004,
     "foot_accel_ratio": 0.18,
     "period_time": 580,
     "period_comp_ratio": 0
