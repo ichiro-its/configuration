@@ -1,0 +1,9 @@
+{
+  "model": "configuration/miru/footstep_planner/model.xml",
+  "device": "CPU",
+  "obs_dim": 8,
+  "feet_spacing_meter": 0.15,
+  "distance_tolerance_meter": 0.2,
+  "angle_tolerance_degree": 30,
+  "publish_rate_milisecond": 200
+}
