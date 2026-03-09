@@ -1,0 +1,242 @@
+{
+  "ball": {
+    "invert_hue": false,
+    "max_hsv": [
+      90,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      50,
+      50,
+      50
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "basketball": {
+    "invert_hue": false,
+    "max_hsv": [
+      56,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      34,
+      18,
+      75
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "black": {
+    "invert_hue": false,
+    "max_hsv": [
+      288,
+      72,
+      31
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      60,
+      0,
+      0
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "blue": {
+    "invert_hue": false,
+    "max_hsv": [
+      254,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      225,
+      53,
+      52
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "field": {
+    "invert_hue": false,
+    "max_hsv": [
+      122,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      70,
+      45,
+      28
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "green": {
+    "invert_hue": false,
+    "max_hsv": [
+      198,
+      100,
+      99
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      176,
+      61,
+      62
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "line": {
+    "invert_hue": false,
+    "max_hsv": [
+      6,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      25,
+      18,
+      8
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "red": {
+    "invert_hue": true,
+    "max_hsv": [
+      337,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      22,
+      58,
+      63
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "white": {
+    "invert_hue": false,
+    "max_hsv": [
+      360,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      0,
+      0,
+      63
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "yellow": {
+    "invert_hue": false,
+    "max_hsv": [
+      60,
+      100,
+      99
+    ],
+    "max_lab": [
+      255,
+      6,
+      127
+    ],
+    "min_hsv": [
+      42,
+      28,
+      70
+    ],
+    "min_lab": [
+      120,
+      -7,
+      50
+    ],
+    "use_lab": false
+  }
+}

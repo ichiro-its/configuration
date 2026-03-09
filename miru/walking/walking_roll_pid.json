@@ -7,10 +7,14 @@
     "balance_ankle_roll_gain": 0.1
   },
   "pid": {
-    "p_gain": 0,
-    "i_gain": 0,
-    "d_gain": 0,
-    "hip_ankle_ratio": 0
+    "p_pitch_gain": 0,
+    "i_pitch_gain": 0,
+    "d_pitch_gain": 0,
+    "hip_ankle_ratio_pitch": 0,
+    "p_roll_gain": 0,
+    "i_roll_gain": 0,
+    "d_roll_gain": 0,
+    "hip_ankle_ratio_roll": 0
   },
   "odometry": {
     "fx_coefficient": 6.8,
