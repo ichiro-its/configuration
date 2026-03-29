@@ -30,7 +30,7 @@
         "right_shoulder_yaw": 0
       },
       "name": "step_0",
-      "pause": 0,
+      "pause": 0.1,
       "speed": 0,
       "time": 0.55
     },

@@ -13,10 +13,10 @@
     "hip_ankle_ratio": 0
   },
   "odometry": {
-    "fx_coefficient": 6.8,
-    "bx_coefficient": 6.2,
-    "ry_coefficient": 4.9,
-    "ly_coefficient": 4.2
+    "fx_coefficient": 6.4,
+    "bx_coefficient": 6.1,
+    "ry_coefficient": 4.2,
+    "ly_coefficient": 4.4
   },
   "init_angles": {
     "left_hip_roll": -4,
