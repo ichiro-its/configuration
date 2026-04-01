@@ -8,8 +8,8 @@
     "detect_red": false,
     "detect_white": false,
     "detect_yellow": false,
-    "enable_scan": false,
-    "enable_track": true,
+    "enable_scan": true,
+    "enable_track": false,
     "static_pan": 0.0,
     "static_tilt": -60.0
   },

@@ -1,31 +1,31 @@
 {
   "move": {
-    "max_x": 23,
-    "max_a": 8,
+    "max_x": 25,
+    "max_a": 5,
     "min_x": 20,
     "max_y": 14
   },
   "left": {
-    "min_ly": 13,
-    "max_ly": 15,
+    "min_ly": 23,
+    "max_ly": 28,
     "max_a": 8
   },
   "right": {
-    "min_ry": -13,
-    "max_ry": -15,
+    "min_ry": -23,
+    "max_ry": -28,
     "max_a": -8
   },
   "backward":{
     "max_a": 4,
-    "max_x": -16,
-    "min_x": -12
+    "max_x": -20,
+    "min_x": -15
   },
   "rotate": {
     "max_a": 8,
     "max_delta_direction": 14
   },
   "follow": {
-    "min_tilt_": -48,
+    "min_tilt_": -54,
     "pan_ratio": 0.3,
     "max_a": 9,
     "max_x": 23,
@@ -58,13 +58,13 @@
   },
   "pivot": {
     "target_tilt": -62.0,
-    "max_ry": -23,
+    "max_ry": -20,
     "min_x": -5.4,
-    "max_ly": 25,
+    "max_ly": 20,
     "max_x": 9,
-    "max_a": 5.1,
+    "max_a": 4.3,
     "max_delta_direction": 3,
-    "pan_range_a_speed": 20,
+    "pan_range_a_speed": 50,
     "pivot_stop_limit": 60
   },
   "position": {
@@ -72,39 +72,26 @@
     "min_x": -4,
     "max_ry": -13.5,
     "min_ly": 13,
-    "min_ry": -18.3,
-    "max_x": 11,
-    "max_ly": 18.8,
+    "min_ry": -20.0,
+    "max_x": 8,
+    "max_ly": 20.0,
     "min_delta_tilt": 3,
     "min_delta_pan": 3,
     "min_delta_pan_tilt": 3,
     "min_delta_direction": 4,
-    "max_range_tilt": -66.3,
-    "min_range_tilt": -68.8,
-    "min_range_pan": -22.6,
-    "center_right_range_pan": 8,
-    "center_left_range_pan": 5,
+    "max_range_tilt": -69.1,
+    "min_range_tilt": -71.0,
+    "min_range_pan": -22.0,
+    "center_right_range_pan": 4,
+    "center_left_range_pan": 4,
     "max_range_pan": 22.0
   },
   "left_kick": {
-    "target_tilt": -68.0,
-    "target_pan": 21.7
+    "target_tilt": -70.8,
+    "target_pan": 21.0
   },
   "right_kick": {
-    "target_tilt": -68.0,
-    "target_pan": -20.4
-  },
-  "localization": {
-    "enable": true,
-    "debug": false,
-    "num_particles": 1000,
-    "min_centered_particles_ratio": 0.35,
-    "short_term_avg_ratio": 0.02,
-    "long_term_avg_ratio": 0.015,
-    "reset_particles_threshold": 0.3,
-    "sigma_x": 4,
-    "sigma_y": 4,
-    "max_distance_x": 500,
-    "max_distance_y": 350
+    "target_tilt": -70.8,
+    "target_pan": -21.0
   }
 }
