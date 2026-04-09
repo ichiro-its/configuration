@@ -4,12 +4,12 @@
   "poses": [
     {
       "joints": {
-        "left_ankle_pitch": -19.16015625,
+        "left_ankle_pitch": -20.126953125,
         "left_ankle_roll": -3.515625,
         "left_elbow": -39.990234375,
         "left_gripper": 75.9375,
-        "left_hip_pitch": 36.03515625,
-        "left_hip_roll": -3.515625,
+        "left_hip_pitch": 34.1015625,
+        "left_hip_roll": -4.482421875,
         "left_hip_yaw": 0.17578125,
         "left_knee": -43.330078125,
         "left_shoulder_pitch": 1.93359375,
@@ -21,7 +21,7 @@
         "right_ankle_roll": 3.515625,
         "right_elbow": 39.990234375,
         "right_gripper": -71.982421875,
-        "right_hip_pitch": -35.068359375,
+        "right_hip_pitch": -34.1015625,
         "right_hip_roll": 4.482421875,
         "right_hip_yaw": -0.17578125,
         "right_knee": 43.330078125,

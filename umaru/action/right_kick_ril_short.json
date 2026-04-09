@@ -96,7 +96,7 @@
       "name": "step_3",
       "pause": 0.1,
       "speed": 0.02,
-      "time": 0.4
+      "time": 0.3
     }
   ],
   "start_delay": 1.5,
