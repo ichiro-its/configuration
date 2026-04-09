@@ -32,17 +32,17 @@
     "max_accuracy_distance": 150.0,
     "pivoting_max_sec": 30.0,
     "positioning_bottom_goalpost_threshold": 68.0,
-    "positioning_camera_X1": 75.0,
-    "positioning_camera_X2": 115.0,
-    "positioning_camera_X3": 170.0,
-    "positioning_camera_X4": 205.0,
-    "positioning_camera_X_center": 150.0,
+    "positioning_camera_X1": 70.0,
+    "positioning_camera_X2": 135.0,
+    "positioning_camera_X3": 180.0,
+    "positioning_camera_X4": 230.0,
+    "positioning_camera_X_center": 160.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -67.0,
     "positioning_check_enemy_using_upside_tilt": false,
     "positioning_delay_time": 0.30000001192092896,
     "positioning_field_threshold": 20000.0,
-    "positioning_max_sec": 1.5,
+    "positioning_max_sec": 10.0,
     "positioning_robot_area_threshold": 12000.0,
     "positioning_robot_color_threshold": 10000.0,
     "prefer_left_kick": false,
@@ -65,11 +65,11 @@
     "keeper_follow_tilt": 0.0,
     "keeper_force_sit": true,
     "keeper_left_position": 245.0,
-    "keeper_move_left_max_delta_ball": 0.0,
+    "keeper_move_left_max_delta_ball": 5.02015153009574e-310,
     "keeper_move_left_min_delta_ball": 0.0,
     "keeper_move_right_max_delta_ball": 0.0,
     "keeper_move_right_min_delta_ball": 0.0,
-    "keeper_right_position": 0.0,
+    "keeper_right_position": 5.0201515300973e-310,
     "keeper_sit_strategy": true,
     "keeper_tunning_mode": false,
     "kick_sit_tilt": -20.0,
@@ -89,17 +89,39 @@
     "is_consider_enemy": false,
     "kick_dribble_direction": 45.0,
     "look_to_goalpost_tilt": 0.0,
-    "pass_to_friend_strategy": false,
+    "pass_to_friend_strategy": true,
     "tilt_enemy_kickoff": -20.0,
     "using_dribble": false,
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "target_x": 450.0,
+    "target_x": 300.0,
     "target_y": -150.0
   },
   "mode_penalty_kick": {
     "target_direction": 0.0
+  },
+  "mode_waypoint": {
+    "start_x": 450.0,
+    "start_y": 300.0,
+    "waypoints": [
+      [
+        700,
+        100
+      ],
+      [
+        700,
+        500
+      ],
+      [
+        450,
+        375
+      ],
+      [
+        450,
+        225
+      ]
+    ]
   },
   "pivot": {
     "using_new_pivot": true
@@ -118,20 +140,21 @@
   },
   "release": {
     "method": "dnn",
-    "release_pan_max": 60.0,
-    "release_pan_min": -60.0,
-    "tilt": -35.0,
-    "using_button": true
+    "release_pan_max": 30.0,
+    "release_pan_min": -30.0,
+    "tilt": -5.0,
+    "using_button": false
   },
   "soccer": {
     "ball_classifier_type": "dnn",
     "distance_using_ipm": true,
     "dnn_with_color": false,
     "drop_in": false,
+    "enable_localization": true,
     "enable_safety_kill": false,
     "test": true,
-    "test_release_x": 0.0,
-    "test_release_y": 300.0,
+    "test_release_x": 700.0,
+    "test_release_y": 500.0,
     "type": "robocup"
   },
   "team": {
