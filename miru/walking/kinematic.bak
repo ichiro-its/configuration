@@ -29,8 +29,8 @@
     "calf_length": 138,
     "ankle_length": 53
   },
-    "balance": {
-    "enable": false,
+    "balance_pause": {
+    "enable": true,
     "roll_pause_threshold": 6.0,
     "roll_resume_threshold": 3.0,
     "max_pause_counter": 10000,

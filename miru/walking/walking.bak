@@ -1,16 +1,14 @@
 {
-  "balance": {
-    "enable": false,
-    "balance_knee_gain": -0.4,
-    "balance_ankle_pitch_gain": -0.2,
-    "balance_hip_roll_gain": 0.2,
-    "balance_ankle_roll_gain": 0.1
-  },
   "pid": {
-    "p_gain": 2.5,
-    "i_gain": 0.08,
-    "d_gain": 2.1,
-    "hip_ankle_ratio": 1
+    "enable": true,
+    "p_pitch_gain": 2.5,
+    "i_pitch_gain": 0,
+    "d_pitch_gain": 2.1,
+    "hip_ankle_ratio_pitch": 0.6,
+    "p_roll_gain": 3,
+    "i_roll_gain": 0,
+    "d_roll_gain": 0,
+    "hip_ankle_ratio_roll": 0.4
   },
   "odometry": {
     "fx_coefficient": 6.4,

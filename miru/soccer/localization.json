@@ -1,7 +1,7 @@
 {
   "localization": {
     "base_sigma": 5.0,
-    "chi_square_gate": 2.11,
+    "chi_square_gate": 3.12,
     "debug": true,
     "generalized_landmark": false,
     "long_term_avg_ratio": 0.001,
@@ -11,6 +11,6 @@
     "num_particles": 250,
     "range_sigma": 0.05,
     "short_term_avg_ratio": 0.01,
-    "uncertainty_threshold": 125.0
+    "uncertainty_threshold": 20.0
   }
 }
