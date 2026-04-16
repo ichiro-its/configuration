@@ -6,7 +6,7 @@
     "thigh_length": 138
   },
   "offset": {
-    "hip_pitch_offset": 14,
+    "hip_pitch_offset": 0,
     "pitch_offset": 2,
     "roll_offset": 0,
     "x_offset": 5,
