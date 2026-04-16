@@ -1,18 +1,18 @@
 {
   "ratio": {
     "dsp_ratio": -0.01,
-    "foot_height": 25,
+    "foot_height": 23,
     "swing_right_left": 0,
     "swing_up_down": 0,
     "arm_swing_gain": 0,
-    "backward_hip_comp_ratio": -0.16,
-    "forward_hip_comp_ratio": -0.08000000000000006,
+    "backward_hip_comp_ratio": 0,
+    "forward_hip_comp_ratio": 0,
     "foot_comp_ratio": 0.5,
-    "dsp_comp_ratio": -0.3,
-    "move_accel_ratio": 0.5,
+    "dsp_comp_ratio": -0.1,
+    "move_accel_ratio": 0.3,
     "foot_accel_ratio": 0.09,
     "period_time": 560,
-    "period_comp_ratio": -0.5
+    "period_comp_ratio": -2
   },
   "offset": {
     "x_offset": 10,
@@ -28,5 +28,12 @@
     "thigh_length": 138,
     "calf_length": 138,
     "ankle_length": 53
+  },
+    "balance": {
+    "enable": false,
+    "roll_pause_threshold": 6.0,
+    "roll_resume_threshold": 3.0,
+    "max_pause_counter": 10000,
+    "max_pause_speed": 5.0
   }
 }

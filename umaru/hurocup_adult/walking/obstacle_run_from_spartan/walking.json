@@ -10,7 +10,7 @@
     "p_gain": 4,
     "i_gain": 0.015,
     "d_gain": 3.75,
-    "hip_knee_ratio": 0.7
+    "hip_ankle_ratio": 0.7
   },
   "odometry": {
     "fx_coefficient": 4.7,

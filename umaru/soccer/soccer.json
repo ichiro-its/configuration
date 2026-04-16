@@ -22,7 +22,7 @@
     "check_enemy_using_color": false,
     "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
-    "consider_backward_move": true,
+    "consider_backward_move": false,
     "custom_kick_direction": false,
     "direction_based_on_goalpost": false,
     "hold_backward_tilt": -30.0,
@@ -33,10 +33,10 @@
     "pivoting_max_sec": 30.0,
     "positioning_bottom_goalpost_threshold": 68.0,
     "positioning_camera_X1": 70.0,
-    "positioning_camera_X2": 128.0,
-    "positioning_camera_X3": 190.0,
+    "positioning_camera_X2": 145.0,
+    "positioning_camera_X3": 175.0,
     "positioning_camera_X4": 250.0,
-    "positioning_camera_X_center": 165.0,
+    "positioning_camera_X_center": 160.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -68.0,
     "positioning_check_enemy_using_upside_tilt": false,
@@ -48,7 +48,7 @@
     "prefer_left_kick": false,
     "refresh_position_on_ball_set": false,
     "refresh_position_with_goalpost": false,
-    "short_kick_position_x": 0.0,
+    "short_kick_position_x": 500.0,
     "using_half_pivot": false
   },
   "keeper": {
@@ -89,17 +89,14 @@
     "is_consider_enemy": false,
     "kick_dribble_direction": 45.0,
     "look_to_goalpost_tilt": 0.0,
-    "pass_to_friend_strategy": false,
+    "pass_to_friend_strategy": true,
     "tilt_enemy_kickoff": -20.0,
     "using_dribble": false,
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "a_speed": 0.0,
     "target_x": 0.0,
-    "target_y": -100.0,
-    "x_speed": 0.0,
-    "y_speed": -20.0
+    "target_y": -100.0
   },
   "mode_penalty_kick": {
     "target_direction": 0.0
@@ -116,7 +113,7 @@
     "name": "umaru",
     "role": "striker",
     "shortkick": true,
-    "sidekick": false,
+    "sidekick": true,
     "strategy": "offensive"
   },
   "release": {
@@ -127,13 +124,16 @@
     "using_button": false
   },
   "soccer": {
-    "ball_classifier_type": "color",
-    "dnn_with_color": true,
+    "ball_classifier_type": "dnn",
+    "distance_using_ipm": true,
+    "dnn_with_color": false,
     "drop_in": false,
-    "test": true,
+    "enable_localization": true,
+    "enable_safety_kill": false,
+    "test": false,
     "test_release_x": 450.0,
     "test_release_y": 300.0,
-    "type": "kri"
+    "type": "robocup"
   },
   "team": {
     "color": "red",

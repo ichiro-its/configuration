@@ -1,0 +1,5 @@
+{
+  "model": "/yolo12s-3mar/best.xml",
+  "config": "",
+  "classes": "/yolo12s-3mar/obj.names"
+}
