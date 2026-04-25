@@ -1,8 +1,10 @@
 {
-  "left_shoulder_roll": 40,
-  "left_shoulder_pitch": 20,
-  "left_elbow": -50,
-  "right_shoulder_roll": -40,
-  "right_shoulder_pitch": -20,
-  "right_elbow": 50 
+  "initial_angles": {
+    "left_shoulder_roll": 30,
+    "left_shoulder_pitch": 20,
+    "left_elbow": -50,
+    "right_shoulder_roll": -30,
+    "right_shoulder_pitch": -20,
+    "right_elbow": 50
+  }
 }

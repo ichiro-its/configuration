@@ -1,5 +1,5 @@
 {
-  "model": "/yolov8s_ir_biseokchigi/best.xml",
+  "model": "/models/dnn-refactored/11s/best.xml",
   "config": "",
-  "classes": "/yolov8s_ir_biseokchigi/obj.names"
+  "classes": "/models/dnn-refactored/obj.names"
 }

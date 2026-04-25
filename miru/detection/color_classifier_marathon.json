@@ -1,0 +1,122 @@
+{
+  "black": {
+    "invert_hue": false,
+    "max_hsv": [
+      360,
+      100,
+      30
+    ],
+    "max_lab": [
+      45,
+      42,
+      22
+    ],
+    "min_hsv": [
+      0,
+      0,
+      0
+    ],
+    "min_lab": [
+      0,
+      -81,
+      -61
+    ],
+    "use_lab": false
+  },
+  "blue": {
+    "invert_hue": false,
+    "max_hsv": [
+      247,
+      100,
+      100
+    ],
+    "max_lab": [
+      106,
+      82,
+      -50
+    ],
+    "min_hsv": [
+      183,
+      49,
+      33
+    ],
+    "min_lab": [
+      0,
+      -78,
+      -128
+    ],
+    "use_lab": true
+  },
+  "red": {
+    "invert_hue": true,
+    "max_hsv": [
+      337,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      15,
+      52,
+      0
+    ],
+    "min_lab": [
+      46,
+      19,
+      28
+    ],
+    "use_lab": true
+  },
+  "white": {
+    "invert_hue": false,
+    "max_hsv": [
+      360,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      14,
+      23
+    ],
+    "min_hsv": [
+      0,
+      0,
+      33
+    ],
+    "min_lab": [
+      0,
+      -44,
+      -79
+    ],
+    "use_lab": true
+  },
+  "yellow": {
+    "invert_hue": false,
+    "max_hsv": [
+      79,
+      100,
+      99
+    ],
+    "max_lab": [
+      255,
+      41,
+      127
+    ],
+    "min_hsv": [
+      41,
+      54,
+      31
+    ],
+    "min_lab": [
+      0,
+      -23,
+      17
+    ],
+    "use_lab": true
+  }
+}

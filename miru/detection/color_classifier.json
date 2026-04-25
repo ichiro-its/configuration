@@ -1,0 +1,194 @@
+{
+  "ball": {
+    "invert_hue": false,
+    "max_hsv": [
+      6,
+      50,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      0,
+      44,
+      46
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "basketball": {
+    "invert_hue": false,
+    "max_hsv": [
+      56,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      34,
+      18,
+      75
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "blue": {
+    "invert_hue": false,
+    "max_hsv": [
+      237,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      190,
+      59,
+      33
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "field": {
+    "invert_hue": false,
+    "max_hsv": [
+      129,
+      88,
+      81
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      93,
+      12,
+      16
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "line": {
+    "invert_hue": false,
+    "max_hsv": [
+      6,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      25,
+      18,
+      8
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "red": {
+    "invert_hue": true,
+    "max_hsv": [
+      318,
+      100,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      31,
+      7,
+      0
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "white": {
+    "invert_hue": false,
+    "max_hsv": [
+      360,
+      41,
+      100
+    ],
+    "max_lab": [
+      255,
+      127,
+      127
+    ],
+    "min_hsv": [
+      0,
+      0,
+      56
+    ],
+    "min_lab": [
+      0,
+      -128,
+      -127
+    ],
+    "use_lab": false
+  },
+  "yellow": {
+    "invert_hue": false,
+    "max_hsv": [
+      78,
+      100,
+      99
+    ],
+    "max_lab": [
+      255,
+      0,
+      127
+    ],
+    "min_hsv": [
+      41,
+      10,
+      15
+    ],
+    "min_lab": [
+      0,
+      -26,
+      50
+    ],
+    "use_lab": false
+  }
+}

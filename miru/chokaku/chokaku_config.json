@@ -1,5 +1,5 @@
 {
-  "mic_id": 0,
+  "mic_id": 5,
   "sample_rate": 16000,
   "chunk_duration": 0.96,
   "audio_buffer_size": 512,

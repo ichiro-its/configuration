@@ -1,0 +1,5 @@
+{
+  "model": "/models/gen3/11s/best.xml",
+  "config": "",
+  "classes": "/models/dnn-refactored/obj.names"
+}
