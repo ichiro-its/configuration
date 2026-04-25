@@ -1,24 +1,22 @@
 {
-  "mic_id": 0,
+  "mic_id": 5,
   "sample_rate": 16000,
   "chunk_duration": 0.96,
   "audio_buffer_size": 512,
   "print_output": true,
   "detection_mode": "fft",
-
   "fft": {
-    "whistle_freq_min": 2000.0,
+    "whistle_freq_min": 1000.0,
     "whistle_freq_max": 4000.0,
     "magnitude_threshold": 0.5,
     "noise_gate_threshold": 0.01
   },
-
   "neural_network": {
     "model_dir": "",
     "model_xml": "chokaku.xml",
     "model_bin": "chokaku.bin",
-    "model_class_map": "classes.class_map.names",
-    "confidence_threshold": 0.3,
+    "model_class_map": "chokaku_class_map.names",
+    "confidence_threshold": 0.1,
     "top_predictions_output": 5,
     "enable_preprocessing": true,
     "bandpass_low_freq": 2000.0,
