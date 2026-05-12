@@ -115,7 +115,7 @@
       "time": 0.3
     }
   ],
-  "start_delay": 1.5,
+  "start_delay": 0.0,
   "stop_delay": 0,
   "time_based": true
 }

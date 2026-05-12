@@ -18,38 +18,42 @@
     "using_skew": false
   },
   "game": {
-    "check_enemy_tilt": -20.0,
+    "check_enemy_tilt": -30.0,
     "check_enemy_using_color": false,
     "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
     "consider_backward_move": false,
     "custom_kick_direction": false,
     "direction_based_on_goalpost": false,
-    "hold_backward_tilt": -40.0,
-    "hold_follow_tilt": -59.0,
+    "hold_backward_tilt": -38.0,
+    "hold_follow_tilt": -47.0,
     "is_map_kick": false,
     "kick_direction": 0.0,
     "max_accuracy_distance": 150.0,
     "pivoting_max_sec": 30.0,
     "positioning_bottom_goalpost_threshold": 68.0,
     "positioning_camera_X1": 70.0,
-    "positioning_camera_X2": 120.0,
-    "positioning_camera_X3": 180.0,
-    "positioning_camera_X4": 225.0,
+    "positioning_camera_X2": 127.0,
+    "positioning_camera_X3": 185.0,
+    "positioning_camera_X4": 230.0,
     "positioning_camera_X_center": 150.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -67.0,
-    "positioning_check_enemy_using_upside_tilt": true,
-    "positioning_delay_time": 1.5,
+    "positioning_check_enemy_using_upside_tilt": false,
+    "positioning_delay_time": 1.0,
     "positioning_field_threshold": 20000.0,
-    "positioning_max_sec": 8.0,
+    "positioning_max_sec": 7.0,
+    "positioning_min_fulfilled_sec": 0.5,
     "positioning_robot_area_threshold": 100.0,
     "positioning_robot_color_threshold": 10000.0,
     "prefer_left_kick": false,
     "refresh_position_on_ball_set": false,
-    "refresh_position_with_goalpost": false,
+    "refresh_position_with_goalpost": true,
     "short_kick_position_x": 0.0,
     "using_half_pivot": false
+  },
+  "hivemind": {
+    "enable_whistle": true
   },
   "keeper": {
     "cancel_move_on_lost_ball": false,
@@ -85,8 +89,8 @@
     "sit_up_tilt": 10.0
   },
   "kickoff": {
-    "hold_enemy_kickoff_time": 2.0,
-    "is_consider_enemy": true,
+    "hold_enemy_kickoff_time": 1.0,
+    "is_consider_enemy": false,
     "kick_dribble_direction": 45.0,
     "look_to_goalpost_tilt": 0.0,
     "pass_to_friend_strategy": true,
@@ -95,19 +99,29 @@
     "using_slow_kick": true
   },
   "mode_odometry": {
-    "target_x": 300.0,
-    "target_y": -150.0
+    "target_x": 0.0,
+    "target_y": -100.0
   },
   "mode_penalty_kick": {
     "target_direction": 0.0
   },
   "mode_positioning_kick": {
+    "do_kick_ball": true,
     "kick_name": "right_kick"
   },
   "mode_waypoint": {
-    "start_x": 0.0,
-    "start_y": 0.0,
-    "waypoints": []
+    "start_x": 450.0,
+    "start_y": 225.0,
+    "waypoints": [
+      [
+        750,
+        300
+      ],
+      [
+        450,
+        600
+      ]
+    ]
   },
   "pivot": {
     "using_new_pivot": true
@@ -121,7 +135,7 @@
     "name": "miru",
     "role": "left wing",
     "shortkick": false,
-    "sidekick": false,
+    "sidekick": true,
     "strategy": "offensive"
   },
   "release": {
@@ -138,7 +152,8 @@
     "drop_in": false,
     "enable_localization": true,
     "enable_safety_kill": false,
-    "test": false,
+    "position_using_distance": false,
+    "test": true,
     "test_release_x": 450.0,
     "test_release_y": 300.0,
     "type": "robocup"

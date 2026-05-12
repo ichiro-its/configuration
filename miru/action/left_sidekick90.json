@@ -112,7 +112,7 @@
       "name": "step_3",
       "pause": 0,
       "speed": 0,
-      "time": 0.2
+      "time": 0.35
     },
     {
       "joints": {
@@ -140,7 +140,7 @@
       "name": "step_4",
       "pause": 0,
       "speed": 0,
-      "time": 0.3
+      "time": 0.4
     }
   ],
   "start_delay": 0,
