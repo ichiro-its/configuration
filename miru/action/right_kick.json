@@ -49,14 +49,14 @@
         "left_shoulder_yaw": 0.966796875,
         "neck_pitch": 0,
         "neck_yaw": 0,
-        "right_ankle_pitch": 86.748046875,
-        "right_ankle_roll": 0.703125,
+        "right_ankle_pitch": 86.484375,
+        "right_ankle_roll": 0.52734375,
         "right_elbow": 39.990234375,
         "right_gripper": 0,
-        "right_hip_pitch": -4.482421875,
-        "right_hip_roll": 11.42578125,
-        "right_hip_yaw": 1.58203125,
-        "right_knee": 115.48828125,
+        "right_hip_pitch": 13.974609375,
+        "right_hip_roll": 12.83203125,
+        "right_hip_yaw": -1.0546875,
+        "right_knee": 117.94921875,
         "right_shoulder_pitch": -2.98828125,
         "right_shoulder_roll": -29.970703125,
         "right_shoulder_yaw": 0
@@ -64,7 +64,7 @@
       "name": "step_1",
       "pause": 0.1,
       "speed": 0,
-      "time": 0.5
+      "time": 0.6
     },
     {
       "joints": {
@@ -81,14 +81,14 @@
         "left_shoulder_yaw": 0.966796875,
         "neck_pitch": 0,
         "neck_yaw": 0,
-        "right_ankle_pitch": -27.158203125,
-        "right_ankle_roll": 13.974609375,
+        "right_ankle_pitch": -47.724609375,
+        "right_ankle_roll": 15.64453125,
         "right_elbow": 39.990234375,
         "right_gripper": 0,
-        "right_hip_pitch": -75.146484375,
-        "right_hip_roll": 0.966796875,
-        "right_hip_yaw": -1.318359375,
-        "right_knee": 37.96875,
+        "right_hip_pitch": -57.568359375,
+        "right_hip_roll": 2.8125,
+        "right_hip_yaw": -4.921875,
+        "right_knee": -3.076171875,
         "right_shoulder_pitch": -2.98828125,
         "right_shoulder_roll": -29.970703125,
         "right_shoulder_yaw": 0
@@ -96,7 +96,7 @@
       "name": "step_2",
       "pause": 0,
       "speed": 0,
-      "time": 0.3
+      "time": 0.35
     },
     {
       "joints": {
@@ -126,12 +126,12 @@
         "right_shoulder_yaw": 0
       },
       "name": "step_3",
-      "pause": 0.06,
+      "pause": 0.2,
       "speed": 0,
       "time": 0.33
     }
   ],
-  "start_delay": 0.0,
+  "start_delay": 1,
   "stop_delay": 0,
   "time_based": true
 }

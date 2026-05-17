@@ -6,7 +6,7 @@
   },
   "rotation_offset": {
     "pitch": 3.0,
-    "roll": -1.5,
-    "yaw": 2.0
+    "roll": 1.5,
+    "yaw": 0.0
   }
 }

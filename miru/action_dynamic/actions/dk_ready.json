@@ -59,7 +59,7 @@
       "time": 0.7
     }
   ],
-  "start_delay": 0,
+  "start_delay": 1.0,
   "stop_delay": 0,
   "time_based": true
 }

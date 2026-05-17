@@ -2,7 +2,7 @@
   "pid": {
     "enable": true,
     "p_pitch_gain": 1.6,
-    "i_pitch_gain": 0,
+    "i_pitch_gain": 0.01,
     "d_pitch_gain": 0.5,
     "hip_ankle_ratio_pitch": 0.6,
     "p_roll_gain": 0,

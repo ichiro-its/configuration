@@ -40,17 +40,17 @@
     "top_limit": 15
   },
   "Scan": {
-    "scan_speed": 1.8,
+    "scan_speed": 2.0,
     "left_limit": 90,
     "right_limit": -90,
-    "top_limit": 0,
+    "top_limit": -10,
     "bottom_limit": -60
   },
   "Gain": {
-    "pan_p_gain": 0.09,
-    "pan_d_gain": 0.083,
-    "tilt_p_gain": 0.1,
-    "tilt_d_gain": 0.09
+    "pan_p_gain": 0.07,
+    "pan_d_gain": 0.063,
+    "tilt_p_gain": 0.07,
+    "tilt_d_gain": 0.064
   },
   "Center": {
     "pan_center": 0,
