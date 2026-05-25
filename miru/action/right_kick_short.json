@@ -32,7 +32,7 @@
       "name": "step_0",
       "pause": 0,
       "speed": 0,
-      "time": 0.45
+      "time": 0.55
     },
     {
       "joints": {
@@ -128,10 +128,10 @@
       "name": "walk_ready",
       "pause": 0,
       "speed": 0,
-      "time": 0.4
+      "time": 0.5
     }
   ],
-  "start_delay": 1,
+  "start_delay": 0,
   "stop_delay": 0,
   "time_based": true
 }

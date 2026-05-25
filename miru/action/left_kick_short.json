@@ -96,7 +96,7 @@
       "name": "step_2",
       "pause": 0.1,
       "speed": 0,
-      "time": 0.25
+      "time": 0.3
     },
     {
       "joints": {
@@ -131,7 +131,7 @@
       "time": 0.6
     }
   ],
-  "start_delay": 1,
+  "start_delay": 0,
   "stop_delay": 0,
   "time_based": true
 }

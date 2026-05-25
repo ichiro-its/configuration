@@ -22,13 +22,13 @@
   },
   "rotate": {
     "max_a": 10,
-    "max_delta_direction": 6
+    "max_delta_direction": 8
   },
   "follow": {
-    "min_tilt_": -50.0,
+    "min_tilt_": -47.0,
     "pan_ratio": 0.2,
     "max_a": 8,
-    "max_x": 37,
+    "max_x": 32,
     "min_x": 8,
     "r_a_offset": -0.521128118,
     "l_a_offset": 0.247227177,
@@ -48,37 +48,37 @@
   },
   "dribble": {
     "max_ly": 20,
-    "min_ry": -10,
-    "min_ly": 10,
-    "max_x": 32,
+    "min_ry": -14,
+    "min_ly": 14,
+    "max_x": 35,
     "max_a": 7,
     "max_ry": -20,
     "min_x": -7,
-    "pan_comp": 0.3
+    "pan_comp": 7
   },
   "pivot": {
-    "target_tilt": -54.0,
-    "max_ry": -25,
-    "min_x": -6.0,
-    "max_ly": 27,
+    "target_tilt": -59.0,
+    "max_ry": -26,
+    "min_x": -8.0,
+    "max_ly": 26,
     "max_x": 15,
-    "max_a": 5.2,
-    "max_delta_direction": 3,
-    "pan_range_a_speed": 28,
+    "max_a": 5.5,
+    "max_delta_direction": 8,
+    "pan_range_a_speed": 25,
     "pivot_stop_limit": 30
   },
   "position": {
     "max_a": 8,
-    "min_x": -8,
+    "min_x": -9,
     "max_ry": -14.0,
     "min_ly": 14.0,
     "min_ry": -24.3,
-    "max_x": 15.0,
+    "max_x": 13.0,
     "max_ly": 24.8,
     "min_delta_tilt": 999,
     "min_delta_pan": 3,
     "min_delta_pan_tilt": 999,
-    "min_delta_direction": 5,
+    "min_delta_direction": 7,
     "max_range_tilt": -62.5,
     "min_range_tilt": -70.0,
     "min_range_pan": -26.6,
@@ -88,28 +88,28 @@
   },
   "left_kick": {
     "target_tilt": -67.0,
-    "target_pan": 18.7,
+    "target_pan": 13.7,
     "center_target_pan": 0.0,
-    "distance_x": 14.0,
-    "distance_y": -14.0,
+    "distance_x": 18.0,
+    "distance_y": -18.0,
     "range_x": 2.0,
-    "range_y": 3.0
+    "range_y": 2.0
   },
   "right_kick": {
     "target_tilt": -67.0,
-    "target_pan": -18.4,
-    "center_target_pan": 6.0,
-    "distance_x": 16.0,
-    "distance_y": 5.5,
+    "target_pan": -5.4,
+    "center_target_pan": 0.0,
+    "distance_x": 18.0,
+    "distance_y": 15.0,
     "range_x": 2.0,
-    "range_y": 3.0
+    "range_y": 2.0
   },
   "left_kick_center": {
     "target_tilt": -67.4,
     "target_pan": 23.0,
     "center_target_pan": 0.0,
-    "distance_x": 16.0,
-    "distance_y": -4.5,
+    "distance_x": 18.0,
+    "distance_y": -0.5,
     "range_x": 2.0,
     "range_y": 1.0
   },
@@ -117,14 +117,28 @@
     "target_tilt": -67.4,
     "target_pan": 23.0,
     "center_target_pan": 0.0,
-    "distance_x": 14.5,
-    "distance_y": -8.0,
+    "distance_x": 18.0,
+    "distance_y": 8.0,
     "range_x": 1.3,
     "range_y": 1.0
   },
   "davg_planner": {
-    "inflation_radius": 30.0,
+    "inflation_radius": 50.0,
     "polygon_edges": 8,
-    "turning_penalty": 12.0
+    "turning_penalty": 12.0,
+    "enable_localization": true
+  },
+  "soccer":{
+    "ball_classifier_type": "dnn",
+    "distance_using_ipm": true,
+    "dnn_with_color": false,
+    "drop_in": false,
+    "enable_localization": true,
+    "enable_safety_kill": false,
+    "position_using_distance": true,
+    "test": true,
+    "test_release_x": 0.0,
+    "test_release_y": 300.0,
+    "type": "robocup"
   }
 }

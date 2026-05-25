@@ -9,21 +9,28 @@
     "draw_x_intersect": true
   },
   "dribble": {
-    "dribble_mid_field": true,
+    "dribble_mid_field": false,
     "dribble_mid_field_max_distance": 550.0,
-    "dribble_mid_field_min_distance": 350.0,
+    "dribble_mid_field_min_distance": 450.0,
     "dribble_to_goal": true,
     "tilt_check_goalpost": -70.0
   },
   "ekf": {
-    "camera_pos_doubt": 0.0,
-    "grass_friction": 0.0,
-    "prediction_pos_doubt": 0.0,
-    "prediction_vel_doubt": 0.0,
-    "target_time": 0.0,
+    "camera_pos_doubt": 100.0,
+    "grass_friction": 0.05,
+    "prediction_pos_doubt": 0.1,
+    "prediction_vel_doubt": 0.1,
+    "target_time": 8.0,
     "x_threshold": 0.0,
     "y_left_threshold": 0.0,
     "y_right_threshold": 0.0
+  },
+  "enemy_kickoff": {
+    "ball_free_detect_enabled": true,
+    "ball_free_hivemind": true,
+    "ball_free_ipm_confirm_sec": 0.30000001192092896,
+    "ball_free_ipm_threshold": 20.0,
+    "ball_free_timeout": 0.0
   },
   "follow": {
     "end_with_pivot": true,
@@ -40,25 +47,26 @@
     "direction_based_on_goalpost": false,
     "hold_backward_tilt": -38.0,
     "hold_follow_tilt": -47.0,
+    "kick_delay_time": 1.0,
     "kick_direction": 0.0,
     "pivoting_max_sec": 30.0,
     "positioning_bottom_goalpost_threshold": 68.0,
-    "positioning_camera_X1": 70.0,
-    "positioning_camera_X2": 127.0,
-    "positioning_camera_X3": 185.0,
-    "positioning_camera_X4": 230.0,
-    "positioning_camera_X_center": 150.0,
+    "positioning_camera_X1": 78.0,
+    "positioning_camera_X2": 125.0,
+    "positioning_camera_X3": 178.0,
+    "positioning_camera_X4": 225.0,
+    "positioning_camera_X_center": 155.0,
     "positioning_check_ball_pan": 0.0,
     "positioning_check_ball_tilt": -67.0,
     "positioning_check_enemy_using_upside_tilt": false,
-    "positioning_delay_time": 0.20000000298023224,
+    "positioning_delay_time": 0.10000000149011612,
     "positioning_field_threshold": 20000.0,
     "positioning_max_sec": 7.0,
-    "positioning_min_fulfilled_sec": 0.5,
+    "positioning_min_fulfilled_sec": 0.10000000149011612,
     "positioning_robot_area_threshold": 100.0,
     "positioning_robot_color_threshold": 10000.0,
     "prefer_left_kick": false,
-    "refresh_position_on_ball_set": false,
+    "refresh_position_on_ball_set": true,
     "refresh_position_with_goalpost": true,
     "short_kick_position_x": 0.0,
     "using_half_pivot": false
@@ -67,14 +75,14 @@
     "enable_whistle": true
   },
   "keeper": {
-    "both_hands_action": "",
+    "both_hands_action": "jongkok",
     "enable_keeper_sidekick": false,
     "keeper_follow_tilt": 0.0,
-    "keeper_sit_strategy": true,
+    "keeper_sit_strategy": false,
     "kick_sit_tilt": 0.0,
     "kick_up_tilt": 0.0,
-    "left_hand_action": "",
-    "right_hand_action": "",
+    "left_hand_action": "jongkok_kiri",
+    "right_hand_action": "jongkok_kanan",
     "sit_sit_tilt": 0.0,
     "sit_up_tilt": 0.0
   },
@@ -97,23 +105,19 @@
   },
   "mode_positioning_kick": {
     "do_kick_ball": true,
-    "kick_name": "right_kick"
+    "kick_name": "left_kick_center"
   },
   "mode_waypoint": {
     "start_x": 450.0,
     "start_y": 300.0,
     "waypoints": [
       [
-        750,
-        300
-      ],
-      [
-        450,
-        300
-      ],
-      [
-        600,
+        700,
         500
+      ],
+      [
+        150,
+        300
       ]
     ]
   },
