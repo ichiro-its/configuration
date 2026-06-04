@@ -10,7 +10,7 @@
     "height": 240
   },
   "distortion": {
-    "use_distortion": false,
+    "use_distortion": true,
     "k1": 0.0767135349768275,
     "k2": -0.1497411470477333,
     "p1": -3.522421780038742e-06,

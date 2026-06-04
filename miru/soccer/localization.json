@@ -1,30 +1,30 @@
 {
   "gating": {
-    "chi_square_gate": 5.5,
+    "chi_square_gate": 2.0,
     "confidence_threshold": 0.5,
-    "max_distance_x": 500,
-    "max_distance_y": 450,
-    "max_pan_angle": 90,
-    "max_pitch_angle": 10,
-    "max_roll_angle": 10,
-    "max_tilt_angle": 90,
-    "min_num_observations": 1
+    "max_distance_x": 500.0,
+    "max_distance_y": 450.0,
+    "max_pan_angle": 90.0,
+    "max_pitch_angle": 10.0,
+    "max_roll_angle": 15.0,
+    "max_tilt_angle": 90.0,
+    "min_num_observations": 2
   },
   "landmarks": {
     "generalized_landmark": false,
     "goalpost": true,
     "l_intersection": true,
-    "t_intersection": true,
+    "t_intersection": false,
     "x_intersection": true
   },
   "mcl": {
-    "base_sigma": 5,
+    "base_sigma": 5.0,
     "debug": true,
-    "long_term_avg_ratio": 0.005,
-    "min_centered_ratio": 0.15,
-    "num_particles": 150,
+    "long_term_avg_ratio": 0.001,
+    "min_centered_ratio": 0.25,
+    "num_particles": 200,
     "range_sigma": 0.05,
     "short_term_avg_ratio": 0.01,
-    "uncertainty_threshold": 20
+    "uncertainty_threshold": 20.0
   }
 }
