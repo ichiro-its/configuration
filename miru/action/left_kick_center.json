@@ -94,9 +94,9 @@
         "right_shoulder_yaw": 0
       },
       "name": "step_2",
-      "pause": 0.05,
+      "pause": 0,
       "speed": 0,
-      "time": 0.15
+      "time": 0.2
     },
     {
       "joints": {
@@ -126,9 +126,9 @@
         "right_shoulder_yaw": 0
       },
       "name": "step_3",
-      "pause": 0.2,
+      "pause": 0.05,
       "speed": 0,
-      "time": 0.35
+      "time": 0.2
     }
   ],
   "start_delay": 0,

@@ -1,6 +1,6 @@
 {
   "move": {
-    "max_x": 32,
+    "max_x": 33,
     "max_a": 8,
     "min_x": 18,
     "max_y": 10
@@ -28,7 +28,7 @@
     "min_tilt_": -45.0,
     "pan_ratio": 0.2,
     "max_a": 8,
-    "max_x": 32,
+    "max_x": 35,
     "min_x": 8,
     "r_a_offset": -0.521128118,
     "l_a_offset": 0.247227177,
@@ -59,12 +59,12 @@
   },
   "pivot": {
     "target_tilt": -59.0,
-    "target_distance_x": 23.0,
+    "target_distance_x": 24.0,
     "max_ry": -28,
     "min_x": -8.0,
     "max_ly": 28,
     "max_x": 15,
-    "max_a": 7.5,
+    "max_a": 5.5,
     "max_delta_direction": 3,
     "pan_range_a_speed": 29,
     "pivot_stop_limit": 85
@@ -80,13 +80,13 @@
     "min_delta_tilt": 999,
     "min_delta_pan": 3,
     "min_delta_pan_tilt": 999,
-    "min_delta_direction": 7,
+    "min_delta_direction": 3,
     "max_range_tilt": -64.5,
     "min_range_tilt": -70.0,
-    "min_range_pan": -23.6,
+    "min_range_pan": -20.6,
     "center_right_range_pan": 0,
     "center_left_range_pan": 0,
-    "max_range_pan": 23.0
+    "max_range_pan": 20.0
   },
   "left_kick": {
     "target_tilt": -65.0,
@@ -125,14 +125,15 @@
     "range_y": 1.0
   },
   "davg_planner": {
-    "inflation_radius": 70.0,
-    "polygon_edges": 8,
+    "inflation_radius": 40.0,
+    "polygon_edges": 18,
     "turning_penalty": 15.0,
     "path_blocked_multiplier": 1.5,
     "goal_clear_multiplier": 1.5,
     "side_penalty": 70.0,
     "obstacle_merge_radius": 100.0,
     "obstacle_ema_alpha": 0.01,
+    "sticky_threshold": 50.0,
     "enable_localization": true
   }
 }

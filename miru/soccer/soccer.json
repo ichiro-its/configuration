@@ -10,9 +10,9 @@
   },
   "dribble": {
     "dribble_mid_field": true,
-    "dribble_mid_field_max_distance": 500.0,
+    "dribble_mid_field_max_distance": 650.0,
     "dribble_mid_field_min_distance": 400.0,
-    "dribble_to_goal": true,
+    "dribble_to_goal": false,
     "tilt_check_goalpost": -70.0
   },
   "ekf": {
@@ -35,9 +35,9 @@
   "follow": {
     "end_with_pivot": true,
     "forward_threshold": 30.0,
-    "look_to_goal": false,
-    "look_to_goal_interval": 2.0,
-    "look_to_goal_min_distance": 100.0,
+    "look_to_goal": true,
+    "look_to_goal_interval": 3.0,
+    "look_to_goal_min_distance": 40.0,
     "using_distance": true,
     "using_skew": false
   },
@@ -50,27 +50,27 @@
     "custom_kick_direction": false,
     "direction_based_on_goalpost": false,
     "finish_positioning_using_ipm": true,
-    "hold_backward_tilt": -38.0,
-    "hold_follow_tilt": -47.0,
+    "hold_backward_tilt": -25.0,
+    "hold_follow_tilt": -35.0,
     "hold_passing_strategy": true,
     "kick_delay_time": 5.0,
     "kick_direction": 0.0,
     "pivoting_max_sec": 30.0,
     "positioning_bottom_goalpost_threshold": 68.0,
-    "positioning_camera_X1": 75.0,
+    "positioning_camera_X1": 80.0,
     "positioning_camera_X2": 125.0,
-    "positioning_camera_X3": 180.0,
-    "positioning_camera_X4": 225.0,
-    "positioning_camera_X_center": 145.0,
+    "positioning_camera_X3": 175.0,
+    "positioning_camera_X4": 222.0,
+    "positioning_camera_X_center": 150.0,
     "positioning_check_ball_pan": 0.0,
-    "positioning_check_ball_tilt": -59.0,
+    "positioning_check_ball_tilt": -61.0,
     "positioning_check_enemy_using_upside_tilt": true,
     "positioning_delay_time": 0.10000000149011612,
     "positioning_direction_from_goal_range": true,
     "positioning_field_threshold": 20000.0,
-    "positioning_max_sec": 7.0,
+    "positioning_max_sec": 12.0,
     "positioning_min_fulfilled_sec": 0.10000000149011612,
-    "positioning_robot_area_threshold": 10000.0,
+    "positioning_robot_area_threshold": 12000.0,
     "positioning_robot_color_threshold": 10000.0,
     "prefer_left_kick": false,
     "refresh_position_on_ball_set": true,
@@ -113,26 +113,14 @@
   },
   "mode_positioning_kick": {
     "do_kick_ball": true,
-    "kick_name": "right_kick"
+    "kick_name": "left_kick"
   },
   "mode_waypoint": {
-    "start_x": 450.0,
-    "start_y": 225.0,
+    "start_x": 150.0,
+    "start_y": 150.0,
     "waypoints": [
       [
-        700,
-        500
-      ],
-      [
-        700,
-        100
-      ],
-      [
         450,
-        225
-      ],
-      [
-        150,
         300
       ]
     ]
@@ -166,7 +154,7 @@
     "enable_safety_kill": false,
     "position_using_distance": false,
     "test_release_x": 450.0,
-    "test_release_y": 200.0,
+    "test_release_y": 300.0,
     "type": "robocup"
   },
   "team": {
