@@ -1,0 +1,38 @@
+{
+  "timing": {
+    "dsp_duration": 0.1,
+    "plan_period": 0.45,
+    "step_frames": 50.0,
+    "com_period": 1.0
+  },
+  "posture": {
+    "com_height": 0.359,
+    "foot_height": 0.06,
+    "feet_lateral": 0.15,
+    "left_shoulder_pitch": 0.0,
+    "left_shoulder_roll": -30.0,
+    "left_elbow": -45.0,
+    "right_shoulder_pitch": 0.0,
+    "right_shoulder_roll": 30.0,
+    "right_elbow": 45.0
+  },
+  "balance": {
+    "forward_lean": -10.0,
+    "forward_lean_ratio": 0.0,
+    "backward_lean": 0.0,
+    "backward_lean_ratio": 0.0
+  },
+  "offset": {
+    "foot_x_offset": 0.0,
+    "foot_y_offset": 0.0,
+    "foot_z_offset": 0.02,
+    "step_y_offset": 0.0,
+    "odometry_x_offset": 0.0,
+    "odometry_y_offset": 0.0
+  },
+  "stride": {
+    "max_x": 0.07,
+    "max_y": 0.02,
+    "max_a": 1.0
+  }
+}
