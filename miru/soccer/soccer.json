@@ -53,13 +53,14 @@
     "hold_backward_tilt": -25.0,
     "hold_follow_tilt": -35.0,
     "hold_passing_strategy": true,
+    "kick_delay_counter": 20,
     "kick_delay_time": 5.0,
     "kick_direction": 0.0,
     "pivoting_max_sec": 30.0,
     "positioning_bottom_goalpost_threshold": 68.0,
     "positioning_camera_X1": 80.0,
-    "positioning_camera_X2": 125.0,
-    "positioning_camera_X3": 175.0,
+    "positioning_camera_X2": 120.0,
+    "positioning_camera_X3": 180.0,
     "positioning_camera_X4": 222.0,
     "positioning_camera_X_center": 150.0,
     "positioning_check_ball_pan": 0.0,
@@ -116,11 +117,11 @@
     "kick_name": "left_kick"
   },
   "mode_waypoint": {
-    "start_x": 150.0,
-    "start_y": 150.0,
+    "start_x": 100.0,
+    "start_y": 300.0,
     "waypoints": [
       [
-        450,
+        600,
         300
       ]
     ]
@@ -136,7 +137,7 @@
     "role": "left wing",
     "shortkick": false,
     "sidekick": false,
-    "strategy": "offensive"
+    "strategy": "defensive"
   },
   "release": {
     "method": "dnn",

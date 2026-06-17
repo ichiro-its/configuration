@@ -4,7 +4,7 @@
     "confidence_threshold": 0.5,
     "max_distance_x": 500.0,
     "max_distance_y": 450.0,
-    "max_pan_angle": 60.0,
+    "max_pan_angle": 90.0,
     "max_pitch_angle": 8.0,
     "max_roll_angle": 15.0,
     "max_tilt_angle": 90.0,
@@ -20,11 +20,11 @@
   "mcl": {
     "base_sigma": 5.0,
     "debug": true,
-    "long_term_avg_ratio": 0.005,
+    "long_term_avg_ratio": 0.001,
     "min_centered_ratio": 0.35,
     "num_particles": 200,
     "range_sigma": 0.05,
-    "short_term_avg_ratio": 0.1,
+    "short_term_avg_ratio": 0.01,
     "uncertainty_threshold": 20.0
   }
 }

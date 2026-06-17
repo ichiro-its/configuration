@@ -4,9 +4,14 @@
     "y": 0.0,
     "z": 0.0
   },
-  "rotation_offset": {
+  "rotation_offset_center": {
     "pitch": 1.0,
-    "roll": -6.5,
-    "yaw": 0.5
+    "roll": -5.5,
+    "yaw": -1.5
+  },
+  "rotation_offset_side": {
+    "pitch": 1.0,
+    "roll": -4.0,
+    "yaw": -1.5
   }
 }

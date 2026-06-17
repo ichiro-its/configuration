@@ -17,11 +17,11 @@
   },
   "backward": {
     "max_a": 6,
-    "max_x": -18,
-    "min_x": -10
+    "max_x": -20,
+    "min_x": -14
   },
   "rotate": {
-    "max_a": 9,
+    "max_a": 10,
     "max_delta_direction": 8
   },
   "follow": {

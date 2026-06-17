@@ -7,7 +7,7 @@
     "backward_hip_comp_ratio": 0.07,
     "forward_hip_comp_ratio": 0.05,
     "move_accel_ratio": 0.18,
-    "foot_accel_ratio": 0.13,
+    "foot_accel_ratio": 0.16,
     "swing_right_left": 0,
     "swing_up_down": 0,
     "arm_swing_gain": 0,
