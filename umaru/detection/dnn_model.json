@@ -1,5 +1,5 @@
 {
-  "model": "/models/dnn-refactored/11s/best.xml",
+  "model": "/models/gen3.2-preview/11s/best.xml",
   "config": "",
   "classes": "/models/dnn-refactored/obj.names"
 }

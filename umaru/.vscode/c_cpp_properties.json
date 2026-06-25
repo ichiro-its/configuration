@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ichiro/ichiro-ws/install/taisei/include/**",
+        "/home/ichiro/ichiro-ws/install/soccer/include/**",
+        "/home/ichiro/ichiro-ws/install/suiryoku/include/**",
+        "/home/ichiro/ichiro-ws/install/basho/include/**",
+        "/home/ichiro/ichiro-ws/install/atama/include/**",
+        "/home/ichiro/ichiro-ws/install/aruku/include/**",
+        "/home/ichiro/ichiro-ws/install/kansei/include/**",
+        "/home/ichiro/ichiro-ws/install/aruku_lipm/include/**",
+        "/home/ichiro/ichiro-ws/install/akushon/include/**",
+        "/home/ichiro/ichiro-ws/install/tachimawari/include/**",
+        "/home/ichiro/ichiro-ws/install/aruku_rl/include/**",
+        "/home/ichiro/ichiro-ws/install/tachimawari_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/suiryoku_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/ninshiki_cpp/include/**",
+        "/home/ichiro/ichiro-ws/install/shisen_cpp/include/**",
+        "/home/ichiro/ichiro-ws/install/shisen_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/gyakuenki_cpp/include/**",
+        "/home/ichiro/ichiro-ws/install/ninshiki_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/jitsuyo/include/**",
+        "/home/ichiro/ichiro-ws/install/keisan/include/**",
+        "/home/ichiro/ichiro-ws/install/kansei_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/gyakuenki_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/cv_bridge/include/**",
+        "/home/ichiro/ichiro-ws/install/competition_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/basho_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/atama_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/aruku_interfaces/include/**",
+        "/home/ichiro/ichiro-ws/install/akushon_interfaces/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

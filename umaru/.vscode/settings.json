@@ -1,0 +1,35 @@
+{
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/opt/openrobots/lib/python/site-packages",
+        "/home/ichiro/ichiro-ws/install/tachimawari_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/suiryoku_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/shisen_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/ninshiki_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/kansei_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/gyakuenki_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/cv_bridge/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/competition_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/basho_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/atama_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/aruku_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/akushon_interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/openrobots/lib/python/site-packages",
+        "/home/ichiro/ichiro-ws/install/tachimawari_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/suiryoku_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/shisen_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/ninshiki_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/kansei_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/gyakuenki_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/cv_bridge/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/competition_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/basho_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/atama_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/aruku_interfaces/lib/python3.12/site-packages",
+        "/home/ichiro/ichiro-ws/install/akushon_interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

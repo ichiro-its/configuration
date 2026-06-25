@@ -1,4 +1,10 @@
 {
+  "filter": {
+    "gyro_mux_x": 1.0,
+    "gyro_mux_y": 1.0,
+    "gyro_mux_z": 1.0,
+    "use_physical_input": true
+  },
   "accel_limit": {
     "accel_back_limit": 620.0,
     "accel_front_limit": 445.0,
