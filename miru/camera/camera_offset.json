@@ -5,13 +5,18 @@
     "z": 0.0
   },
   "rotation_offset_center": {
-    "pitch": 1.0,
-    "roll": -5.5,
-    "yaw": -1.5
+    "pitch": 0.0,
+    "roll": -1.0,
+    "yaw": -1.0
   },
-  "rotation_offset_side": {
-    "pitch": 1.0,
-    "roll": -4.0,
-    "yaw": -1.5
+  "rotation_offset_left": {
+    "pitch": 0.0,
+    "roll": -2.5,
+    "yaw": -1.0
+  },
+  "rotation_offset_right": {
+    "pitch": 0.0,
+    "roll": 0.800000011920929,
+    "yaw": 1.0
   }
 }

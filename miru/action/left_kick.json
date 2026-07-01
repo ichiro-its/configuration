@@ -100,14 +100,14 @@
     },
     {
       "joints": {
-        "left_ankle_pitch": -15.29296875,
-        "left_ankle_roll": -21.533203125,
+        "left_ankle_pitch": -18.10546875,
+        "left_ankle_roll": -27.59765625,
         "left_elbow": -39.990234375,
         "left_gripper": 0,
-        "left_hip_pitch": 23.466796875,
-        "left_hip_roll": -10.283203125,
-        "left_hip_yaw": -0.87890625,
-        "left_knee": -23.115234375,
+        "left_hip_pitch": 25.224609375,
+        "left_hip_roll": -13.798828125,
+        "left_hip_yaw": -1.93359375,
+        "left_knee": -29.00390625,
         "left_shoulder_pitch": 2.98828125,
         "left_shoulder_roll": 29.970703125,
         "left_shoulder_yaw": 0.966796875,
@@ -126,7 +126,7 @@
         "right_shoulder_yaw": 0
       },
       "name": "step_3",
-      "pause": 0.05,
+      "pause": 0.1,
       "speed": 0,
       "time": 0.25
     }

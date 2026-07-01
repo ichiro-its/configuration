@@ -26,7 +26,7 @@
     "left_shoulder_roll": 30,
     "left_shoulder_pitch": 3,
     "left_shoulder_yaw": 0,
-    "left_elbow": -40,
+    "left_elbow": 0,
     "left_gripper": 0,
     "right_hip_roll": 4,
     "right_hip_pitch": 0,
@@ -37,7 +37,7 @@
     "right_shoulder_roll": -30,
     "right_shoulder_pitch": -3,
     "right_shoulder_yaw": 0,
-    "right_elbow": 40,
+    "right_elbow": 0,
     "right_gripper": 0
   },
   "angles_direction": {

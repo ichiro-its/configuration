@@ -62,7 +62,7 @@
         "right_shoulder_yaw": 0
       },
       "name": "step_1",
-      "pause": 0.1,
+      "pause": 0,
       "speed": 0,
       "time": 0.4
     },
@@ -94,7 +94,7 @@
         "right_shoulder_yaw": 0
       },
       "name": "step_2",
-      "pause": 0.05,
+      "pause": 0,
       "speed": 0,
       "time": 0.15
     },

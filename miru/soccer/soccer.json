@@ -9,7 +9,7 @@
     "draw_x_intersect": true
   },
   "dribble": {
-    "dribble_mid_field": true,
+    "dribble_mid_field": false,
     "dribble_mid_field_max_distance": 650.0,
     "dribble_mid_field_min_distance": 400.0,
     "dribble_to_goal": false,
@@ -47,6 +47,7 @@
     "check_enemy_using_dnn": true,
     "check_enemy_using_field": false,
     "consider_backward_move": false,
+    "corner_kick_side_kick": false,
     "custom_kick_direction": false,
     "direction_based_on_goalpost": false,
     "finish_positioning_using_ipm": true,
@@ -69,7 +70,7 @@
     "positioning_delay_time": 0.10000000149011612,
     "positioning_direction_from_goal_range": true,
     "positioning_field_threshold": 20000.0,
-    "positioning_max_sec": 12.0,
+    "positioning_max_sec": 7.0,
     "positioning_min_fulfilled_sec": 0.10000000149011612,
     "positioning_robot_area_threshold": 12000.0,
     "positioning_robot_color_threshold": 10000.0,
@@ -110,7 +111,7 @@
     "target_y": -100.0
   },
   "mode_penalty_kick": {
-    "target_direction": 0.0
+    "target_direction": 45.0
   },
   "mode_positioning_kick": {
     "do_kick_ball": true,
@@ -137,7 +138,7 @@
     "role": "left wing",
     "shortkick": false,
     "sidekick": false,
-    "strategy": "defensive"
+    "strategy": "offensive"
   },
   "release": {
     "method": "dnn",
@@ -160,6 +161,6 @@
   },
   "team": {
     "color": "blue",
-    "id": 1
+    "id": 26
   }
 }
